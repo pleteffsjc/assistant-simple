@@ -1,5 +1,5 @@
 applications:
-- name: sanjac-contact-assistant
+- name: sanjac-contact-assistant-devl
   command: npm start
   path: .
   memory: 256M
