@@ -76,6 +76,7 @@ ul {
 
 #chat-column-holder {
   text-align: center;
+  background-color: white; /*PVL 8-12-19 */
 }
 
 .chat-column {
