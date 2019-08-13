@@ -32,7 +32,8 @@ ul {
   width: 3.125rem;
   height: 3.125rem;
   border-radius: 1.5625rem;
-  background: #AB72F8;
+  /* background: #AB72F8; PVL 8-13-19 changed to blue */
+  background: #0084FF;
   top: 0.3125rem;
   right: 0.3125rem;
   line-height: 3.125rem;
@@ -76,7 +77,7 @@ ul {
 
 #chat-column-holder {
   text-align: center;
-  background-color: white; /*PVL 8-12-19 */
+  background-color: white; /*PVL 8-12-19 added color white */
 }
 
 .chat-column {
