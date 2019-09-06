@@ -150,10 +150,15 @@ var ConversationPanel = (function () {
         // Class to start fade in animation
         currentDiv.classList.add('load');
         // Move chat to the most recent messages when new messages are added
+		
+		//PVL 9-6-19 don't scroll to bottom
+		/*
         setTimeout(function () {
           // wait a sec before scrolling
           scrollToChatBottom();
         }, 1000);
+		*/
+		
         setResponse(responses, isUser, chatBoxElement, index + 1, false);
       } else {
         var userTypringField = document.getElementById('user-typing-field');
@@ -219,7 +224,27 @@ var ConversationPanel = (function () {
           }
         }
         list += '</ul>';
-      } else if (preference === 'button') {
+      } 
+	  //PVL 9-6-19 suggestion
+		else if (preference === 'suggestion') {
+		//alert('build suggestions');
+		
+        list = '<ul>';
+        for (i = 0; i < optionsList.length; i++) {
+          if (optionsList[i].value) {
+		    //alert('(optionsList[i].value is: ' + optionsList[i].value);
+			//alert('(optionsList[i].label is: ' + optionsList[i].label);
+			/*
+            list += '<li><div class="options-list" onclick="ConversationPanel.sendMessage(\'' +
+            optionsList[i].value.input.text + '\');" >' + optionsList[i].label + '</div></li>';
+			*/
+			list += '<li><div class="options-list" onclick="ConversationPanel.sendMessage(\'' +
+            optionsList[i].label + '\');" >' + optionsList[i].label + '</div></li>';
+          }
+        }
+        list += '</ul>';
+      }
+	    else if (preference === 'button') {
         list = '<br>';
         for (i = 0; i < optionsList.length; i++) {
           if (optionsList[i].value) {
@@ -265,6 +290,19 @@ var ConversationPanel = (function () {
       }
 
       var list = getOptions(gen.options, preference);
+      responses.push({
+        type: gen.response_type,
+        innerhtml: title + description + list
+      });
+    }
+	//PVL 9-6-19 added suggestion
+	else if (gen.response_type === 'suggestion') {
+      var preference = 'suggestion'; //PVL 9-6-19 changed from text to suggestion
+      if (gen.hasOwnProperty('preference')) {
+        preference = gen.preference;
+      }
+
+      var list = getOptions(gen.suggestions, preference);
       responses.push({
         type: gen.response_type,
         innerhtml: title + description + list
