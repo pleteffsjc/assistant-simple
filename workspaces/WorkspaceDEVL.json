@@ -127,6 +127,9 @@
           "text": "overdue balances"
         },
         {
+          "text": "past due balance"
+        },
+        {
           "text": "Where do I go if I owe the college money"
         },
         {
@@ -353,6 +356,9 @@
         },
         {
           "text": "may i have an admission process to become a sanjac student?"
+        },
+        {
+          "text": "readmission"
         },
         {
           "text": "scholarship"
@@ -617,6 +623,9 @@
       "examples": [
         {
           "text": "Access blackboard"
+        },
+        {
+          "text": "Bb problems"
         },
         {
           "text": "black board help"
@@ -1036,6 +1045,9 @@
         },
         {
           "text": "I need to buy some scantrons"
+        },
+        {
+          "text": "I ordered a book and i was told to pick it up"
         },
         {
           "text": "purchase textbook"
@@ -1757,6 +1769,9 @@
           "text": "Do you offer any distance learning courses?"
         },
         {
+          "text": "face to face in real time"
+        },
+        {
           "text": "flex campus"
         },
         {
@@ -2222,6 +2237,9 @@
         },
         {
           "text": "covid-19"
+        },
+        {
+          "text": "what covid level are we currently in? Level 3?"
         }
       ],
       "description": "Information regarding the Coronavirus"
@@ -3059,6 +3077,9 @@
       "intent": "FA_Federal_School_Code",
       "examples": [
         {
+          "text": "FA Code"
+        },
+        {
           "text": "Financial Aid Code for the school"
         },
         {
@@ -3408,6 +3429,9 @@
         },
         {
           "text": "Does the college provide any recreational activities for students?"
+        },
+        {
+          "text": "game room"
         },
         {
           "text": "What can a student do for fun on campus?"
@@ -4628,6 +4652,9 @@
           "text": "Does the South Campus have an honors program?"
         },
         {
+          "text": "honor society"
+        },
+        {
           "text": "Honors program information"
         },
         {
@@ -4662,6 +4689,9 @@
         },
         {
           "text": "How early does the Admissions office open?"
+        },
+        {
+          "text": "ilc hours"
         },
         {
           "text": "Is the bookstore open today?"
@@ -5788,6 +5818,9 @@
           "text": "How To Register For Open Book Courses"
         },
         {
+          "text": "I wanted to know why I was charged twice for open book plus?"
+        },
+        {
           "text": "Online book courses"
         },
         {
@@ -5940,6 +5973,12 @@
       "intent": "Paying_for_Classes",
       "examples": [
         {
+          "text": "3rd party payer"
+        },
+        {
+          "text": "and the website was down how can I make a payment? G01081346"
+        },
+        {
           "text": "Can I pay online?"
         },
         {
@@ -5959,6 +5998,9 @@
         },
         {
           "text": "Paying for classes."
+        },
+        {
+          "text": "trying to pay but i don't see balance on account"
         },
         {
           "text": "What form of payment do you accept?"
@@ -6332,6 +6374,12 @@
       "intent": "Program_of_Study",
       "examples": [
         {
+          "text": "become an RN"
+        },
+        {
+          "text": "become a registered nurse"
+        },
+        {
           "text": "Can I speak with someone in your Maritime department?"
         },
         {
@@ -6410,6 +6458,9 @@
           "text": "How long will it take to get my degree in Automotive Technology?"
         },
         {
+          "text": "how many credit hours are needed to become a painter"
+        },
+        {
           "text": "I am interested in the Vocational Nursing program."
         },
         {
@@ -6450,6 +6501,12 @@
         },
         {
           "text": "Linguist"
+        },
+        {
+          "text": "list of electives"
+        },
+        {
+          "text": "LVN to RN"
         },
         {
           "text": "Nutrition"
@@ -6552,6 +6609,9 @@
         },
         {
           "text": "How do I know if my credits are transferable?"
+        },
+        {
+          "text": "Required courses"
         },
         {
           "text": "Transfer Agreement information"
@@ -6854,6 +6914,9 @@
           "text": "Refund for dropped course"
         },
         {
+          "text": "refunds"
+        },
+        {
           "text": "San jac owes me money"
         },
         {
@@ -7026,6 +7089,9 @@
         },
         {
           "text": "i want my transcript"
+        },
+        {
+          "text": "parking permit"
         },
         {
           "text": "What form do I need that shows my tuition payments?"
@@ -7576,6 +7642,15 @@
       "intent": "Student_Services_Resources",
       "examples": [
         {
+          "text": "can i just show up"
+        },
+        {
+          "text": "i'm trying to make an appointment with admissions but when i try to select a time it won't let me"
+        },
+        {
+          "text": "set appointment"
+        },
+        {
           "text": "Student Services Resources"
         }
       ]
@@ -8007,6 +8082,9 @@
         },
         {
           "text": "DD214"
+        },
+        {
+          "text": "gi bill"
         },
         {
           "text": "How can I apply for VA benefits"
@@ -8707,6 +8785,7 @@
           "type": "synonyms",
           "value": "Library",
           "synonyms": [
+            "libary",
             "Library"
           ]
         },
@@ -11461,7 +11540,7 @@
       "output": {
         "text": {
           "values": [
-            "<b>Blackboard Support Office</b><br/>\nFall/Spring Hours<br/>\n• Monday-Thursday: 8:00AM - 7:00PM<br/>\n• Friday:  8:00AM - 5:00PM<br/>\n• Saturday:  10:00AM - 2:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Thursday: 8:00AM - 7:00PM<br/>\n• Friday:  8:00AM - 5:00PM<br/>\n• Saturday:  10:00AM - 2:00PM<br/><br/>\n\nWhat else can I assist you with?<br/><br/>"
+            "<b>Blackboard Support Office</b><br/>\n\n• Monday-Thursday: 7:30AM - 7:30PM<br/>\n• Friday:  7:30AM - 6:00PM<br/>\n• Saturday:  10:00AM - 2:00PM<br/>\n• Sunday:  12:30PM - 4:30PM<br/><br/>\n\nWhat else can I assist you with?<br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -13513,13 +13592,13 @@
     },
     {
       "type": "standard",
-      "title": "Graduation Dates - Spring 2020",
+      "title": "Graduation Dates - Fall 2020",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "<b>Spring 2020 Graduation</b><br/><br/>\nThe deadline to apply to graduation for your name to appear in the program has been extended to April 30, 2020.<br/><br/>\nDue to the ongoing COVID-19 situation in our region, San Jacinto College will postpone its May 15th Commencement ceremony.<br/><br/>\nAdvising will now be provided online.  To schedule a virtual appointment, students can visit <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\"> http://appointments.sjcd.edu/</a> or use the Advising Chat feature on the <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/student-support/educational-planning-counseling-completion\"> EPCC webpage</a>.<br/><br/>\nStudent can email educational.planning\\@sjcd.edu for graduation related inquiries.<br/><br/>"
+                "text": "<b>Fall 2020 Graduation</b><br/><br/>\nThe deadline to apply to graduation for your name to appear in the program is Oct 22, 2020.<br/><br/>\nThe December 2020 Graduation will take place:<br/>\n• Friday, December 11th, 2020 <br/>\n• Minute Maid Park<br/><br/>\nAdvising will now be provided online.  To schedule a virtual appointment, students can visit <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\"> http://appointments.sjcd.edu/</a> or use the Advising Chat feature on the <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/student-support/educational-planning-counseling-completion\"> EPCC webpage</a>.<br/><br/>\nStudent can email educational.planning\\@sjcd.edu for graduation related inquiries.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -13551,7 +13630,7 @@
       },
       "parent": "node_6_1555513192335",
       "metadata": {},
-      "conditions": "@Term:202020",
+      "conditions": "@Term:202110",
       "dialog_node": "node_10_1555513475261",
       "previous_sibling": "node_9_1555513418821"
     },
@@ -15612,6 +15691,27 @@
       "previous_sibling": "node_7_1595595280423"
     },
     {
+      "type": "standard",
+      "title": "Payment Deadline - Spring 2020",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Spring 2021 Registration & Payment Deadline:</b><br/><br/>\nThe registration and payment deadline for the Winter Mini classes is Thursday, December 12th, 2020 at 7PM.  <br/>\nThe registration and payment deadline for the Spring 2021 classes is Monday, January 6th, 2021 at 7PM.  <br/><br/>\nPlease note if you register on or after January 7th, 2021, payment is due same day of registration to prevent classes from being dropped due to non-payment.<br/><br/>\nFor a full listing of Registration and Payment deadlines for the Spring 2021 term, click <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/payments/payment-deadlines\">HERE</a>.<br/.<br/>\nIf you need help keeping keeping track of other important semester dates, we've got you covered!  You can visit the <a target=\"_blank\" href=\"https://www.sanjac.edu/academic-calendar\">Academic Calendar Dates</a> and search for important registration deadlines for each semester and part of term. <br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1538138584472",
+      "conditions": "@Term:202120",
+      "dialog_node": "node_10_1599659412510",
+      "previous_sibling": "node_2_1586967996924"
+    },
+    {
       "type": "folder",
       "title": "Holds",
       "metadata": {},
@@ -16011,7 +16111,7 @@
       },
       "conditions": "@Term:(Not Listed)",
       "dialog_node": "node_11_1555513526198",
-      "previous_sibling": "node_10_1555513475261"
+      "previous_sibling": "node_9_1604497411977"
     },
     {
       "type": "response_condition",
@@ -16759,6 +16859,14 @@
                 "value": {
                   "input": {
                     "text": "@Term:202110"
+                  }
+                }
+              },
+              {
+                "label": "Spring 2021",
+                "value": {
+                  "input": {
+                    "text": "@Term:202120"
                   }
                 }
               },
@@ -18496,7 +18604,7 @@
           {
             "values": [
               {
-                "text": "The last day of final exams for the Fall 2020 16-week classes is Friday, December 11th.  <br/>\nFor specific dates and times for your specific class, please consult with your instructor or course syllabus.<br/>\nFor a complete list of the last day of final exams for all Parts of Term, click on the <a target=\"_blank\" href=\"https://www.sanjac.edu/sites/default/files/inline-files/Academic-Calendar-2020-2021-3-2-20.pdf\"> 2020-2021 Academic Calendar</a>.<br/><br/>."
+                "text": "The last day of final exams for the Fall 2020 16-week classes is Friday, December 11th.  <br/>\nFor specific dates and times for your specific class, please consult with your instructor or course syllabus.<br/>\nFor a complete list of the last day of final exams for all Parts of Term, click on the <a target=\"_blank\" href=\"https://www.sanjac.edu/sites/default/files/inline-files/Academic-Calendar-2020-2021-8-6-20.pdf\"> 2020-2021 Academic Calendar</a>.<br/><br/>."
               }
             ],
             "response_type": "text",
@@ -19497,7 +19605,7 @@
           {
             "values": [
               {
-                "text": "If you have earned college credits previously at San Jac, it is recommended for you to come on campus and visit with one of our Educational Planning Counselors in the Educational Planning, Counseling, and Completion Department for detailed advisement on changing your major.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "If you have earned college credits previously at San Jac, it is recommended for you to speak with one of our Educational Planning Counselors in the Educational Planning, Counseling, and Completion Department for detailed advisement on changing your major.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -19592,7 +19700,7 @@
           {
             "values": [
               {
-                "text": "If you are a first time San Jac student, it is recommended for you to come on campus and visit with one of our Admissions Advisors at the Admissions Office for detailed advisement on changing your major.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "If you are a first time San Jac student, it is recommended for you to speak with one of our Admissions Advisors at the Admissions Office for detailed advisement on changing your major.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -23157,7 +23265,7 @@
           {
             "values": [
               {
-                "text": "For more information about the installment payment plan, visit our website at <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/payments/installment-payment-plan\"> Payment Plan</a>.<br/><br/>\nIf you need assistance from the Business Office, please submit an email to one of the campus business office addresses below.  Please include your name, student ID#, contact information, and question.  A Business Office representative will respond as quickly as possible.<br/><br/>\ndl-centralbusinessoffice\\@sjcd.edu<br/>\ndl-northbusinessoffice\\@sjcd.edu<br/>\ndl-southbusinessoffice\\@sjcd.edu<br/><br/>"
+                "text": "For more information about the installment payment plan, click:<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/payments/payment-deadlines\"> Fall 2020 Registration & Payment Deadlines</a><br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/payments/payment-deadlines\"> Spring 2021 Registration & Payment Deadlines</a><br/><br/>\nIf you need assistance from the Business Office, please submit an email to one of the campus business office addresses below.  Please include your name, student ID#, contact information, and question.  A Business Office representative will respond as quickly as possible.<br/><br/>\ndl-centralbusinessoffice\\@sjcd.edu<br/>\ndl-northbusinessoffice\\@sjcd.edu<br/>\ndl-southbusinessoffice\\@sjcd.edu<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -24020,7 +24128,7 @@
           {
             "values": [
               {
-                "text": "Diplomas are typically mailed out about six weeks after final grades are posted.  You will receive an email letting you know once the diploma has been mailed out.<br/><br/>\nFor all replacement diplomas, please visit the EPCC office to complete a diploma re-print form.  Once the form has been completed, you'll take the form to the Business Office and pay a $5.00 service charge . To confirm same-day availability for diploma re-prints, please give us a call at 281-998-6150.<br/><br/> \nDue to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format. Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely..<br/><br/>"
+                "text": "After the commencement, degrees should be posted to your official San Jacinto College transcript within 2-3 weeks of the end of the term. An email will be sent when diplomas have been mailed, usually within 2-4 weeks of degrees being posted to your transcript. Diplomas will not be issued to students with financial holds.<br/><br/> \n\nDiplomas are mailed to new graduates through USPS to the diploma address specified during the graduation application process. Diplomas for graduates who did not specify an address in the graduation application are sent to the permanent address on file. If you have graduated in the last 3 months and have not received your diploma, please email: educational.planning\\@sjcd.edu.<br/><br/>  \n\nReprint of an awarded Diploma/Certificate: \nA diploma reprint request can be made by logging into your San Jac 365 email account, and filling out the <a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYsV1LPhQMQNJrUGYaAs4tVhUNURTT1dNMjY1UEhKRDEwOUc0WlZEWkRGTC4u0/\">Online Order Form</a>. Requests for more than one reprint will result in a five dollar reprint fee per copy. Please note: All duplicate diplomas/certificates will have the signature of the current Chancellor and Board Chair and will use the current diploma template.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -25548,7 +25656,7 @@
           {
             "values": [
               {
-                "text": "<b>Fall 2020 Registration & Payment Deadline:</b><br/><br/>\nThe registration and payment deadline for the Fall 2020 classes is Thursday, July 30th, 2020 at 7PM.  <br/><br/>\nPlease note if you register on or after July 31st, 2020, payment is due same day of registration to prevent classes from being dropped due to non-payment.<br/><br/>\nIf you need help keeping keeping track of important semester dates, we've got you covered!  You can visit the <a target=\"_blank\" href=\"https://www.sanjac.edu/academic-calendar\">Academic Calendar Dates</a> and search for important registration deadlines for each semester and part of term. <br/><br/>"
+                "text": "<b>Fall 2020 Registration & Payment Deadline:</b><br/><br/>\nThe registration and payment deadline for the Fall 2020 classes is Thursday, August 13th, 2020 at 7PM.  <br/><br/>\nPlease note if you register on or after August 14th, 2020, payment is due same day of registration to prevent classes from being dropped due to non-payment.<br/><br/>\nFor a full listing of Registration and Payment deadlines for the Fall 2020 term, click <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/payments/payment-deadlines\">HERE</a>.<br/.<br/>\nIf you need help keeping keeping track of other important semester dates, we've got you covered!  You can visit the <a target=\"_blank\" href=\"https://www.sanjac.edu/academic-calendar\">Academic Calendar Dates</a> and search for important registration deadlines for each semester and part of term. <br/><br/>"
               }
             ],
             "response_type": "text",
@@ -25686,13 +25794,39 @@
     },
     {
       "type": "standard",
+      "title": "Final Exams - Spring 2020",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The last day of final exams for the Fall 2020 16-week classes is Friday, December 11th.  <br/>\nFor specific dates and times for your specific class, please consult with your instructor or course syllabus.<br/>\nFor a complete list of the last day of final exams for all Parts of Term, click on the <a target=\"_blank\" href=\"https://www.sanjac.edu/sites/default/files/inline-files/Academic-Calendar-2020-2021-8-6-20.pdf\"> 2020-2021 Academic Calendar</a>.<br/><br/>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1555509695988",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "@Term:202120",
+      "dialog_node": "node_2_1599660546930",
+      "previous_sibling": "node_1_1587148630908"
+    },
+    {
+      "type": "standard",
       "title": "Financial Aid Application Info - Part 2",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Applying for and receiving aid all breaks down into these very simple steps: <br/><br/> \n<b>Step 1</b>- Apply for admission to San Jac. \n<a target=\"_blank\" href=\"https://www.applytexas.org/adappc/gen/c_start.WBX\"> Click Here To Apply</a><br/><br/>\n<b>Step 2</b>- Submit your free application for Federal Student Aid (FAFSA). You’ll need the San Jacinto College school code, 003609, and an FSA ID* to sign your <a target=\"_blank\" href=\"https://studentaid.ed.gov/sa/fafsa\">FAFSA Application. </a><br/><br/>\n<b>Step 3</b>- Submit your documentation. We may need copies of official documents to complete the process. If requested, be sure to respond promptly. Please note, if you are submitting documents during peak periods (such as registration) processing time on your file may take 3-5 weeks. Please visit our <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/financial-aid/forms\"> Forms Menu</a> for a listing of documents that may be requested.<br/><br/>\nFor more information, please visit our website at <a target=\"_blank\" href=\"www.sanjac.edu/financial-aid\"> www.sanjac.edu/financial-aid </a>.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with a Financial Aid advisor remotely.<br/><br/>\nTo chat with an Financial Aid advisor, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions/\">here.<br/><br/>\n"
+                "text": "Applying for and receiving aid all breaks down into these very simple steps: <br/><br/> \n<b>Step 1</b>- Apply for admission to San Jac. \n<a target=\"_blank\" href=\"https://www.applytexas.org/adappc/gen/c_start.WBX\"> Click Here To Apply</a><br/><br/>\n<b>Step 2</b>- Submit your free application for Federal Student Aid (FAFSA). You’ll need the San Jacinto College school code, 003609, and an FSA ID* to sign your <a target=\"_blank\" href=\"https://studentaid.ed.gov/sa/fafsa\">FAFSA Application. </a><br/><br/>\n<b>Step 3</b>- Submit your documentation. We may need copies of official documents to complete the process. If requested, be sure to respond promptly. Please note, if you are submitting documents during peak periods (such as registration) processing time on your file may take 3-5 weeks. Please visit our Forms Menu for a listing of documents that may be requested:<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/financial-aid/forms\"> 2019-2020 Forms </a> <br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/financial-aid/forms\"> 2020-2021 Forms </a> <br/><br/>\nFor more information, please visit our website at <a target=\"_blank\" href=\"www.sanjac.edu/financial-aid\"> www.sanjac.edu/financial-aid </a>.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with a Financial Aid advisor remotely.<br/><br/>\nTo chat with an Financial Aid advisor, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions/\">here.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -27774,7 +27908,7 @@
       },
       "conditions": "@Term:(Not Listed)",
       "dialog_node": "node_29_1537976360700",
-      "previous_sibling": "node_2_1586967996924"
+      "previous_sibling": "node_10_1599659412510"
     },
     {
       "type": "standard",
@@ -27987,6 +28121,14 @@
                 "value": {
                   "input": {
                     "text": "@Term:202110"
+                  }
+                }
+              },
+              {
+                "label": "Spring 2021",
+                "value": {
+                  "input": {
+                    "text": "@Term:202120"
                   }
                 }
               },
@@ -28892,7 +29034,7 @@
       },
       "conditions": "@Term:(Not Listed)",
       "dialog_node": "node_3_1555509842227",
-      "previous_sibling": "node_1_1587148630908"
+      "previous_sibling": "node_2_1599660546930"
     },
     {
       "type": "response_condition",
@@ -29420,7 +29562,7 @@
           {
             "values": [
               {
-                "text": "Any classes removed while on a payment plan will be deducted from remaining payments based on the refund periods listed on the following link  <a target=\"_blank\" href=\"http://www.sanjac.edu/refunds\"> San Jac Refunds</a>.<br/><br/>\nIf you happen to withdraw from any classes, payments are still due on time. If any refunds apply, we will simply recalculate what you owe and the changes will be reflected on your future installments. For example, if you drop a class at a 70% refund, 70% of the charges are removed and you must pay the remaining 30%. If you drop classes at a 0% refund, no charges are removed. <br/><br/>"
+                "text": "Any classes removed while on a payment plan will be deducted from remaining payments based on the refund periods listed on the links below:<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/refunds\">Fall 2020 Refund Dates</a> <br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/refunds\">Spring 2021 Refund Dates</a><br/><br/> \nIf you happen to withdraw from any classes, payments are still due on time. If any refunds apply, we will simply recalculate what you owe and the changes will be reflected on your future installments. For example, if you drop a class at a 70% refund, 70% of the charges are removed and you must pay the remaining 30%. If you drop classes at a 0% refund, no charges are removed. <br/><br/>"
               }
             ],
             "response_type": "text",
@@ -29463,7 +29605,7 @@
           {
             "values": [
               {
-                "text": "Written drop requests must be received in the Admissions and/or Educational Planning, Counseling and Completion offices during these hours: 8 a.m. until 7 p.m., Monday through Thursday (school in session) and 12 noon on Friday. Beginning the day after the main payment deadline for the term, the web will be unavailable between midnight and 3 a.m. each night. <br/><br/>\nThis chart provides the refund deadlines and last day to drop for those parts of term (class lengths) existing at the time of schedule printing <a target=\"_blank\" href=\"https://www.sanjac.edu/refunds\">Refund Deadlines</a>.<br/><br/>"
+                "text": "Written drop requests must be received in the Admissions and/or Educational Planning, Counseling and Completion offices during these hours: 8 a.m. until 7 p.m., Monday through Thursday (school in session) and 12 noon on Friday. Beginning the day after the main payment deadline for the term, the web will be unavailable between midnight and 3 a.m. each night. <br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -35557,6 +35699,7 @@
     },
     {
       "type": "standard",
+      "title": " ",
       "output": {
         "text": {}
       },
@@ -40844,10 +40987,18 @@
             "title": "Please select which semester you would like to see the dates for graduation?",
             "options": [
               {
-                "label": "Spring 2020",
+                "label": "Fall 2020",
                 "value": {
                   "input": {
-                    "text": "@Term:202020"
+                    "text": "@Term:202110"
+                  }
+                }
+              },
+              {
+                "label": "Spring 2021",
+                "value": {
+                  "input": {
+                    "text": "@Term:202120"
                   }
                 }
               },
@@ -41348,7 +41499,7 @@
           {
             "values": [
               {
-                "text": "I can help you with that information.  Students begin to receive refunds on or before the 30th day after the start of each semester.  To be eligible for a refund, students must officially withdraw from the College by the deadline in the Refund Schedule.  Refunds do not include the late registration fee or International student fees.  Students who register late are not eligible for 100 percent refunds.  Students may find the specific dates for the Refund Schedule in the Schedule of Classes each term.  Specific withdrawal dates and <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/paying-college/payments/payment-deadlines\">Refund Dates</a> apply to each course based upon start date and class length.<br/><br/>"
+                "text": "I can help you with that information.  Students begin to receive refunds on or before the 30th day after the start of each semester.  To be eligible for a refund, students must officially withdraw from the College by the deadline in the Refund Schedule.  Refunds do not include the late registration fee or International student fees.  Students who register late are not eligible for 100 percent refunds.  For specific withdrawal and refund dates for each course based upon start date and class length, click:<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/refunds\">Fall 2020 Refund Dates</a> <br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/refunds\">Spring 2021 Refund Dates</a><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -46233,7 +46384,7 @@
           {
             "values": [
               {
-                "text": "For the latest information from San Jacinto College on Coronavirus 2019 (COVID-19), please click the following link: <br/> <a target = \"_ blank\" href = \"https: //www.sanjac .edu / coronavirus \"> www.sanjac.edu/coronavirus </a> <br/> <br/> For a list of frequently asked questions related to Coronavirus, please click on: <br/> <a target = \"_blank\" href = \"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/covid-19-faqs\"> Coronavirus FAQ's </a> <br/> <br/> For For a list of frequently asked questions about the CARES Federal Act Emergency Aid Grants, please click: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/cares-act \"> Federal CARES Act Emergency Aid Grants FAQ's </a> <br/> <br/>  For a list of frequently asked questions about student college operations, please click: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/stud ent-resources / coronavirus-covid-19-student-faqs-about-college-operations \"> Student FAQs about College operations </a> <br/> <br/> If you need access to technology or need technical assistance, click: <br/> <a target=\"_blank\" href=\"https://www.sanjacits.org/\"> Technical support </a> <br/> <br/> You can also email your questions to Covid-19 \\ @ sjcd.edu. <br/> <br/>"
+                "text": "For the latest information from San Jacinto College on Coronavirus 2019 (COVID-19), please click the following link: <br/> <a target = \"_ blank\" href = \"https: //www.sanjac.edu /coronavirus \"> www.sanjac.edu/coronavirus </a> <br/> <br/> For a list of frequently asked questions related to Coronavirus, please click on: <br/> <a target = \"_blank\" href = \"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/faqs-san-jac-covid-19\"> Coronavirus FAQ's </a> <br/> <br/> For a list of frequently asked questions about the CARES Federal Act Emergency Aid Grants, please click: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/cares-act \"> Federal CARES Act Emergency Aid Grants FAQ's </a> <br/> <br/>  For a list of frequently asked questions about student college operations, please click: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/node/4485956 \"> Student FAQs about College operations </a> <br/> <br/> If you need access to technology or need technical assistance, click: <br/> <a target=\"_blank\" href=\"https://www.sanjacits.org/\"> Technical support </a> <br/> <br/> You can also email your questions to Covid-19 \\ @ sjcd.edu. <br/> <br/>"
               }
             ],
             "response_type": "text",
@@ -52288,6 +52439,32 @@
     },
     {
       "type": "standard",
+      "title": "Graduation Dates - Spring 2021",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Spring 2021 Graduation</b><br/><br/>\nThe deadline to apply to graduation for your name to appear in the program is March 25th, 2021.<br/><br/>\nThe Spring 2020 Graduation is TENTATIVELY scheduled to take place:<br/>\n• Friday-Sunday, May 14th-16th, 2021 at 7:00PM<br/>\n• NRG Stadium<br/><br/>\nAdvising will now be provided online.  To schedule a virtual appointment, students can visit <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\"> http://appointments.sjcd.edu/</a> or use the Advising Chat feature on the <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/student-support/educational-planning-counseling-completion\"> EPCC webpage</a>.<br/><br/>\nStudent can email educational.planning\\@sjcd.edu for graduation related inquiries.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1555513192335",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "@Term:202120",
+      "dialog_node": "node_9_1604497411977",
+      "previous_sibling": "node_10_1555513475261"
+    },
+    {
+      "type": "standard",
       "title": "Requesting - Other",
       "output": {
         "text": {
@@ -55029,7 +55206,7 @@
     "spelling_auto_correct": true
   },
   "learning_opt_out": false,
-  "name": "Ask Jac!  General Skill 7.6",
+  "name": "Ask Jac!  General Skill 7.7",
   "language": "en",
-  "description": "Copy of 7.5.1 08/17/2020"
+  "description": "Copy of 7.6 sent to TEST on 09/03/2020 10AM"
 }
