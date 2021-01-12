@@ -1769,6 +1769,9 @@
           "text": "Do you offer any distance learning courses?"
         },
         {
+          "text": "Face-To-Face"
+        },
+        {
           "text": "face to face in real time"
         },
         {
@@ -1802,10 +1805,16 @@
           "text": "I want to take an online class"
         },
         {
+          "text": "my way"
+        },
+        {
           "text": "online anytime"
         },
         {
           "text": "online on a schedule"
+        },
+        {
+          "text": "san jac my way"
         },
         {
           "text": "what are the new class formats?"
@@ -5006,6 +5015,44 @@
       "description": "Info about the district boundaries"
     },
     {
+      "intent": "International_Students",
+      "examples": [
+        {
+          "text": "How much does it cost to attend San Jac if I am an international student?"
+        },
+        {
+          "text": "I am an international student where do I start?"
+        },
+        {
+          "text": "International Admissions Required Documents"
+        },
+        {
+          "text": "International student"
+        },
+        {
+          "text": "International student help"
+        },
+        {
+          "text": "International student questions"
+        },
+        {
+          "text": "Required Documents"
+        },
+        {
+          "text": "What are the steps to be admitted to San Jac as an international student?"
+        },
+        {
+          "text": "What forms do i need if I am an international student?"
+        },
+        {
+          "text": "Where can I learn English if I am an international student?"
+        },
+        {
+          "text": "Who do i talk to if I am an international student?"
+        }
+      ]
+    },
+    {
       "intent": "Internet_Access",
       "examples": [
         {
@@ -5225,6 +5272,9 @@
         },
         {
           "text": "librarian"
+        },
+        {
+          "text": "library"
         },
         {
           "text": "magazines"
@@ -6114,6 +6164,9 @@
       "intent": "Phone_Number",
       "examples": [
         {
+          "text": "contact international services"
+        },
+        {
           "text": "How do i contact Career Services?"
         },
         {
@@ -6123,6 +6176,15 @@
           "text": "i need to speak to someone in Dual Credit"
         },
         {
+          "text": "i need to speak to someone in international"
+        },
+        {
+          "text": "i need to speak to someone in the international department"
+        },
+        {
+          "text": "international phone number"
+        },
+        {
           "text": "Office of Student Engagement & Activities South Campus Phone Number"
         },
         {
@@ -6130,6 +6192,9 @@
         },
         {
           "text": "What is the central financial aid extension?"
+        },
+        {
+          "text": "What is the contact number for international services"
         },
         {
           "text": "What is the contact number for the bookstore at the Central campus?"
@@ -8783,6 +8848,17 @@
         },
         {
           "type": "synonyms",
+          "value": "International Services",
+          "synonyms": [
+            "Foreign Advisors",
+            "International",
+            "International Admissions",
+            "International Office",
+            "International Student Services"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "Library",
           "synonyms": [
             "libary",
@@ -9144,6 +9220,14 @@
       "values": [
         {
           "type": "synonyms",
+          "value": "Face-To-Face",
+          "synonyms": [
+            "in person classes",
+            "on campus class"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "Flex Campus",
           "synonyms": [
             "Flexible Campus"
@@ -9458,6 +9542,59 @@
             "issue",
             "slow",
             "sucks"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Int_Topic",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Admissions Steps",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Contact Info",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Cost",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "F-1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "I-20",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "I-94",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Learn English",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Passport",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Required Docs",
+          "synonyms": [
+            "International Student Required Documents"
           ]
         }
       ],
@@ -12838,6 +12975,30 @@
     },
     {
       "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "-\tSchedule A Virtual Appointment: \nInternational Student Services accepts appointments for: \n•\tI-20 Extension/Reduced Course Load \n•\tReinstatement/Out of Status \n•\tGeneral Advising \n•\tNew Student/Admission Process \n•\tTransfer In/Out/Travel Signature  \nPlease click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>  \n-\tChat With International Student Services: \nTo chat with International Student Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/internationalsjc@chat.libraryh3lp.com?skin=30837\">here</a>. The online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/> \n-\tPhone Support: \nContact International Student Services- 281-998-6150 x4636<br/><br/>\n\nWhat else can I help you with?<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_14_1540414675046",
+      "next_step": {
+        "behavior": "skip_all_slots"
+      },
+      "conditions": "$Departments:(International Services)",
+      "event_name": "filled",
+      "dialog_node": "handler_6_1605734746483",
+      "previous_sibling": "handler_10_1566843718112"
+    },
+    {
+      "type": "event_handler",
       "title": "handler_62_1540561075430",
       "output": {},
       "parent": "slot_60_1540561075430",
@@ -15625,7 +15786,7 @@
           {
             "values": [
               {
-                "text": "This fall, with San Jac My Way, we’re offering four different course options so you can stay on track, your way!<br/><br/>\nWith San Jac My Way, students have four different ways to learn, both in-person and online: Online Anytime, Online on a Schedule, Flex Campus, and Hands-On Hybrid.<br/><br/>\nClick <a target=\"_blank\" href=\"https://youtu.be/flMDSH2vy3A\">here</a> to wath a short video about San Jac My Way.<br/><br/>"
+                "text": "With San Jac My Way, we’re offering five different course options so you can stay on track, your way!<br/><br/>\nWith San Jac My Way, students have five different ways to learn, both in-person and online: Online Anytime, Online on a Schedule, Flex Campus, Hands-On Hybrid, and Face to Face .<br/><br/>\nClick <a target=\"_blank\" href=\"https://www.sanjac.edu/my-way\">here</a> for more information about San Jac My Way.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -15663,6 +15824,14 @@
                 "value": {
                   "input": {
                     "text": "@Format:(Flex Campus)"
+                  }
+                }
+              },
+              {
+                "label": "Face-To-Face",
+                "value": {
+                  "input": {
+                    "text": "@Format:(Face-To-Face)"
                   }
                 }
               },
@@ -15710,6 +15879,182 @@
       "conditions": "@Term:202120",
       "dialog_node": "node_10_1599659412510",
       "previous_sibling": "node_2_1586967996924"
+    },
+    {
+      "type": "standard",
+      "title": "International Student Options",
+      "output": {
+        "generic": [
+          {
+            "title": "Please select the International topic you would like more information about.",
+            "options": [
+              {
+                "label": "International Admissions Steps ",
+                "value": {
+                  "input": {
+                    "text": "steps"
+                  }
+                }
+              },
+              {
+                "label": "International Admissions Required Documents ",
+                "value": {
+                  "input": {
+                    "text": "steps"
+                  }
+                }
+              },
+              {
+                "label": "International Admissions Cost",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Learn English ",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Contact International Student Services",
+                "value": {
+                  "input": {
+                    "text": "$Departments:(International Services)"
+                  }
+                }
+              },
+              {
+                "label": "Start Over/Cancel",
+                "value": {
+                  "input": {
+                    "text": "cancel"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_33_1539871319864",
+      "conditions": "",
+      "user_label": "I need to apply for international admissions",
+      "dialog_node": "node_10_1605716953340",
+      "previous_sibling": "node_7_1570717374211",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Face-To-Face",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Face-To-Face</b><br/><br/>\nIn-person classes will take place on campus with reduced class sizes and social distancing measures.<br/><br/>\nFace to Face Transition to Online on a Schedule -- Take your classes in person, on campus. If there is a need to transition to online learning these classes will stay on a schedule.<br/><br/>\nFace to Face Transition to Online Anytime -- Take your classes in person, on campus. If there is a need to transition to online learning these classes will allow for flexible schedules.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Please let me know how else I can assist you.",
+            "options": [
+              {
+                "label": "I'd like to go back and learn about other course options being offered",
+                "value": {
+                  "input": {
+                    "text": "@Format:Options"
+                  }
+                }
+              },
+              {
+                "label": "I'd like to learn how to search for a specific course option.",
+                "value": {
+                  "input": {
+                    "text": "@Format:Search"
+                  }
+                }
+              },
+              {
+                "label": "I'd like to learn what type of student support is available to me.",
+                "value": {
+                  "input": {
+                    "text": "Support"
+                  }
+                }
+              },
+              {
+                "label": "Where do I get my textbooks and supplies?",
+                "value": {
+                  "input": {
+                    "text": "Where do I get my textbooks?"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1595595065199",
+      "conditions": "@Format:(Face-To-Face)",
+      "dialog_node": "node_10_1609866787228",
+      "previous_sibling": "node_1_1595595239268"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Passport</b><br/>\nYour passport must be valid for at least six months from your date of enrollment. Check the expiration date and have it renewed if needed. You can do this in the U.S. through an official consulate from your home country. If you renew through the mail, be sure to request certified delivery with a return receipt.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1610047844392",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1610047844392"
+      },
+      "conditions": "@Int_Topic:Passport",
+      "dialog_node": "node_10_1610048071060"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>I-94 Card</b><br/><br/>\nWhen you enter the United States, U.S. Customs and Border Protection has automated Form I-94 at the port of entry. A traveler lawfully admitted (or paroled) into the U.S. may print their lawful record of admission (I-94 form) from the <a target=\"_blank\" href=\"https://i94.cbp.dhs.gov/I94/#/home\">CBP website</a>.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1610047844392",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1610047844392"
+      },
+      "conditions": "@Int_Topic:I-94",
+      "dialog_node": "node_10_1610048252440",
+      "previous_sibling": "node_3_1610048183990"
     },
     {
       "type": "folder",
@@ -18735,6 +19080,197 @@
     },
     {
       "type": "standard",
+      "title": "IPP Spring 2021 - Plan 1",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure thing.  I see you are interested in enrolling into a payment plan between the dates of November 9th, 2020 – January 1st, 2021.   In order to complete your registration, you must pay 20% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 01/25/2021 (20%)<br/>\n•\tMonday, 02/22/2021 (20%)<br/>\n•\tMonday, 03/22/2021 (20%)<br/>\n•\tMonday, 04/26/2021 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to learn how to pay for classes?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1604500943699",
+      "conditions": "@IPP:Plan1",
+      "dialog_node": "node_1_1604501206877"
+    },
+    {
+      "type": "standard",
+      "title": "IPP Spring 2021 - Plan 3",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I’d love to help you.  It looks like you want to enroll into a payment plan sometime between February 6th, 2021 and March 5th, 2021.  In order to complete your registration, you must pay 50% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 03/22/2021 (20%)<br/>\n•\tMonday, 04/26/2021 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to learn how to pay for classes?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1604500943699",
+      "conditions": "@IPP:Plan3",
+      "dialog_node": "node_1_1604501436613",
+      "previous_sibling": "node_5_1604501390320"
+    },
+    {
+      "type": "standard",
+      "title": "International Students - Required Documents",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A few items you'll need to have:  <br/>Passport<br/>F-1 Student Visa<br/>I-94 Card<br/>Form I-20"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610047477526",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1610047844392"
+      },
+      "conditions": "@Int_Topic:(Required Docs)",
+      "dialog_node": "node_1_1610047686426",
+      "previous_sibling": "node_2_1610047584940"
+    },
+    {
+      "type": "standard",
+      "title": "International Students Menu Option",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are excited that you are interested in attending San Jacinto College. We welcome all with open arms. This includes you! There are different types of international admission and each type may come with its own steps for admissions. <br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Please choose from the following for more information:",
+            "options": [
+              {
+                "label": "International Admissions Steps",
+                "value": {
+                  "input": {
+                    "text": "International Admissions Steps"
+                  }
+                }
+              },
+              {
+                "label": "International Admissions Required Documents",
+                "value": {
+                  "input": {
+                    "text": "International Student Required Documents"
+                  }
+                }
+              },
+              {
+                "label": "International Student Tuition & Fees",
+                "value": {
+                  "input": {
+                    "text": "Cost"
+                  }
+                }
+              },
+              {
+                "label": "Learn English",
+                "value": {
+                  "input": {
+                    "text": "Learn English"
+                  }
+                }
+              },
+              {
+                "label": "Contact International Student Services",
+                "value": {
+                  "input": {
+                    "text": "Contact Info"
+                  }
+                }
+              },
+              {
+                "label": "Start Over/Cancel",
+                "value": {
+                  "input": {
+                    "text": "Cancel"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1610047477526",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1610047584940"
+      },
+      "conditions": "#International_Students",
+      "dialog_node": "node_1_1610048860981",
+      "previous_sibling": "node_5_1610048818605"
+    },
+    {
+      "type": "standard",
       "output": {
         "text": {
           "values": [],
@@ -19333,22 +19869,26 @@
       "output": {
         "generic": [
           {
+            "source": "https://i.ytimg.com/vi/_JlBeWJ5_kI/maxresdefault.jpg",
+            "response_type": "image"
+          },
+          {
             "values": [
               {
-                "text": "We are excited that you are interested in attending San Jacinto College.  Please click on the following link to learn how to apply for admissions as an International Student:  \n<a target=\"_blank\" href=\"https://www.youtube.com/watch?v=_JlBeWJ5_kI\"> International Students </a><br/><br/>\n\nFor more information regarding International Students, please call the International Services Department at 281-998-6150 ext. 4636 or visit our website at <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/types-admissions/international-students/admissions\"> www.sanjac.edu/international-admissions</a>."
+                "text": "We are excited that you are interested in attending San Jacinto College. We welcome all with open arms. This includes you! There are different types of international admission and each type may come with its own steps for admissions. "
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
           },
           {
-            "title": "Would you like additional information about the admissions process?",
+            "title": "Would you like additional information about the international admissions process?",
             "options": [
               {
                 "label": "Yes",
                 "value": {
                   "input": {
-                    "text": "Yes"
+                    "text": "@YesNo:Yes"
                   }
                 }
               },
@@ -19356,7 +19896,7 @@
                 "label": "No",
                 "value": {
                   "input": {
-                    "text": "No"
+                    "text": "@YesNo:No"
                   }
                 }
               }
@@ -22242,7 +22782,7 @@
           {
             "values": [
               {
-                "text": "San Jac has teamed up with Barnes & Noble bookstore on each campus, where you can purchase everything you need - from textbooks, supplies, and study guides to San Jac apparel, snacks and more.<br/><br/>  \nYou can also view textbook options and cost, as well as make purchases from our <a target=\"_blank\" href=\"https://msjc-central.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=38055&amp;catalogId=10001\"> Online Bookstore Purchases</a>.<br/><br/>\nWe also offer an Open Books program, where some instructional materials might be available at a low or no cost to students. <br/><br/>"
+                "text": "San Jac has teamed up with Barnes & Noble bookstore on each campus, where you can purchase everything you need - from textbooks, supplies, and study guides to San Jac apparel, snacks and more.<br/><br/>  \nYou can also view textbook options and cost, as well as make purchases from our <a target=\"_blank\" href=\"https://msjc-central.bncollege.com/webapp/wcs/stores/servlet/BNCBHomePage?storeId=38055&amp;catalogId=10001\"> Online Bookstore Purchases</a>.<br/><br/>\nWe also offer an Open Books program, where some instructional materials might be available at a low or no cost to students. <br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -22870,7 +23410,7 @@
       },
       "conditions": "@Term:(Not Listed)",
       "dialog_node": "node_21_1537975639590",
-      "previous_sibling": "node_2_1586966829521"
+      "previous_sibling": "node_6_1604500791469"
     },
     {
       "type": "standard",
@@ -23382,7 +23922,7 @@
           {
             "values": [
               {
-                "text": "For more information about the application process, visit our website at <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/steps-enroll\"> Steps to Enroll</a>.<br/><br/>"
+                "text": "For more information about the application process, visit our website at <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/types-admissions/international-students\"> Steps to Enroll</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -25820,6 +26360,82 @@
     },
     {
       "type": "standard",
+      "title": "International Students - Admissions Steps",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>International Admissions Steps</b><br/><br/>You're just a few short steps from becoming a student at San Jacinto College. As a top 10 ranked Community College in the US, we know every student's story is different and welcome students with a variety of different paths they wish to pursue. We've broken down the steps you must take according to which category you fall into <a target=\"_blank\" href=\"https://publications.sanjac.edu/general-information/admissions/requirements-individuals-f1-visa-status/\">here</a>.<br/><br/>\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/types-admissions/international-students/frequently-asked-questions\">here</a> to see a list of frequently asked international student questions.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610047477526",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1610048860981"
+      },
+      "conditions": "@Int_Topic:(Admissions Steps)",
+      "dialog_node": "node_2_1610047584940"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Form I-20</b><br/><br/>\nThis is the form San Jacinto College gives you when you’ve completed all your requirements for admission. Keep this with you at all times, even when you leave the U.S. temporarily. It serves as validation of your student status and shows all permissions granted to you, such as transfers, employment, and reentry to the U.S.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1610047844392",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1610047844392"
+      },
+      "conditions": "@Int_Topic:I-20",
+      "dialog_node": "node_2_1610048307776",
+      "previous_sibling": "node_10_1610048252440"
+    },
+    {
+      "type": "standard",
+      "title": "International Students - Cost",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>International Tuition & Fees</b><br/><br/>\nSan Jacinto College is supported by local and state tax dollars, which allows us to keep costs low for our students. Here is an estimate of what it might cost an international student to attend San Jac for one year:<br/><br/>\nFall and Spring International Student <br/>\nTuition/fees- \\$5,784<br/>\nBooks/Transportation/Insurance- \\$3,900<br/>\nLiving Expenses- \\$13,800<br/>\nTotal = \\$23,484<br/><br/>\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/tuition\">here</a> to see more information on San Jacinto College tuition.<br/><br/>\nPlease click <a target=\"_blank\" href=\" https://www.sanjac.edu/apply-register-pay/types-admissions/international-students/working-us\">here</a> to see more information on working in the United States while you’re going to San Jacinto College.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610047477526",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1610048860981"
+      },
+      "conditions": "@Int_Topic:Cost",
+      "dialog_node": "node_2_1610048395301",
+      "previous_sibling": "node_1_1610047686426"
+    },
+    {
+      "type": "standard",
       "title": "Financial Aid Application Info - Part 2",
       "output": {
         "generic": [
@@ -25874,6 +26490,14 @@
                 "value": {
                   "input": {
                     "text": "@Term:202110"
+                  }
+                }
+              },
+              {
+                "label": "Spring 2021",
+                "value": {
+                  "input": {
+                    "text": "@Term:202120"
                   }
                 }
               },
@@ -25981,7 +26605,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/> \n\nIf you need access to technology or need technical assistance, click on:<br/>\n<a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/> We are open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n\nCentral Campus Interactive Learning Center<br/>\nFall/Spring Hours<br/>\n• Monday-Friday: 6:45AM - 9:30PM<br/>\n• Saturday: 7:45AM - 4:30PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Thursday: 6:45AM - 9:30PM<br/>\n• Friday: 6:45AM - 4:30PM<br/>\n• Saturday: 7:45AM -4:30PM"
+                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/>\n \nIf you need access to ILC technology, click on:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/helpful-resources-facilities/interactive-learning-centers\">Interactive Learning Center</a> for a listing of locations and hours of operation.<br/><br/>\n\nIf you need technical assistance, click on:<br/><a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/> We are open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n\n"
               }
             ],
             "response_type": "text",
@@ -26236,7 +26860,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/> \n\nIf you need access to technology or need technical assistance, click on:<br/>\n<a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/> We are open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n\nNorth Campus Interactive Learning Center<br/>\nFall/Spring Hours<br/>\n• Monday-Thursday: 6:30AM - 9:30PM<br/>\n• Friday: 6:30AM - 4:30PM<br/>\n• Saturday: 7:30AM - 12:30PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Thursday: 7:30AM - 9:30PM<br/>\n• Friday: 7:30AM -11:30AM"
+                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/>\n \nIf you need access to ILC technology, click on:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/helpful-resources-facilities/interactive-learning-centers\">Interactive Learning Center</a> for a listing of locations and hours of operation.<br/><br/>\n\nIf you need technical assistance, click on:<br/><a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/> We are open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -26572,7 +27196,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/> \n\nIf you need access to technology or need technical assistance, click on:<br/>\n<a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/> We are open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n\nSouth Campus Open Interactive Learning Center<br/>\nFall/Spring Hours<br/>\n• Monday-Thursday: 6:45AM - 9:45PM<br/>\n• Friday: 6:45AM - 4:45PM<br/>\n• Saturday: 7:45AM - 1:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Thursday: 6:45AM - 9:45PM<br/>\n• Friday: 6:45AM -11:45AM"
+                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/>\n \nIf you need access to ILC technology, click on:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/helpful-resources-facilities/interactive-learning-centers\">Interactive Learning Center</a> for a listing of locations and hours of operation.<br/><br/>\n\nIf you need technical assistance, click on:<br/><a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/> We are open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -26752,7 +27376,7 @@
           {
             "values": [
               {
-                "text": "After you have submitted an application for admissions to San Jac, you will need to complete your FAFSA application on the FAFSA website at <a target=\"_blank\" href=\"https://studentaid.ed.gov/sa/fafsa\"> www.fafsa.ed.gov </a>.  Be sure to use our Federal School Code - 003609.  <br/><br/>\nOnce your application has been received by San Jac, you might be requested to provide copies of other official documents to the Financial Aid Office. If requested, be sure to respond promptly.<br/><br/>\nFor a quick video on the Financial Aid process, click the link below:\n<a target=\"_blank\" href=\"https://youtu.be/H_iS7gmQd9o\"> Overview of the Financial Aid Process </a><br/><br/>\n"
+                "text": "After you have submitted an application for admissions to San Jac, you will need to complete your FAFSA application on the FAFSA website at <a target=\"_blank\" href=\"https://studentaid.ed.gov/sa/fafsa\"> www.fafsa.ed.gov </a>.  Be sure to use our Federal School Code - 003609.  <br/><br/>\nOnce your application has been received by San Jac, you might be requested to provide copies of other official documents to the Financial Aid Office. If requested, be sure to respond promptly.<br/><br/>\nFor a quick video on the Financial Aid process and a listing of simple steps to apply, click the link below:\n<a target=\"_blank\"https://www.sanjac.edu/apply-register-pay/paying-college/financial-aid/easy-application\"> Overview of the Financial Aid Process </a><br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -31247,7 +31871,7 @@
           {
             "values": [
               {
-                "text": "The administrative offices at San Jacinto College will be closed for the winter break from Wednesday, December 23rd through Friday, January 1st.  <br/><br/>  \nFor those students attending the Winter Mini session, no classes will be held on Friday, December 25th.<br/><br/>\nCollege services will return to our normal operations on Monday, January 4th.<br/><br/>"
+                "text": "The administrative offices at San Jacinto College will be closed for the winter break from Monday, December 21st through Friday, January 1st.  <br/><br/>  \nFor those students attending the Winter Mini session, no classes will be held on Friday, December 25th.<br/><br/>\nCollege services will return to our normal operations on Monday, January 4th.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -31261,7 +31885,7 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "@sys-date:2020-12-23 && @sys-date:2020-12-24 || @sys-date:2020-12-25 || @sys-date:2020-12-26 || @sys-date:2020-12-27 || @sys-date:2020-12-28 || @sys-date:2020-12-29 || @sys-date:2020-12-30 || @sys-date:2020-12-31 || @sys-date:2021-01-01 ||              @Holiday:(Winter Break) || @Holiday:WinterMini || @sys-date:2021-01-02 || @sys-date:2021-01-03",
+      "conditions": "@sys-date:2020-12-23 && @sys-date:2020-12-24 || @sys-date:2020-12-25 || @sys-date:2020-12-26 || @sys-date:2020-12-27 || @sys-date:2020-12-28 || @sys-date:2020-12-29 || @sys-date:2020-12-30 || @sys-date:2020-12-31 || @sys-date:2021-01-01 ||                @Holiday:(Winter Break) || @Holiday:WinterMini || @sys-date:2021-01-02 || @sys-date:2021-01-03 || @sys-date:2020-12-21 || @sys-date:2020-12-22",
       "dialog_node": "node_3_1583269707507",
       "previous_sibling": "node_6_1583270043087"
     },
@@ -31427,6 +32051,113 @@
       "conditions": "#Bookstore_Info",
       "dialog_node": "node_3_1595601897786",
       "previous_sibling": "node_2_1595598473190"
+    },
+    {
+      "type": "standard",
+      "title": "IPP Spring 2021 Menu Options",
+      "output": {
+        "generic": [
+          {
+            "title": "Step 2:  Choose the option with the date range that best fits when you will be enrolling and making the down payment for your plan.",
+            "options": [
+              {
+                "label": "Option 1:  November 9th, 2020 - January 1st, 2021",
+                "value": {
+                  "input": {
+                    "text": "IPP Plan1"
+                  }
+                }
+              },
+              {
+                "label": "Option 2:  January 2nd, 2021 - February 5th, 2021",
+                "value": {
+                  "input": {
+                    "text": "IPP Plan2"
+                  }
+                }
+              },
+              {
+                "label": "Option 3:  February 6th, 2021 - March 5th, 2021",
+                "value": {
+                  "input": {
+                    "text": "IPP Plan3"
+                  }
+                }
+              },
+              {
+                "label": "Option 4:  March 6th, 2021 - April 16th, 2021",
+                "value": {
+                  "input": {
+                    "text": "IPP Plan4"
+                  }
+                }
+              },
+              {
+                "label": "Start Over/Cancel",
+                "value": {
+                  "input": {
+                    "text": "Cancel"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_6_1604500791469",
+      "dialog_node": "node_3_1604500943699"
+    },
+    {
+      "type": "standard",
+      "title": "Yes - Route to #Paying for Classes",
+      "parent": "node_1_1604501206877",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1538058754191"
+      },
+      "conditions": "@YesNo:Yes",
+      "dialog_node": "node_3_1604501625156"
+    },
+    {
+      "type": "standard",
+      "title": "No - Route to IPP Spring 2021 Menu Options",
+      "parent": "node_9_1604501476457",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604500943699"
+      },
+      "conditions": "@YesNo:No",
+      "dialog_node": "node_3_1604501643934",
+      "previous_sibling": "node_8_1604501641894"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>F-1 Student Visa</b><br/><br/>\nThis document, issued by the American Embassy in your home country, states the time period during which you can enter the U.S. and how many entries are permitted. The dates do not indicate how long you can stay once you’ve entered – you can stay as long as you <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/types-admissions/international-students/maintaining-your-visa\">Maintain Your F-1 Visa Status</a>.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1610047844392",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1610047844392"
+      },
+      "conditions": "@Int_Topic:F-1",
+      "dialog_node": "node_3_1610048183990",
+      "previous_sibling": "node_10_1610048071060"
     },
     {
       "type": "standard",
@@ -31723,7 +32454,7 @@
           {
             "values": [
               {
-                "text": "The Central Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n\nCentral Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed"
+                "text": "The Central Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n\nCentral Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun: Closed<br/><br/>\n\nFor WINTER HOURS 2020 (Sat. 12/12/2010 - Sun. 1/17/2021)<a target=\"_blank\" href=\"https://sjcd.libguides.com/ld.php?content_id=58896495\"> click here</a>.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -31913,7 +32644,7 @@
           {
             "values": [
               {
-                "text": "We'd love to see you as a San Jac student! Applying for Admissions is easy - and it's free!  <br/><br/>\nFirst, check out this quick video to learn how to Apply for Admissions:  <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=NIbIrzMIBV0\"> How to Apply </a><br/><br/>\nNext, complete an application at <a target=\"_blank\" href=\"https://www.applytexas.org/adappc/gen/c_start.WBX\"> www.applytexas.org </a>.<br/><br/>\nClick \"Get started\" on the Apply Texas website to set up a profile and complete your application for the term you intend to enroll  Please note:  If you don't enroll for this term, you will need to re-apply for a subsequent term. <br/><br/>\nYou will receive an email confirmation once you complete and submit your application. Allow 48 hours for San Jac to review and process it.<br/><br/>"
+                "text": "We'd love to see you as a San Jac student! Applying for Admissions is easy - and it's free!  <br/><br/>\nClick the link for quick checklist on the admissions process: <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/types-admissions/high-school-graduate\"> First Time In College </a><br/><br/>\nFor a more detailed listing of steps to enroll, please click the link: <a target=\"_blank\" href=\"https://www.sanjac.edu/steps-enroll\">Steps To Enroll </a><br/><br/>l "
               }
             ],
             "response_type": "text",
@@ -31956,7 +32687,7 @@
           {
             "values": [
               {
-                "text": "The North Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n\nNorth Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed"
+                "text": "The North Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n\nNorth Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nFor WINTER HOURS 2020 (Sat. 12/12/2010 - Sun. 1/17/2021)<a target=\"_blank\" href=\"https://sjcd.libguides.com/ld.php?content_id=58896495\"> click here</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -32212,7 +32943,7 @@
           {
             "values": [
               {
-                "text": "The South Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\nSouth Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed"
+                "text": "The South Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\nSouth Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nFor WINTER HOURS 2020 (Sat. 12/12/2010 - Sun. 1/17/2021)<a target=\"_blank\" href=\"https://sjcd.libguides.com/ld.php?content_id=58896495\"> click here</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -32486,7 +33217,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/> \n\nDuring this period of altered operations, the College’s Student Success Centers staff are still available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">here</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/> \n\nCentral Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-8:45PM<br/>\n• Fri:  7:30AM-2:45PM<br/>\n• Sat: 10:00AM-1:45PM<br/>\n• Sun:  1:00PM-4:45PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 9AM-6PM<br/>\n• Sat:  10AM-1:45PM<br/>"
+                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/> \n\nDuring this period of altered operations, the College’s Student Success Centers staff are still available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">here</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/> \n\nCentral Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-8:45PM<br/>\n• Fri:  7:30AM-2:45PM<br/>\n• Sat: 10:00AM-1:45PM<br/>\n• Sun:  1:00PM-4:45PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 9AM-6PM<br/>\n• Sat:  10AM-1:45PM<br/><br/>\n\nSSC tutoring for Spring 2021 will resume the first day of classes, Jan. 19th.\n"
               }
             ],
             "response_type": "text",
@@ -32702,7 +33433,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/> \n\nDuring this period of altered operations, the College’s Student Success Centers staff are still available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">here</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/> \n\nNorth Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8AM-8:45PM<br/>\n• Fri:  8AM-2:45PM<br/>\n• Sat: 11AM-1:45PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8AM-6PM<br/>"
+                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/> \n\nDuring this period of altered operations, the College’s Student Success Centers staff are still available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">here</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/> \n\nNorth Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8AM-8:45PM<br/>\n• Fri:  8AM-2:45PM<br/>\n• Sat: 11AM-1:45PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8AM-6PM<br/><br/>\n\nSSC tutoring for Spring 2021 will resume the first day of classes, Jan. 19th."
               }
             ],
             "response_type": "text",
@@ -32896,7 +33627,7 @@
           {
             "values": [
               {
-                "text": "We are thrilled you are considering San Jacinto College to continue your education! Please watch this short video regarding how to apply for admissions:  <a target=\"_blank\" href=\"https://www.youtube.com/watch?v=agrWD70vAOk\"> Returning and Transfer Students </a><br/><br/>\nRemember, start by completing an application at <a target=\"_blank\" href=\"https://www.applytexas.org/adappc/gen/c_start.WBX\"> www.applytexas.org </a>.  Applying to San Jac is free!<br/><br/>\nBe sure to click \"Get started\" on the Apply Texas website to set up a profile and complete your application for the term you intend to enroll.  Please note if you don't enroll for this term, you will need to re-apply for a subsequent term. <br/><br/>\nYou will receive an email confirmation once you complete and submit your application. Allow 48 hours for for San Jac to review and process it.<br/><br/>"
+                "text": "We are thrilled you are considering San Jacinto College to continue your education! Please click the link for a short video regarding how to apply for admissions and a listing of steps to enroll: <a target=\"_blank\"https://www.sanjac.edu/transferring-to-san-jac\"> Returning and Transfer Students </a><br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -32939,7 +33670,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/> \n\nDuring this period of altered operations, the College’s Student Success Centers staff are still available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">here</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/> \n\nSouth Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8AM-8PM<br/>\n• Fri:  8AM-3PM<br/>\n• Sat: 10AM-1PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8AM-5PM<br/>\n• Fri:  8AM-Noon"
+                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/> \n\nDuring this period of altered operations, the College’s Student Success Centers staff are still available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">here</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/> \n\nSouth Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8AM-8PM<br/>\n• Fri:  8AM-3PM<br/>\n• Sat: 10AM-1PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8AM-5PM<br/>\n• Fri:  8AM-Noon<br/><br/>\n\nSSC tutoring for Spring 2021 will resume the first day of classes, Jan. 19th."
               }
             ],
             "response_type": "text",
@@ -33156,7 +33887,7 @@
           {
             "values": [
               {
-                "text": "<a target=\"_blank\" href=\"https://www.youtube.com/watch?v=agrWD70vAOk\"> Returning and Transfer Students </a><br/><br/>\n\nWelcome back to San Jacinto College! If it’s been more than a year since you’ve attended classes, you’ll need to submit a new application. Follow the instructions below to re-apply and get back on track at San Jacinto College:<br/>\n• Submit An Updated Application via <a target=\"_blank\" href=\"https://www.applytexas.org/adappc/gen/c_start.WBX\"> Apply Texas </a> <br/>\n• Submit Documentation <br/>\n• Register For Courses<br/><br/>"
+                "text": "Welcome back to San Jacinto College! If it’s been more than a year since you’ve attended classes, you’ll need to submit a new application. Please click the link below for a listing of instructions to re-apply and get back on track at San Jacinto College:<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/types-admissions/re-admission\">Readmission Steps </a> <br/>\n"
               }
             ],
             "response_type": "text",
@@ -35571,6 +36302,123 @@
     },
     {
       "type": "standard",
+      "title": "No - Route to IPP Spring 2021 Menu Options",
+      "parent": "node_5_1604501390320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604500943699"
+      },
+      "conditions": "@YesNo:No",
+      "dialog_node": "node_4_1604501633303",
+      "previous_sibling": "node_7_1604501631064"
+    },
+    {
+      "type": "standard",
+      "title": "International Students - Required Docs Menu Option",
+      "output": {
+        "generic": [
+          {
+            "title": "Click on the Document Type to learn more.",
+            "options": [
+              {
+                "label": "Passport",
+                "value": {
+                  "input": {
+                    "text": "@Int_Topic:Passport"
+                  }
+                }
+              },
+              {
+                "label": "F-1 Student Visa",
+                "value": {
+                  "input": {
+                    "text": "@Int_Topic:F-1"
+                  }
+                }
+              },
+              {
+                "label": "I-94 Card",
+                "value": {
+                  "input": {
+                    "text": "@Int_Topic:I-94"
+                  }
+                }
+              },
+              {
+                "label": "Form I-20",
+                "value": {
+                  "input": {
+                    "text": "@Int_Topic:I-20"
+                  }
+                }
+              },
+              {
+                "label": "Return to International Students Menu Options",
+                "value": {
+                  "input": {
+                    "text": "International Student Help"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1610047686426",
+      "conditions": "@Int_Topic:(Required Docs)",
+      "dialog_node": "node_4_1610047844392"
+    },
+    {
+      "type": "standard",
+      "title": "International Students - Learn English",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Learn English</b><br/><br/>\nThe ESOL program is designed for international, residential and non-residential students who want to improve their English. Students can complete the program in one academic year (nine months) and are prepared for college and university admission exams, such as the Texas Success Initiative Assessment (TSIA) or Test of English as a Foreign Language (TOEFL).<br/><br/>\nPlease click <a target=\"_blank\" href=\"https://publications.sanjac.edu/general-information/admissions/english-language-proficiency-requirements-students-speakers-languages/\">here</a> to see more information on San Jacinto College English language proficiency requirements.<br/><br/>\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/types-admissions/international-students/learn-english\">here</a> to see printable information on San Jacinto College English language proficiency requirements in Spanish and Vietnamese.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610047477526",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1610048860981"
+      },
+      "conditions": "@Int_Topic:(Learn English)",
+      "dialog_node": "node_4_1610048507328",
+      "previous_sibling": "node_2_1610048395301"
+    },
+    {
+      "type": "standard",
+      "title": "International Students - Contact Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Our International Student Services Office is here to help guide you through this process and will become an important resource for you during your time at San Jacinto College. <br/><br/>\nSchedule A Virtual Appointment:<br/>\nInternational Student Services accepts appointments for:<br/>\n•\tI-20 Extension/Reduced Course Load<br/>\n•\tReinstatement/Out of Status<br/>\n•\tGeneral Advising<br/>\n•\tNew Student/Admission Process<br/>\n•\tTransfer In/Out/Travel Signature<br/><br/>\n\nPlease click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\n\nChat With International Student Services:<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.\nTo chat with International Student Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/internationalsjc@chat.libraryh3lp.com?skin=30837\">here</a>.<br/><br/>\n\nPhone Support: <br/>\nContact International Student Services- 281-998-6150 x4636<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1610047477526",
+      "conditions": "@Int_Topic:(Contact Info)",
+      "dialog_node": "node_4_1610048577366",
+      "previous_sibling": "node_4_1610048507328"
+    },
+    {
+      "type": "standard",
       "output": {
         "text": {
           "values": [
@@ -37404,7 +38252,7 @@
           {
             "values": [
               {
-                "text": "Thank you for your service!  We are thrilled you are wanting to attend San Jacinto College.<br/><br/>  \n\nPlease click on link for a short video regarding how to apply for admissions as a veteran:  \n<a target=\"_blank\" href=\"https://www.youtube.com/watch?v=ljxT0YU03kk\"> Veterans </a>"
+                "text": "Thank you for your service!  We are thrilled you are wanting to attend San Jacinto College.<br/><br/>  \n\nPlease click on the link for information regarding how to apply for admissions as a veteran:  \n<a target=\"_blank\" href=\"https://www.sanjac.edu/veterans\"> Veterans </a>"
               }
             ],
             "response_type": "text",
@@ -38207,14 +39055,6 @@
             "title": "Which school year would you like to see the college holidays?",
             "options": [
               {
-                "label": "2019-2020",
-                "value": {
-                  "input": {
-                    "text": "2019-2020"
-                  }
-                }
-              },
-              {
                 "label": "2020-2021",
                 "value": {
                   "input": {
@@ -38493,7 +39333,7 @@
           {
             "values": [
               {
-                "text": "<b>Transferring to San Jac</b><br/><br/>\nThank you for your interest in transferring to San Jacinto College. We’re happy to have you join us! Students who are transferring from another college or university with the intent to pursue classes are welcome to apply, regardless of whether or not they will be returning to their previous institution.<br/><br/>\nTransfer students will follow the same steps listed on our <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/steps-enroll\"> Steps to Enroll </a> page.<br/><br/>"
+                "text": "<b>Transferring to San Jac</b><br/><br/>\nThank you for your interest in transferring to San Jacinto College. We’re happy to have you join us! Students who are transferring from another college or university with the intent to pursue classes are welcome to apply, regardless of whether or not they will be returning to their previous institution.<br/><br/>\nTransfer students will follow these steps on our <a target=\"_blank\" href=\"https://www.sanjac.edu/transferring-to-san-jac\"> Transferring to San Jac </a> page.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -39587,13 +40427,69 @@
       "dialog_node": "node_5_1595600871772"
     },
     {
+      "type": "standard",
+      "title": "IPP Spring 2021 - Plan 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No problem.  Just to confirm, it looks like you want to enroll into a payment plan sometime between January 2nd, 2021 and February 5th, 2021.  In order to complete your registration, you must pay 25% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 02/22/2021 (20%)<br/>\n•\tMonday, 03/22/2021 (20%)<br/>\n•\tMonday, 04/26/2021 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to learn how to pay for classes?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1604500943699",
+      "conditions": "@IPP:Plan2",
+      "dialog_node": "node_5_1604501390320",
+      "previous_sibling": "node_1_1604501206877"
+    },
+    {
+      "type": "standard",
+      "title": "Cancel",
+      "parent": "node_7_1610047477526",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_13_1539627790374"
+      },
+      "conditions": "#Cancel",
+      "dialog_node": "node_5_1610048818605",
+      "previous_sibling": "node_4_1610048577366"
+    },
+    {
       "type": "folder",
       "title": "Registration",
       "metadata": {},
       "conditions": "#Registration",
       "digress_in": "does_not_return",
       "dialog_node": "node_52_1537907757994",
-      "previous_sibling": "node_3_1571165167018"
+      "previous_sibling": "node_7_1610047477526"
     },
     {
       "type": "response_condition",
@@ -42681,7 +43577,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College will be closed for Independence Day, from Friday, July 3rd through Sunday, July 5th.  <br/><br/>\nCollege classes and services will return to normal operations on Monday, July 6th.<br/><br/>"
+                "text": "San Jacinto College will be closed for Independence Day, from Saturday, July 3rd through Monday, July 5th.  <br/><br/>\nCollege classes and services will return to normal operations on Monday, July 6th.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -42695,7 +43591,7 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "@sys-date:2020-07-03 || @sys-date:2020-07-04 || @sys-date:2020-07-05 ||        @Holiday:(Independence Day) || @sys-date:2021-07-03 || @sys-date:2021-07-04 || @sys-date:2021-07-05",
+      "conditions": "          @Holiday:(Independence Day) || @sys-date:2021-07-03 || @sys-date:2021-07-04 || @sys-date:2021-07-05",
       "dialog_node": "node_6_1583269237240",
       "previous_sibling": "node_1_1583269169036"
     },
@@ -42873,7 +43769,7 @@
           {
             "values": [
               {
-                "text": "For the most current information from San Jacinto College regarding the Federal CARES Act Emergency Aid Grants, please click on the link below:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/cares-act\">www.sanjac.edu/cares-act</a><br/><br/>"
+                "text": "I can help you with that information. Federal CARES Act Emergency Aid Grant applications are no longer being accepted as of September 2020. For the most current information from San Jacinto College regarding the Federal CARES Act Emergency Aid Grants, please click on the link below:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/cares-act\">www.sanjac.edu/cares-act</a><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -42944,6 +43840,32 @@
       "conditions": "#Bookstore_Info",
       "dialog_node": "node_6_1595601981521",
       "previous_sibling": "node_4_1595599887719"
+    },
+    {
+      "type": "standard",
+      "title": "IPP Due Dates - Spring 2020",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To determine which payment plan is available for your class(es) for the <b>Spring 2021</b> semester, please follow these simple steps:<br/><br/>\nStep 1:  Review the <a target=\"_blank\" href=\"https://www.sanjac.edu/sites/default/files/inline-files/Academic-Calendar-2020-2021-3-2-20.pdf\"> Academic Calendar</a> and make note of the date when your class(es) start.  Payment plans are only available for those classes that have not started yet.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1538138053906",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604500943699"
+      },
+      "conditions": "@Term:202120",
+      "dialog_node": "node_6_1604500791469",
+      "previous_sibling": "node_2_1586966829521"
     },
     {
       "type": "standard",
@@ -46384,7 +47306,7 @@
           {
             "values": [
               {
-                "text": "For the latest information from San Jacinto College on Coronavirus 2019 (COVID-19), please click the following link: <br/> <a target = \"_ blank\" href = \"https: //www.sanjac.edu /coronavirus \"> www.sanjac.edu/coronavirus </a> <br/> <br/> For a list of frequently asked questions related to Coronavirus, please click on: <br/> <a target = \"_blank\" href = \"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/faqs-san-jac-covid-19\"> Coronavirus FAQ's </a> <br/> <br/> For a list of frequently asked questions about the CARES Federal Act Emergency Aid Grants, please click: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/cares-act \"> Federal CARES Act Emergency Aid Grants FAQ's </a> <br/> <br/>  For a list of frequently asked questions about student college operations, please click: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/node/4485956 \"> Student FAQs about College operations </a> <br/> <br/> If you need access to technology or need technical assistance, click: <br/> <a target=\"_blank\" href=\"https://www.sanjacits.org/\"> Technical support </a> <br/> <br/> You can also email your questions to Covid-19 \\ @ sjcd.edu. <br/> <br/>"
+                "text": "For the latest information from San Jacinto College on Coronavirus 2019 (COVID-19), please click the following link: <br/> <a target = \"_ blank\" href = \"https: //www.sanjac.edu /coronavirus \"> www.sanjac.edu/coronavirus </a> <br/> <br/> For a list of frequently asked questions related to Coronavirus, please click on: <br/> <a target = \"_blank\" href = \"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/faqs-san-jac-covid-19\"> Coronavirus FAQ's </a> <br/> <br/>For a list of frequently asked questions about student college operations, please click: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/node/4485956 \"> Student FAQs about College operations </a> <br/> <br/> If you need access to technology or need technical assistance, click: <br/> <a target=\"_blank\" href=\"https://www.sanjacits.org/\"> Technical support </a> <br/> <br/> You can also email your questions to Covid-19 \\ @ sjcd.edu. <br/> <br/>"
               }
             ],
             "response_type": "text",
@@ -46457,7 +47379,7 @@
       "parent": "node_8_1595595065199",
       "conditions": "#Cancel",
       "dialog_node": "node_7_1595595280423",
-      "previous_sibling": "node_1_1595595239268"
+      "previous_sibling": "node_10_1609866787228"
     },
     {
       "type": "standard",
@@ -46494,6 +47416,37 @@
       "conditions": "#Bookstore_Info",
       "dialog_node": "node_7_1595602196098",
       "previous_sibling": "node_4_1595599986685"
+    },
+    {
+      "type": "standard",
+      "title": "Yes - Route to #Paying for Classes",
+      "parent": "node_5_1604501390320",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1538058754191"
+      },
+      "conditions": "@YesNo:Yes",
+      "dialog_node": "node_7_1604501631064"
+    },
+    {
+      "type": "standard",
+      "title": "Yes - Route to #Paying for Classes",
+      "parent": "node_1_1604501436613",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1538058754191"
+      },
+      "conditions": "@YesNo:Yes",
+      "dialog_node": "node_7_1604501636241"
+    },
+    {
+      "type": "folder",
+      "title": "International Students",
+      "conditions": "#International_Students",
+      "dialog_node": "node_7_1610047477526",
+      "previous_sibling": "node_3_1571165167018"
     },
     {
       "type": "response_condition",
@@ -48695,7 +49648,7 @@
           {
             "values": [
               {
-                "text": "<b>If Transferring from San Jac</b><br/><br/>\nNo matter what path you’re taking for college, San Jacinto College is here to help you achieve your dreams. When you move on to another college or university you’ll need follow these steps:<br/><br/>\n• Step 1- Reach out to your transfer college for a list of admissions steps and requirements. You may also visit with a San Jacinto College Educational Planner or the <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/register/university-center\"> University Center </a><br/><br/>\n• Step 2- Request your transcript be sent from San Jacinto College to your transfer college.<br/><br/>"
+                "text": "<b>If Transferring from San Jac</b><br/><br/>\nNo matter what path you’re taking for college, San Jacinto College is here to help you achieve your dreams. When you move on to another college or university you’ll need follow these steps:<br/><br/>\nStudents transferring from San Jac will follow these steps on our <a target=\"_blank\" href=\"https://www.sanjac.edu/transferring-from-san-jac\"> Transferring from San Jac </a> page.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -49551,7 +50504,7 @@
           {
             "values": [
               {
-                "text": "The specific dates of the holidays and campus closures are posted in official college publications.  More information on holiday closures can be found on the <a target=\"_blank\" href=\"https://www.sanjac.edu/sites/default/files/inline-files/Academic-Calendar-2020-2021-3-2-20.pdf\">2020-2021 SJC Academic Calendar</a>.<br/><br/> \nApproved holidays for 2020-2021 include the following:<br/>\n• Labor Day - Monday, September 7, 2020<br/>\n• Thanksgiving - Wednesday, November 25, 2020 - Sunday, November 29, 2020<br/>\n• Winter Break - Wednesday, December 23, 2020 - Friday, January 1, 2021 (Administrative Offices Closed)<br/>\n     * Winter Mini Holiday - Friday, December 25, 2020<br/>\n• Martin Luther King, Jr., Day - Monday, January 18, 2021<br/>\n• Spring Break - Monday, March 15 - Sunday, March 21, 2021<br/>\n• Easter - Friday, April 2 - Sunday, April 4, 2021 <br/>\n• Memorial Day - Monday, May 31, 2021<br/>\n• Independence Day - Saturday, July 3 - Monday, July 5, 2021<br/><br/>"
+                "text": "The specific dates of the holidays and campus closures are posted in official college publications.  More information on holiday closures can be found on the <a target=\"_blank\" href=\"https://www.sanjac.edu/sites/default/files/inline-files/Academic-Calendar-2020-2021-3-2-20.pdf\">2020-2021 SJC Academic Calendar</a>.<br/><br/> \nApproved holidays for 2020-2021 include the following:<br/>\n• Labor Day - Monday, September 7, 2020<br/>\n• Thanksgiving - Wednesday, November 25, 2020 - Sunday, November 29, 2020<br/>\n• Winter Break - Monday, December 21, 2020 - Friday, January 1, 2021 (Administrative Offices Closed)<br/>\n     * Winter Mini Holiday - Friday, December 25, 2020<br/>\n• Martin Luther King, Jr., Day - Monday, January 18, 2021<br/>\n• Spring Break - Monday, March 15 - Sunday, March 21, 2021<br/>\n• Easter - Friday, April 2 - Sunday, April 4, 2021 <br/>\n• Memorial Day - Monday, May 31, 2021<br/>\n• Independence Day - Saturday, July 3 - Monday, July 5, 2021<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -49706,6 +50659,31 @@
       "conditions": "#Class_Formats",
       "dialog_node": "node_8_1595595826420",
       "previous_sibling": "node_5_1566572397877"
+    },
+    {
+      "type": "standard",
+      "title": "No - Route to IPP Spring 2021 Menu Options",
+      "parent": "node_1_1604501206877",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604500943699"
+      },
+      "conditions": "@YesNo:No",
+      "dialog_node": "node_8_1604501627464",
+      "previous_sibling": "node_3_1604501625156"
+    },
+    {
+      "type": "standard",
+      "title": "Yes - Route to #Paying for Classes",
+      "parent": "node_9_1604501476457",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1538058754191"
+      },
+      "conditions": "@YesNo:Yes",
+      "dialog_node": "node_8_1604501641894"
     },
     {
       "type": "standard",
@@ -51914,7 +52892,7 @@
       },
       "conditions": "$Student_Type:Veteran && @YesNo:Yes",
       "dialog_node": "node_9_1580744782242",
-      "previous_sibling": "node_7_1570717374211"
+      "previous_sibling": "node_10_1605716953340"
     },
     {
       "type": "folder",
@@ -52462,6 +53440,62 @@
       "conditions": "@Term:202120",
       "dialog_node": "node_9_1604497411977",
       "previous_sibling": "node_10_1555513475261"
+    },
+    {
+      "type": "standard",
+      "title": "IPP Spring 2021 - Plan 4",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We’ve got you covered.  It looks like you want to enroll into a payment plan sometime between March 6th, 2020 and April 16th, 2020.  In order to complete your registration, you must pay 50% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payment will be due on:<br/>\n•\tMonday, 04/26/2020 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like to learn how to pay for classes?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1604500943699",
+      "conditions": "@IPP:Plan4",
+      "dialog_node": "node_9_1604501476457",
+      "previous_sibling": "node_1_1604501436613"
+    },
+    {
+      "type": "standard",
+      "title": "No - Route to IPP Spring 2021 Menu Options",
+      "parent": "node_1_1604501436613",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1604500943699"
+      },
+      "conditions": "@YesNo:No",
+      "dialog_node": "node_9_1604501638556",
+      "previous_sibling": "node_7_1604501636241"
     },
     {
       "type": "standard",
@@ -55086,6 +56120,9 @@
       "text": "renee"
     },
     {
+      "text": "Required Documents"
+    },
+    {
       "text": "Requirments"
     },
     {
@@ -55206,7 +56243,7 @@
     "spelling_auto_correct": true
   },
   "learning_opt_out": false,
-  "name": "Ask Jac!  General Skill 7.7",
+  "name": "Ask Jac!  General Skill 7.8",
   "language": "en",
-  "description": "Copy of 7.6 sent to TEST on 09/03/2020 10AM"
+  "description": "Copy of 7.7 sent to TEST on 11/04/2020 8AM"
 }
