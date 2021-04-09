@@ -274,6 +274,9 @@
           "text": "How do i apply for a scholarship?"
         },
         {
+          "text": "How do I apply for Early College High School"
+        },
+        {
           "text": "How do I apply for FAFSA?"
         },
         {
@@ -296,6 +299,9 @@
         },
         {
           "text": "How do i sign up?"
+        },
+        {
+          "text": "How do i sign up for Early College High School"
         },
         {
           "text": "How do I start class with y'all"
@@ -1760,9 +1766,6 @@
           "text": "class formats"
         },
         {
-          "text": "distance learning"
-        },
-        {
           "text": "Does San Jac offer any online classes?"
         },
         {
@@ -2233,19 +2236,19 @@
           "text": "2019 Novel Coronavirus"
         },
         {
-          "text": "Coronavirus"
+          "text": "corona virus"
         },
         {
-          "text": "corona virus"
+          "text": "Coronavirus"
         },
         {
           "text": "Coronovirus"
         },
         {
-          "text": "covid19"
+          "text": "covid-19"
         },
         {
-          "text": "covid-19"
+          "text": "covid19"
         },
         {
           "text": "what covid level are we currently in? Level 3?"
@@ -2341,10 +2344,10 @@
           "text": "ESOL and ESL Courses"
         },
         {
-          "text": "ESOL program"
+          "text": "ESOL  program"
         },
         {
-          "text": "ESOL  program"
+          "text": "ESOL program"
         },
         {
           "text": "how can I enter and practice the language of English"
@@ -2534,7 +2537,11 @@
     },
     {
       "intent": "Distance_Learning",
-      "examples": [],
+      "examples": [
+        {
+          "text": "distance learning"
+        }
+      ],
       "description": ""
     },
     {
@@ -2580,34 +2587,13 @@
       "intent": "Dual_Credit_Info",
       "examples": [
         {
-          "text": "Attend San Jac while in high school"
-        },
-        {
-          "text": "Can I take classes at san jac while in high school?"
-        },
-        {
           "text": "Dual Credit Eligibility"
         },
         {
           "text": "dual credit information"
         },
         {
-          "text": "Dual enrollment while in high school"
-        },
-        {
-          "text": "early college high school"
-        },
-        {
-          "text": "ECHS"
-        },
-        {
           "text": "how do I apply for dual credit courses"
-        },
-        {
-          "text": "I am a high school student and I want to take courses"
-        },
-        {
-          "text": "I want to take college and high school classes at the same time"
         },
         {
           "text": "Steps To Apply For Dual Credit"
@@ -2620,6 +2606,36 @@
         }
       ],
       "description": "Info on Dual Credit"
+    },
+    {
+      "intent": "ECHS_Info",
+      "examples": [
+        {
+          "text": "Does San Jac offer ECHS?"
+        },
+        {
+          "text": "Do you have an ECHS program at San Jac?"
+        },
+        {
+          "text": "Early College High School"
+        },
+        {
+          "text": "Early College High School Info"
+        },
+        {
+          "text": "How do I get into the Early College High School?"
+        },
+        {
+          "text": "I need info on the Early College High School program"
+        },
+        {
+          "text": "My son wants to participate in the Early College High School"
+        },
+        {
+          "text": "What is Early College High School?"
+        }
+      ],
+      "description": ""
     },
     {
       "intent": "Email_Access",
@@ -3818,10 +3834,10 @@
           "text": "Going now"
         },
         {
-          "text": "Goodbye"
+          "text": "Good. bye."
         },
         {
-          "text": "Good. bye."
+          "text": "Goodbye"
         },
         {
           "text": "Goodbyee"
@@ -5904,10 +5920,10 @@
           "text": "Forgot my username or password"
         },
         {
-          "text": "How do I change my password?"
+          "text": "How do I change my password."
         },
         {
-          "text": "How do I change my password."
+          "text": "How do I change my password?"
         },
         {
           "text": "How do i rest my password."
@@ -8411,8 +8427,8 @@
           "type": "synonyms",
           "value": "Restrooms",
           "synonyms": [
-            "bathroom",
             "Bath Room",
+            "bathroom",
             "Boys Room",
             "Commode",
             "dookey",
@@ -8727,8 +8743,8 @@
           "synonyms": [
             "Barnes & Noble",
             "B & N",
-            "Bookstore",
-            "Book store"
+            "Book store",
+            "Bookstore"
           ]
         },
         {
@@ -8800,6 +8816,11 @@
         {
           "type": "synonyms",
           "value": "Dual Credit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ECHS",
           "synonyms": []
         },
         {
@@ -9646,11 +9667,11 @@
           "type": "synonyms",
           "value": "OneDrive",
           "synonyms": [
-            "Microsoft OneDrive",
             "Microsoft One Drive",
+            "Microsoft OneDrive",
             "MS OneDrive",
-            "OneDrive",
-            "One Drive"
+            "One Drive",
+            "OneDrive"
           ]
         },
         {
@@ -10797,6 +10818,13 @@
         },
         {
           "type": "synonyms",
+          "value": "ECHS",
+          "synonyms": [
+            "Early College High School"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "FTIC",
           "synonyms": [
             "First Time",
@@ -10851,6 +10879,11 @@
             "Veteran",
             "Veterans"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Visiting",
+          "synonyms": []
         }
       ]
     },
@@ -11063,6 +11096,13 @@
         },
         {
           "type": "synonyms",
+          "value": "Assistance",
+          "synonyms": [
+            "Help"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "Benefits",
           "synonyms": []
         },
@@ -11121,6 +11161,11 @@
         {
           "type": "synonyms",
           "value": "Eligibility",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Enrollment",
           "synonyms": []
         },
         {
@@ -11270,7 +11315,6 @@
           "type": "synonyms",
           "value": "Registration",
           "synonyms": [
-            "Enroll",
             "Register",
             "Registering",
             "Sign up for"
@@ -12320,10 +12364,10 @@
       "output": {
         "generic": [
           {
-            "title": "In order to better serve you, what student type best describes you?",
+            "title": "We'd love to see you as a San Jac student! In order to better serve you, what student type best describes you?",
             "options": [
               {
-                "label": "I am enrolling into college for the first time",
+                "label": "I am a First Time San Jacinto College Student ",
                 "value": {
                   "input": {
                     "text": "FTIC"
@@ -12331,31 +12375,15 @@
                 }
               },
               {
-                "label": "I am a returning San Jac student",
+                "label": "I am a Transfer, Returning, or Visiting San Jacinto College Student",
                 "value": {
                   "input": {
-                    "text": "Returning Student"
+                    "text": "Returning Student, Transfer"
                   }
                 }
               },
               {
-                "label": "I am attending or transferring from another college ",
-                "value": {
-                  "input": {
-                    "text": "Transfer Student"
-                  }
-                }
-              },
-              {
-                "label": "I am an international student",
-                "value": {
-                  "input": {
-                    "text": "International Student"
-                  }
-                }
-              },
-              {
-                "label": "I am a military affiliated student or family member",
+                "label": "I am a Veteran / Military Affiliated Student ",
                 "value": {
                   "input": {
                     "text": "Veteran"
@@ -12363,10 +12391,42 @@
                 }
               },
               {
-                "label": "I am a high school student interested in dual credit",
+                "label": "I am an International Student",
+                "value": {
+                  "input": {
+                    "text": "International Student"
+                  }
+                }
+              },
+              {
+                "label": "I am a Dual Credit / Early College High School Student ",
                 "value": {
                   "input": {
                     "text": "Dual Credit"
+                  }
+                }
+              },
+              {
+                "label": "I am a Continuing Education / Non-College Credit Student  ",
+                "value": {
+                  "input": {
+                    "text": "Continuing Education"
+                  }
+                }
+              },
+              {
+                "label": "I am Looking for Other Student Type Options ",
+                "value": {
+                  "input": {
+                    "text": "Other"
+                  }
+                }
+              },
+              {
+                "label": "Cancel/Start Over",
+                "value": {
+                  "input": {
+                    "text": "Cancel"
                   }
                 }
               }
@@ -14545,7 +14605,7 @@
       "type": "folder",
       "title": "Dual Credit",
       "dialog_node": "node_10_1569249014289",
-      "previous_sibling": "node_1_1571403326663"
+      "previous_sibling": "node_1_1617726143080"
     },
     {
       "type": "standard",
@@ -14555,7 +14615,7 @@
           {
             "values": [
               {
-                "text": "Dual Credit is a form of concurrent enrollment allowing a student to take certain courses at San Jacinto College that earn both college and high school credit.  Typically, students take two courses each semester while in high school.  By doing this, students can graduate from high school with 24+ hours of college credit!  You can earn even more by taking summer courses.<br/><br/>"
+                "text": "Dual credit courses allow students to earn college credits while in high school. Once a student earns a passing grade in the class, the student will earn the college credit. Students will experience a smoother transition between high school and college. Students will have first-hand exposure to college-level work while still in high school. Students have an opportunity to begin their freshman year of college with college credits while they also earn credits toward high school graduation.<br/><br/>\nTypically, students take two courses each semester while in high school.  By doing this, students can graduate from high school with 24+ hours of college credit!  You can earn even more by taking summer courses.<br/><br/>\nInformation on dual credit programs is available on each of the San Jacinto College campuses in the Dual Credit offices. For more information, students may refer to the <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/dual-credit-early-admission/dual-credit\">San Jac Dual Credit Website</a><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -14597,7 +14657,7 @@
           {
             "values": [
               {
-                "text": "After receiving approval from your high school, you will need to follow the steps below to apply and register for dual credit classes:<br/>\n1. Apply online and get an SJC Student ID (G-Number).<br/>\n2. Meet the Texas Success Initiative Assessment (TSIA) requirements.<br/>\n3. Submit proof of or exemption from Bacterial Meningitis vaccination.<br/>\n4. Register for classes.<br/>\n5. Pay for Classes.<br/><br/>"
+                "text": "1. Apply online and get an SJC ID (G#):\n• Apply at www.applytexas.org. Your application will be processed within 72 hours. After that, you’ll be emailed your SJC Student ID.<br/><br/>\n2. Meet the Texas Success Initiative Assessment (TSIA) requirements: \n• All students must take the TSIA or prove an exemption or waiver in the areas of reading, writing, and math. See reverse for additional details.<br/><br/>\n3. Submit proof of or exemption from Bacterial Meningitis vaccination:\n• Shot records or exemption forms should be emailed to Meningitis.Docs@sjcd.edu or faxed to 281-669-4720. Further details about Bacterial Meningitis can be found at\nwww.sanjac.edu/meningitis.<br/><br/>\n4. Register for Classes:\n• Web registration is NOT available for dual credit students. To register, complete a Dual Credit/Early Admission Enrollment Permission Form with your high school counselor. Turn the completed, signed, form in to the Dual Credit Office or your high school counselor.<br/><br/>\n5. Pay Tuition:\n• To remain in your classes, you must pay your portion of tuition and fees by the college’s posted deadline. You can pay online through your Secure Online System (S.O.S.) account or in-person at the college’s Business Office. Installment plans are available. Some schools cover these costs for students. Check with your counselor.<br/><br/>\n6. Prepare for Classes:\n• Get your SJC ID card from the Admissions Office.\n• Get your SJC Parking Permit from the Business Office.\n• Purchase textbooks from the SJC Bookstore or your preferred retailer.\n• Set up your SJC Student S.O.S, e-Mail, and Blackboard accounts.00"
               }
             ],
             "response_type": "text",
@@ -14638,7 +14698,7 @@
       "output": {
         "text": {
           "values": [
-            "1. Apply online and get an SJC Student ID (G-Number). <br/>\no Apply at <a target=\"_blank\" href=\"http://www.applytexas.org/\">www.applytexas.org</a>.  Be sure to complete the profile and the application!<br/>\no Your application will be processed within 72 hours.  After that, you'll be emailed your SJC Student ID (example: G00xxxxxx).<br/><br/>"
+            "1. Apply online and get an SJC Student ID (G-Number). <br/>Apply at <a target=\"_blank\" href=\"http://www.applytexas.org/\">www.applytexas.org</a>.  Be sure to complete the profile and the application!<br/><br/>\nYour application will be processed within 72 hours.  After that, you'll be emailed your SJC Student ID (example: G00xxxxxx).<br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -15583,6 +15643,7 @@
         "dialog_node": "node_62_1535567995035"
       },
       "conditions": "@sys-date:2021-03-15 || @sys-date:2021-03-16 || @sys-date:2021-03-17 || @sys-date:2021-03-18 || @sys-date:2021-03-19 || @sys-date:2021-03-20 || @sys-date:2021-03-21 ||        @Holiday:(Spring Break)",
+      "user_label": "Will the college  be open during Spring Break?",
       "dialog_node": "node_10_1583263069721",
       "previous_sibling": "node_5_1583269574226"
     },
@@ -15594,7 +15655,7 @@
           {
             "values": [
               {
-                "text": "All classes and offices at San Jacinto College will be closed on Monday, September 7th, in observance of the Labor Day holiday.<br/><br/>\nNo classes will be held and student services will be unavailable.<br/><br/>\nThe college will resume regular classes and operations on Tuesday, September 3rd.<br/><br/>"
+                "text": "All classes and offices at San Jacinto College will be closed on Monday, September 6th, in observance of the Labor Day holiday.<br/><br/>\nNo classes will be held and student services will be unavailable.<br/><br/>\nThe college will resume regular classes and operations on Tuesday, September 7th.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -15608,7 +15669,8 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "  @Holiday:(Labor Day) || @sys-date:2020-09-07",
+      "conditions": "@Holiday:(Labor Day) || @sys-date:2021-09-06",
+      "user_label": "Is the college open on Labor Day?",
       "dialog_node": "node_10_1583270225119",
       "previous_sibling": "node_6_1583265666759"
     },
@@ -15646,26 +15708,13 @@
     },
     {
       "type": "standard",
-      "title": "No - Route to IPP Summer 2020 Menu Options",
-      "parent": "node_3_1586965344664",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_8_1586965056120"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_10_1586966011399",
-      "previous_sibling": "node_7_1586966009746"
-    },
-    {
-      "type": "standard",
-      "title": "IPP Fall 2020 - Plan 1",
+      "title": "IPP Summer 2021 - Plan 1",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "Sure thing.  I see you are interested in enrolling into a payment plan between the dates of June 15th, 2020 – July 24th, 2020.   In order to complete your registration, you must pay 20% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 08/24/2020 (20%)<br/>\n•\tMonday, 09/21/2020 (20%)<br/>\n•\tMonday, 10/19/2020 (20%)<br/>\n•\tMonday, 11/23/2020 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
+                "text": "Sure thing.  I see you are interested in enrolling into a payment plan between the dates of April 5th, 2021 – May 7th, 2021. In order to complete your registration, you must pay 20% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 06/07/2021 (20%)<br/>\n•\tMonday, 06/21/2021 (20%)<br/>\n•\tMonday, 07/12/2021 (20%)<br/>\n•\tMonday, 07/26/2021 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -15861,7 +15910,7 @@
     },
     {
       "type": "standard",
-      "title": "Payment Deadline - Spring 2020",
+      "title": "Payment Deadline - Spring 2021",
       "output": {
         "generic": [
           {
@@ -15942,10 +15991,10 @@
         ]
       },
       "parent": "node_33_1539871319864",
-      "conditions": "",
+      "conditions": "$Student_Type:International && @YesNo:Yes",
       "user_label": "I need to apply for international admissions",
       "dialog_node": "node_10_1605716953340",
-      "previous_sibling": "node_7_1570717374211",
+      "previous_sibling": "node_9_1580744782242",
       "disambiguation_opt_out": true
     },
     {
@@ -16055,6 +16104,139 @@
       "conditions": "@Int_Topic:I-94",
       "dialog_node": "node_10_1610048252440",
       "previous_sibling": "node_3_1610048183990"
+    },
+    {
+      "type": "standard",
+      "title": "First Time SJC Student - Enrollment Information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Enrollment Information</b><br/><br/>\nGreat! Once you have been admitted, you will need to see an admissions advisor for course selection and registration.  <br/><br/>\nClick the following link for a quick checklist on the enrollment process: <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/first-time-student-admission\\#enrollment\"> Enrollment Steps </a><br/><br/>\nOnce you know which classes you need, you can create your schedule using the <a target=\"_blank\" href=\"http://sjc.prod.acquia-sites.com/coursefinder?term_type_select=credit&semester_term=30476&field_class_semester_code_tax_tid_1=27156&term=All&campus=All&terms=&field_class_start_time_value=All&field_class_end_time_value=All&crn=&subj=&crse=&section=&instructor=&sort_by=title&sort_order=ASC&items_per_page=100\"> Course Finder</a> tool located on our website.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like additional information on how to enroll to San Jac?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1617724307886",
+      "conditions": "$Student_Type:FTIC && @Topic:Enrollment",
+      "dialog_node": "node_10_1617717553563",
+      "previous_sibling": "node_6_1617716570593"
+    },
+    {
+      "type": "standard",
+      "title": "Return to Admissions Main",
+      "parent": "node_10_1617717553563",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1539871319864"
+      },
+      "conditions": "@YesNo:No",
+      "dialog_node": "node_10_1617717797890",
+      "previous_sibling": "node_6_1617717795128"
+    },
+    {
+      "type": "standard",
+      "title": "Route to Applications for Admissions",
+      "parent": "node_9_1617719090529",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1539871319864"
+      },
+      "conditions": "@YesNo:No",
+      "dialog_node": "node_10_1617723972806",
+      "previous_sibling": "node_1_1617723970860"
+    },
+    {
+      "type": "standard",
+      "title": "ECHS Options",
+      "output": {
+        "generic": [
+          {
+            "title": "Please select the Early College High School topic you would like more information about.",
+            "options": [
+              {
+                "label": "What is Early College High School?",
+                "value": {
+                  "input": {
+                    "text": "definition"
+                  }
+                }
+              },
+              {
+                "label": "Early College High School Eligibility",
+                "value": {
+                  "input": {
+                    "text": "eligibility"
+                  }
+                }
+              },
+              {
+                "label": "Steps to Apply & Register for Early College High School",
+                "value": {
+                  "input": {
+                    "text": "steps"
+                  }
+                }
+              },
+              {
+                "label": "Who we serve",
+                "value": {
+                  "input": {
+                    "text": "other"
+                  }
+                }
+              },
+              {
+                "label": "Early College High School Contact Info",
+                "value": {
+                  "input": {
+                    "text": "$Departments:ECHS"
+                  }
+                }
+              },
+              {
+                "label": "Start Over/Cancel",
+                "value": {
+                  "input": {
+                    "text": "cancel"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1617726161101",
+      "dialog_node": "node_10_1617727562863"
     },
     {
       "type": "folder",
@@ -16792,25 +16974,6 @@
       },
       "conditions": "@YesNo:No",
       "dialog_node": "node_1_1539953027243"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_33_1539871319864",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_62_1535567995035"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_1_1539956393200",
-      "previous_sibling": "node_9_1580744782242"
     },
     {
       "type": "response_condition",
@@ -18884,50 +19047,9 @@
         "dialog_node": "node_62_1535567995035"
       },
       "conditions": "@sys-date:2021-05-31 ||    @Holiday:(Memorial Day) || @sys-date:2020-05-25",
+      "user_label": "Is the college open on Memorial Day?",
       "dialog_node": "node_1_1583269169036",
       "previous_sibling": "node_5_1583264276783"
-    },
-    {
-      "type": "standard",
-      "title": "IPP Summer 2020 - Plan 1",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Sure thing.  I see you are interested in enrolling into a payment plan between the dates of April 28th, 2020 – May 15th, 2020.   In order to complete your registration, you must pay 20% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 06/01/2020 (20%)<br/>\n•\tMonday, 06/15/2020 (20%)<br/>\n•\tMonday, 07/06/2020 (20%)<br/>\n•\tMonday, 07/20/2020 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "Would you like to learn how to pay for classes?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_8_1586965056120",
-      "conditions": "@IPP:Plan1",
-      "dialog_node": "node_1_1586965338419"
     },
     {
       "type": "standard",
@@ -19171,7 +19293,7 @@
           {
             "values": [
               {
-                "text": "A few items you'll need to have:  <br/>Passport<br/>F-1 Student Visa<br/>I-94 Card<br/>Form I-20"
+                "text": "A few items you'll need to have:  <br/>Passport<br/>F-1 Student Visa<br/>I-94 Card<br/>Form I-20<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -19191,83 +19313,61 @@
     },
     {
       "type": "standard",
-      "title": "International Students Menu Option",
+      "title": "International Students Welcome",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "We are excited that you are interested in attending San Jacinto College. We welcome all with open arms. This includes you! There are different types of international admission and each type may come with its own steps for admissions. <br/><br/>"
+                "text": "<b>International Students Menu Options</b><br/><br/>We are excited that you are interested in attending San Jacinto College. We welcome all with open arms. This includes you! There are different types of international admission and each type may come with its own steps for admissions. <br/><br/>"
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "title": "Please choose from the following for more information:",
-            "options": [
-              {
-                "label": "International Admissions Steps",
-                "value": {
-                  "input": {
-                    "text": "International Admissions Steps"
-                  }
-                }
-              },
-              {
-                "label": "International Admissions Required Documents",
-                "value": {
-                  "input": {
-                    "text": "International Student Required Documents"
-                  }
-                }
-              },
-              {
-                "label": "International Student Tuition & Fees",
-                "value": {
-                  "input": {
-                    "text": "Cost"
-                  }
-                }
-              },
-              {
-                "label": "Learn English",
-                "value": {
-                  "input": {
-                    "text": "Learn English"
-                  }
-                }
-              },
-              {
-                "label": "Contact International Student Services",
-                "value": {
-                  "input": {
-                    "text": "Contact Info"
-                  }
-                }
-              },
-              {
-                "label": "Start Over/Cancel",
-                "value": {
-                  "input": {
-                    "text": "Cancel"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
           }
         ]
       },
       "parent": "node_7_1610047477526",
       "next_step": {
         "behavior": "jump_to",
-        "selector": "user_input",
-        "dialog_node": "node_2_1610047584940"
+        "selector": "body",
+        "dialog_node": "node_9_1617741779694"
       },
       "conditions": "#International_Students",
       "dialog_node": "node_1_1610048860981",
       "previous_sibling": "node_5_1610048818605"
+    },
+    {
+      "type": "standard",
+      "title": "Transfer, Returning, Visiting SJC Student - Enrollment Info 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For additional information on steps to applying to San Jacinto College please click the link: <a target=\"_blank\" href=\"https://www.sanjac.edu/steps-enroll-original\">Steps To Enroll </a><br/><br/>\nYou can access detailed registration steps at <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/register/registration\"> Registering for Classes</a>.<br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1617719090529",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1539871319864"
+      },
+      "conditions": "@YesNo:Yes",
+      "dialog_node": "node_1_1617723970860"
+    },
+    {
+      "type": "folder",
+      "title": "Early College High School",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1617726143080",
+      "previous_sibling": "node_1_1571403326663"
     },
     {
       "type": "standard",
@@ -19871,42 +19971,16 @@
           {
             "source": "https://i.ytimg.com/vi/_JlBeWJ5_kI/maxresdefault.jpg",
             "response_type": "image"
-          },
-          {
-            "values": [
-              {
-                "text": "We are excited that you are interested in attending San Jacinto College. We welcome all with open arms. This includes you! There are different types of international admission and each type may come with its own steps for admissions. "
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "Would you like additional information about the international admissions process?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "@YesNo:Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "@YesNo:No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
           }
         ]
       },
       "parent": "node_33_1539871319864",
       "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1610048860981"
+      },
       "conditions": "$Student_Type:International",
       "dialog_node": "node_13_1540579887654",
       "previous_sibling": "node_5_1540578172782"
@@ -22133,7 +22207,7 @@
             "title": "Please select which category you would like the date information:",
             "options": [
               {
-                "label": "IPP Due Dates",
+                "label": "Installment Payment Plan Due Dates",
                 "value": {
                   "input": {
                     "text": "@Topic:(Payment Plan)"
@@ -23198,7 +23272,7 @@
           {
             "values": [
               {
-                "text": "In order to be eligible for Financial Aid, you must meet the following standards set by the Department of Education:<br/>\n• Maintain at least a 2.0 GPA on your San Jac classes<br/>\n• Pass at least 75% of all classes attempted (including those classes that were transferred)<br/>\n• Earn your degree or certificate within 90 attempted hours<br/><br/>"
+                "text": "In general, to be eligible for financial aid, students must:<br/>\n• Maintain at least a 2.0 GPA on your San Jac classes<br/>\n• Pass at least 75% of all classes attempted (including those classes that were transferred)<br/>\n• Earn your degree or certificate within 90 attempted hours<br/><br/>\nFor more information on San Jac financial aid satisfactory progress (SAP) requirements, please click<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/paying-college/financial-aid/appeals\"> here</a>."
               }
             ],
             "response_type": "text",
@@ -23581,7 +23655,7 @@
           {
             "values": [
               {
-                "text": "You can log into SOS at any time to review your SAP.<br/><br/>\n\nFor more information about Financial Aid Satisfacory Academic Progress, visit <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/paying-college/financial-aid/appeals\"> www.sanjac.edu/apply-register/paying-college/financial-aid/appeals</a>"
+                "text": "You can log into SOS at any time to review your SAP.<br/><br/>\n\nFor more information about Financial Aid Satisfactory Academic Progress, visit <a target=\"_blank\" href=\"https://publications.sanjac.edu/general-information/paying-college/financial-aid/academic-requirements/\"> www.sanjac.edu/apply-register/paying-college/financial-aid/appeals</a>"
               }
             ],
             "response_type": "text",
@@ -23733,13 +23807,13 @@
           {
             "values": [
               {
-                "text": "Ok.  Thanks for asking Jac!<br/><br/>\nI'm new and still learning - so I may not have all the answers yet.<br/>\nPlease click the Provide Feedback link below and tell me the question I couldn't answer.  This will help other students needing the same information.  I'm also interested in your suggestions.<br/><br/>\n<a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYnsLqu9OiPFKjALmz0G2qqRUNkJMSUtPTkxKQ1A5NkhUWjZUT0VHMVJWUS4u\">Provide Feedback</a><br/><br/>\n"
+                "text": "Ok.  Thanks for asking Jac!<br/><br/>\nI'm new and still learning - so I may not have all the answers yet.<br/>\nPlease click the Provide Feedback link below and tell me the question I couldn't answer.  This will help other students needing the same information.  I'm also interested in your suggestions.<br/><br/>\n<a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYnsLqu9OiPFKjALmz0G2qqRUNkJMSUtPTkxKQ1A5NkhUWjZUT0VHMVJWUS4u\">Provide Feedback</a><br/>\n<a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYpLPtvYqi6tIvXGXP0yW-kZUNlJPRUozRkhJWUcyTTk2RUNLQjFGWUNSQy4u\">Proporcionar comentarios</a><br/><br/>"
               },
               {
-                "text": "Bye.  I'll be here if you need me!<br/><br/>\n\nI'm new and still learning - so I may not have all the answers yet.<br/>\nPlease click the Provide Feedback link below and tell me the question I couldn't answer.  This will help other students needing the same information.  I'm also interested in your suggestions.<br/><br/>\n<a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYnsLqu9OiPFKjALmz0G2qqRUNkJMSUtPTkxKQ1A5NkhUWjZUT0VHMVJWUS4u\">Provide Feedback</a><br/><br/>"
+                "text": "Bye.  I'll be here if you need me!<br/><br/>\n\nI'm new and still learning - so I may not have all the answers yet.<br/>\nPlease click the Provide Feedback link below and tell me the question I couldn't answer.  This will help other students needing the same information.  I'm also interested in your suggestions.<br/><br/>\n<a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYnsLqu9OiPFKjALmz0G2qqRUNkJMSUtPTkxKQ1A5NkhUWjZUT0VHMVJWUS4u\">Provide Feedback</a><br/>\n<a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYpLPtvYqi6tIvXGXP0yW-kZUNlJPRUozRkhJWUcyTTk2RUNLQjFGWUNSQy4u\">Proporcionar comentarios</a><br/><br/>"
               },
               {
-                "text": "See you later!  <br/><br/>\n\nI'm new and still learning - so I may not have all the answers yet.<br/>\nPlease click the Provide Feedback link below and tell me the question I couldn't answer.  This will help other students needing the same information.  I'm also interested in your suggestions.<br/><br/>\n<a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYnsLqu9OiPFKjALmz0G2qqRUNkJMSUtPTkxKQ1A5NkhUWjZUT0VHMVJWUS4u\">Provide Feedback</a><br/><br/>"
+                "text": "See you later!  <br/><br/>\n\nI'm new and still learning - so I may not have all the answers yet.<br/>\nPlease click the Provide Feedback link below and tell me the question I couldn't answer.  This will help other students needing the same information.  I'm also interested in your suggestions.<br/><br/>\n<a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYnsLqu9OiPFKjALmz0G2qqRUNkJMSUtPTkxKQ1A5NkhUWjZUT0VHMVJWUS4u\">Provide Feedback</a><br/>\n<a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYpLPtvYqi6tIvXGXP0yW-kZUNlJPRUozRkhJWUcyTTk2RUNLQjFGWUNSQy4u\">Proporcionar comentarios</a><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -23761,7 +23835,7 @@
           {
             "values": [
               {
-                "text": "If you are a <b>first-time college student</b>, please request that your high school send an official transcript to San Jacinto College. <br/><br/>\nIf you are a <b>returning or transfer college student</b>, you will need to submit an official transcript from each college or university you’ve attended. <br/><br/>\n<b>University students who hold a degree</b> (associate, bachelor’s, master's or doctoral) only need to submit an official transcript from the school that awarded the highest degree. Students who took additional classes after earning a degree will need a transcript from that college or university as well  <br/><br/>\n<b>Please Note</b>: If you're applying for Financial Aid, all transcripts will be required. <br/><br/>\n "
+                "text": "Sending transcripts to San Jacinto College is pretty simple.\n\nPlease request that your high school or each college/university you attended send an official transcript to:</b>\n\nSan Jacinto College - Records Management\n13735 Beamer Road\nHouston, TX 77089<br/><br/>\n\nDuring San Jacinto College's Altered Operations period, students are encouraged to request an unofficial transcript to assist with placement in college-level coursework if they have not taken a placement test.<br/><br/>\n\nIf you hold an associate degree or higher you only need to submit a transcript from the school that awarded the degree, plus transcripts of any credit earned thereafter.<br/><br/>\n\nPlease note: If you're applying for Financial Aid, all transcripts will be required.<br/><br/> \n\nPlease make an official request to have San Jacinto College evaluate your transfer college transcripts to determine what courses will transfer by scheduling a virtual appointment<a target=\"_blank\" href=\"http://appointments.sjcd.edu/\"> here</a>, or use the Advising Chat feature on the Admissions webpage, or by calling 281-998-6150.\n\n\n\n"
               }
             ],
             "response_type": "text",
@@ -23805,7 +23879,7 @@
           {
             "values": [
               {
-                "text": "For more information about the installment payment plan, click:<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/payments/payment-deadlines\"> Fall 2020 Registration & Payment Deadlines</a><br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/payments/payment-deadlines\"> Spring 2021 Registration & Payment Deadlines</a><br/><br/>\nIf you need assistance from the Business Office, please submit an email to one of the campus business office addresses below.  Please include your name, student ID#, contact information, and question.  A Business Office representative will respond as quickly as possible.<br/><br/>\ndl-centralbusinessoffice\\@sjcd.edu<br/>\ndl-northbusinessoffice\\@sjcd.edu<br/>\ndl-southbusinessoffice\\@sjcd.edu<br/><br/>"
+                "text": "For more information about the installment payment plan, click:<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/payments/payment-deadlines\"> Spring 2021 Registration & Payment Deadlines</a><br/><br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/payments/payment-deadlines\"> Summer 2021 Registration & Payment Deadlines</a><br/><br/>\nIf you need assistance from the Business Office, please submit an email to one of the campus business office addresses below.  Please include your name, student ID#, contact information, and question.  A Business Office representative will respond as quickly as possible.<br/><br/>\ndl-centralbusinessoffice\\@sjcd.edu<br/>\ndl-northbusinessoffice\\@sjcd.edu<br/>\ndl-southbusinessoffice\\@sjcd.edu<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -23914,49 +23988,6 @@
       "conditions": "@YesNo:Yes",
       "dialog_node": "node_2_1539953050519",
       "previous_sibling": "node_1_1539953027243"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "For more information about the application process, visit our website at <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/types-admissions/international-students\"> Steps to Enroll</a>.<br/><br/>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "Did I provide the answer you were looking for?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_33_1539871319864",
-      "metadata": {},
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_2_1539956416135",
-      "previous_sibling": "node_1_1539956393200"
     },
     {
       "type": "response_condition",
@@ -25199,7 +25230,7 @@
           {
             "values": [
               {
-                "text": "Please click on one of the campus links below to see the complete list of school districts with Dual Credit agreements with San Jacinto College.<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/types-admissions/dual-credit/central-campus-dual-credit\">Central Campus Dual Credit</a><br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/types-admissions/dual-credit/north-campus-dual-credit\">North Campus Dual Credit</a><br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/types-admissions/dual-credit/south-campus-dual-credit\">South Campus Dual Credit</a><br/><br/>"
+                "text": "Please click the following link to see a listing of school districts with dual credit agreements with San Jacinto College: <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/dual-credit-early-admission/dual-credit\">Dual Credit Partnerships</a><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -25253,7 +25284,7 @@
       "output": {
         "text": {
           "values": [
-            "2. Meet the Texas Success Initiative Assessment (TSIA) requirements. <br/>\no All students must take the TSIA or prove an exemption or waiver in the areas of reading, writing, and math. Testing may be available at your high school. <br/>\no You must complete the Pre-Assessment Activity (PAA)* before you can take the TSI Assessment. Click on the <a target=\"_blank\" href=\"https://www.tsipreview.com/welcome/san-jacinto-community-college-all-campuses\">Querium PAA</a> link to start.<br/>\no Click on the <a target=\"_blank\" href=\"http://www.sanjac.edu/apply-register/overview/testing/texas-success-initiative\">TSIA</a> link for more details. <br/>"
+            "2. Meet the Texas Success Initiative Assessment (TSIA) requirements. <br/><br/>\n•All students must take the TSIA or prove an exemption or waiver in the areas of reading, writing, and math. Testing may be available at your high school. <br/>\n•You must complete the Pre-Assessment Activity (PAA)* before you can take the TSI Assessment. Click on the <a target=\"_blank\" href=\"https://www.tsipreview.com/welcome/san-jacinto-community-college-all-campuses\">Querium PAA</a> link to start.<br/><br/>\nClick on the <a target=\"_blank\" href=\"http://www.sanjac.edu/apply-register/overview/testing/texas-success-initiative\">TSIA</a> link for more details. <br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -26151,26 +26182,13 @@
     },
     {
       "type": "standard",
-      "title": "No - Route to IPP Summer 2020 Menu Options",
-      "parent": "node_1_1586965338419",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_8_1586965056120"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_2_1586965624480",
-      "previous_sibling": "node_5_1586965622426"
-    },
-    {
-      "type": "standard",
-      "title": "IPP Due Dates - Fall 2020",
+      "title": "IPP Due Dates - Summer 2021",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "To determine which payment plan is available for your class(es) for the <b>Fall 2020</b> semester, please follow these simple steps:<br/><br/>\nStep 1:  Review the <a target=\"_blank\" href=\"https://www.sanjac.edu/sites/default/files/inline-files/Academic-Calendar-2020-2021-3-2-20.pdf\"> Academic Calendar</a> and make note of the date when your class(es) start.  Payment plans are only available for those classes that have not started yet.<br/><br/>"
+                "text": "To determine which payment plan is available for your class(es) for the <b>Summer 2021</b> semester, please follow these simple steps:<br/><br/>\nStep 1:  Review the <a target=\"_blank\" href=\"https://www.sanjac.edu/sites/default/files/inline-files/Academic-Calendar-2020-2021-3-2-20.pdf\"> Academic Calendar</a> and make note of the date when your class(es) start.  Payment plans are only available for those classes that have not started yet.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -26184,9 +26202,9 @@
         "selector": "body",
         "dialog_node": "node_9_1586966873448"
       },
-      "conditions": "@Term:202110",
+      "conditions": "@Term:202130",
       "dialog_node": "node_2_1586966829521",
-      "previous_sibling": "node_7_1551718713190"
+      "previous_sibling": "node_10_1551718582759"
     },
     {
       "type": "standard",
@@ -26378,7 +26396,7 @@
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_1_1610048860981"
+        "dialog_node": "node_9_1617741779694"
       },
       "conditions": "@Int_Topic:(Admissions Steps)",
       "dialog_node": "node_2_1610047584940"
@@ -26428,11 +26446,79 @@
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_1_1610048860981"
+        "dialog_node": "node_9_1617741779694"
       },
       "conditions": "@Int_Topic:Cost",
       "dialog_node": "node_2_1610048395301",
       "previous_sibling": "node_1_1610047686426"
+    },
+    {
+      "type": "standard",
+      "title": "Transfer, Returning, Visiting SJC College Student - Application for Admissions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Application for Admissions</b><br/><br/>\nThank you for your interest in transferring, returning, or visiting  San Jacinto College. We’re happy to have you join us! Students who are attending from another college or university with the intent to pursue classes are welcome to apply, regardless of whether or not they will be returning to their previous institution.<br/><br/>\nClick the following link for a quick checklist on the transfer, returning, or visiting San Jacinto College student enrollment process: <a target=\"_blank\" href=\" https://www.sanjac.edu/admissions-aid/returning-student-readmission\">Returning Student Readmission</a><br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like additional information on how to apply to San Jac?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1617724426047",
+      "conditions": "@Topic:Admissions",
+      "dialog_node": "node_2_1617719093236"
+    },
+    {
+      "type": "standard",
+      "title": "Transfer, Returning, Visiting SJC Student - Application Assistance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you need assistance completing your application:<br/>\n•\tFace-to-face assistance:  Our student ambassadors can assist you in any of our Student Services computer labs.<br/>\n•\tPhone assistance:  For general assistance over the phone, you can call 281.998.6150 ext.1076.  (Please note that walking through the application in real time may require scheduling a virtual appointment instead.)<br/>\n•\tVirtual appointment:  Schedule an <a target=\"_blank\" href=\"http://appointments.sanjac.edu/\">appointment online</a> with an outreach advisor.  Make sure to select Outreach & Recruitment as the department.<br/><br/>\nIf you already completed an application and just need an update on your status, please contact an outreach advisor:<br/>\n•\tEmail:  student.recruitment\\@sjcd.edu<br/>\n•\tPhone:  281.998.6150 Ext.1076<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1617724426047",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1539871319864"
+      },
+      "conditions": "@Topic:Assistance",
+      "dialog_node": "node_2_1617719096405",
+      "previous_sibling": "node_2_1617719093236"
     },
     {
       "type": "standard",
@@ -26442,7 +26528,7 @@
           {
             "values": [
               {
-                "text": "Applying for and receiving aid all breaks down into these very simple steps: <br/><br/> \n<b>Step 1</b>- Apply for admission to San Jac. \n<a target=\"_blank\" href=\"https://www.applytexas.org/adappc/gen/c_start.WBX\"> Click Here To Apply</a><br/><br/>\n<b>Step 2</b>- Submit your free application for Federal Student Aid (FAFSA). You’ll need the San Jacinto College school code, 003609, and an FSA ID* to sign your <a target=\"_blank\" href=\"https://studentaid.ed.gov/sa/fafsa\">FAFSA Application. </a><br/><br/>\n<b>Step 3</b>- Submit your documentation. We may need copies of official documents to complete the process. If requested, be sure to respond promptly. Please note, if you are submitting documents during peak periods (such as registration) processing time on your file may take 3-5 weeks. Please visit our Forms Menu for a listing of documents that may be requested:<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/financial-aid/forms\"> 2019-2020 Forms </a> <br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/financial-aid/forms\"> 2020-2021 Forms </a> <br/><br/>\nFor more information, please visit our website at <a target=\"_blank\" href=\"www.sanjac.edu/financial-aid\"> www.sanjac.edu/financial-aid </a>.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with a Financial Aid advisor remotely.<br/><br/>\nTo chat with an Financial Aid advisor, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions/\">here.<br/><br/>\n"
+                "text": "Applying for and receiving aid all breaks down into these very simple steps: <br/><br/> \n<b>Step 1</b>- Apply for admission to San Jac. \n<a target=\"_blank\" href=\"https://www.applytexas.org/adappc/gen/c_start.WBX\"> Click Here To Apply</a><br/><br/>\n<b>Step 2</b>- Submit your free application for Federal Student Aid (FAFSA). You’ll need the San Jacinto College school code, 003609, and an FSA ID* to sign your <a target=\"_blank\" href=\"https://studentaid.ed.gov/sa/fafsa\">FAFSA Application. </a><br/><br/>\n<b>Step 3</b>- Submit your documentation. We may need copies of official documents to complete the process. If requested, be sure to respond promptly. Please note, if you are submitting documents during peak periods (such as registration) processing time on your file may take 3-5 weeks. Please visit our financial aid forms menu for a listing of documents that may be requested:<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/financial-aid/forms\"> Financial Aid Forms </a><br/><br/>\nFor more information, please visit our website at <a target=\"_blank\" href=\"https://www.sanjac.edu/financial-aid\"> www.sanjac.edu/financial-aid </a><br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with a Financial Aid advisor remotely.<br/><br/>\nTo chat with an Financial Aid advisor, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">here.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -26486,18 +26572,18 @@
             "title": "Please select which semester you would like to see the Installment Payment Plan due dates:",
             "options": [
               {
-                "label": "Fall 2020",
-                "value": {
-                  "input": {
-                    "text": "@Term:202110"
-                  }
-                }
-              },
-              {
                 "label": "Spring 2021",
                 "value": {
                   "input": {
                     "text": "@Term:202120"
+                  }
+                }
+              },
+              {
+                "label": "Summer 2021",
+                "value": {
+                  "input": {
+                    "text": "@Term:202130"
                   }
                 }
               },
@@ -26541,7 +26627,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/>\n\nAlthough the Business Offices are currently closed to visitors, students can reach the College’s Contact Center at 281-998-6150. If the representatives can’t answer your question, they will share your request with Business Office employees, who will then reach out to you as soon as we can.<br/><br/>\n\nCentral Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>"
+                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nCentral Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -27376,7 +27462,7 @@
           {
             "values": [
               {
-                "text": "After you have submitted an application for admissions to San Jac, you will need to complete your FAFSA application on the FAFSA website at <a target=\"_blank\" href=\"https://studentaid.ed.gov/sa/fafsa\"> www.fafsa.ed.gov </a>.  Be sure to use our Federal School Code - 003609.  <br/><br/>\nOnce your application has been received by San Jac, you might be requested to provide copies of other official documents to the Financial Aid Office. If requested, be sure to respond promptly.<br/><br/>\nFor a quick video on the Financial Aid process and a listing of simple steps to apply, click the link below:\n<a target=\"_blank\"https://www.sanjac.edu/apply-register-pay/paying-college/financial-aid/easy-application\"> Overview of the Financial Aid Process </a><br/><br/>\n"
+                "text": "After you have submitted an application for admissions to San Jac, you will need to complete your FAFSA application on the FAFSA website at <a target=\"_blank\" href=\"https://studentaid.ed.gov/sa/fafsa\"> www.fafsa.ed.gov </a>.  Be sure to use our Federal School Code - 003609.  <br/><br/>\nOnce your application has been received by San Jac, you might be requested to provide copies of other official documents to the Financial Aid Office. If requested, be sure to respond promptly.<br/><br/>\n\n"
               }
             ],
             "response_type": "text",
@@ -28741,18 +28827,18 @@
             "title": "Please select which semester you would like to see the Registration and Payment Deadlines:",
             "options": [
               {
-                "label": "Fall 2020",
-                "value": {
-                  "input": {
-                    "text": "@Term:202110"
-                  }
-                }
-              },
-              {
                 "label": "Spring 2021",
                 "value": {
                   "input": {
                     "text": "@Term:202120"
+                  }
+                }
+              },
+              {
+                "label": "Summer 2021",
+                "value": {
+                  "input": {
+                    "text": "@Term:202130"
                   }
                 }
               },
@@ -29161,7 +29247,7 @@
           {
             "values": [
               {
-                "text": "A meningitis vaccination or booster is required for admissions if you are younger than 22. Bring your vaccination record to the Admissions Office on any San Jac campus or email it to Records Management: <b>meningitis.docs\\@sjcd.edu</b>, or fax it to 281-669-4720.<br/><br/>\n\n\n"
+                "text": "A meningitis vaccination or booster is required for admissions if you are younger than 22. Bring your vaccination record to the Admissions Office on any San Jac campus or email it to Records Management: <b>meningitis.docs\\@sjcd.edu</b>, or fax it to 281-669-4720.<br/><br/>\n\nFor more information on San Jac meningitis requirements, a listing of on-campus meningitis vaccination clinic dates, and meningitis forms, please click<a target=\"_blank\" href=\"https://www.sanjac.edu/meningitis\"> here</a>."
               }
             ],
             "response_type": "text",
@@ -29287,24 +29373,6 @@
       "conditions": "@YesNo:No",
       "dialog_node": "node_3_1539952755268",
       "previous_sibling": "node_2_1539952730212"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_2_1539956416135",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_62_1535567995035"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_3_1539956474509"
     },
     {
       "type": "standard",
@@ -30612,7 +30680,7 @@
           {
             "values": [
               {
-                "text": "To be accepted for enrollment in college-level courses, you must have appropriate academic qualifications, a high level of motivation, and adequate time to devote to studying a college-level course.<br/><br/>In order to enroll in the Dual Credit Program, you must:<br/>\n• Be a High School Student. <br/>\n• Pass your classes. <br/>\n• Meet all application requirements and deadlines which vary by program. <br/>\n• In order to register for classes, students must show that they meet the Texas Success Initiative (TSI) requirement. <br/><br/>"
+                "text": "Thanks for your interest in the dual credit program at San Jacinto College! To be accepted for enrollment in college-level courses, you must have appropriate academic qualifications, a high level of motivation, and adequate time to devote to studying a college-level course.<br/><br/>In order to enroll in the dual credit program, you must:<br/>\n• Be a current high school student (public, private, or home-schooled) seeking to get a jump on their college coursework.<br/>\n• Have approval from the high school counselor. <br/>\n• Apply & meet the college's requirements for admission and deadlines which vary by program. <br/>\n• Satisfy the Texas Success Initiative (TSI) requirements. <br/><br/>\nInformation on dual credit programs is available on each of the San Jacinto College campuses in the dual credit offices. For more dual credit information, students may refer to the <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/dual-credit-early-admission/dual-credit\">San Jac Dual Credit Website</a><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -30680,7 +30748,7 @@
       "output": {
         "text": {
           "values": [
-            "3. Submit proof of or exemption from Bacterial Meningitis vaccination. <br/>\no Meet the <a target=\"_blank\" href=\"https://www.sanjac.edu/san-jacinto-college/meningitis-information\">Meningitis Requirement</a> and submit proof to the Office of Enrollment Services.  Shot records or exemption forms should be emailed to Meningitis.Docs\\@sjcd.edu or faxed to 281-669-4720.<br/>\no Further details about Bacterial Meningitis can be found by clicking here. <br/><br/>"
+            "3. Submit proof of or exemption from Bacterial Meningitis vaccination. <br/><br/>\n•Meet the <a target=\"_blank\" href=\"https://www.sanjac.edu/san-jacinto-college/meningitis-information\">Meningitis Requirement</a> and submit proof to the Office of Enrollment Services.  Shot records or exemption forms should be emailed to Meningitis.Docs\\@sjcd.edu or faxed to 281-669-4720.<br/>\n•Further details about Bacterial Meningitis can be found by clicking here. <br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -31469,7 +31537,7 @@
           {
             "values": [
               {
-                "text": "No problem, I have that information for you! We offer three types of Distance Learning classes:<br/>\n•Online (OL)<br/>\n•Online Partial (OLP)<br/>\n•Online/Classroom (OLC)<br/><br/>\nThe Distance Learning course listing can be found in the SJC Course Finder by selecting “Online” in the campus option or in S.O.S. by checking the Type/Location of the course listing. You can view courses here: <a target=\"_blank\" href=\"https://www.sanjac.edu/coursefinder\"> Course finder | San Jacinto College </a><br/><br/>"
+                "text": "No problem, I have that information for you! We offer four types of Distance Learning classes:<br/>\n•Online Anytime <br/>\n•Online on a Schedule<br/>\n•Hands-On Hybrid<br/>\n•Flex Campus<br/><br/>\nThe Distance Learning course listing can be found in the SJC Course Finder by selecting “Online” in the campus option or in S.O.S. by checking the Type/Location of the course listing.<br/><br/> You can view online course options here:<br/> <a target=\"_blank\" href=\"https://www.sanjac.edu/coursefinder\"> Course finder | San Jacinto College </a><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -31495,7 +31563,7 @@
           {
             "values": [
               {
-                "text": "While many students at San Jacinto College enroll in both distance learning and face-to-face classes, we understand that some of our students need the flexibility provided by Distance Learning courses to complete a degree or certificate. Many of the San Jacinto College degrees and certificates are available completely online. If you have determined that distance learning courses are right for you be sure to see if you can meet your goal entirely online. Click the following link to learn more about Learning Online. <br/><br/>"
+                "text": "While many students at San Jacinto College enroll in both distance learning and face-to-face classes, we understand that some of our students need the flexibility provided by Distance Learning courses to complete a degree or certificate. Many of the San Jacinto College degrees and certificates are available completely online. If you have determined that distance learning courses are right for you, be sure to see if you can meet your goal entirely online. Click the following link to learn more about Learning Online: <a target=\"_blank\" href=\"https://www.sanjac.edu/my-way\">San Jac My Way</a><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -31871,7 +31939,7 @@
           {
             "values": [
               {
-                "text": "The administrative offices at San Jacinto College will be closed for the winter break from Monday, December 21st through Friday, January 1st.  <br/><br/>  \nFor those students attending the Winter Mini session, no classes will be held on Friday, December 25th.<br/><br/>\nCollege services will return to our normal operations on Monday, January 4th.<br/><br/>"
+                "text": "The administrative offices at San Jacinto College will be closed for the winter break from Wednesday, December 22nd through Friday, December 31st.  <br/><br/>  \nFor those students attending the Winter Mini session, no classes will be held on Friday, December 24th.<br/><br/>\nCollege services will return to our normal operations on Monday, January 3rd.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -31885,52 +31953,10 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "@sys-date:2020-12-23 && @sys-date:2020-12-24 || @sys-date:2020-12-25 || @sys-date:2020-12-26 || @sys-date:2020-12-27 || @sys-date:2020-12-28 || @sys-date:2020-12-29 || @sys-date:2020-12-30 || @sys-date:2020-12-31 || @sys-date:2021-01-01 ||                @Holiday:(Winter Break) || @Holiday:WinterMini || @sys-date:2021-01-02 || @sys-date:2021-01-03 || @sys-date:2020-12-21 || @sys-date:2020-12-22",
+      "conditions": "@sys-date:2021-12-22 && @sys-date:2021-12-23 || @sys-date:2021-12-24 || @sys-date:2021-12-25 || @sys-date:2021-12-26 || @sys-date:2021-12-27 || @sys-date:2021-12-28 || @sys-date:2021-12-29 || @sys-date:2021-12-30 || @sys-date:2021-12-31 ||                                       @Holiday:(Winter Break) || @Holiday:WinterMini || @sys-date:2022-01-01 || @sys-date:2021-01-03",
+      "user_label": "Will the college be open over the winter holidays?",
       "dialog_node": "node_3_1583269707507",
       "previous_sibling": "node_6_1583270043087"
-    },
-    {
-      "type": "standard",
-      "title": "IPP Summer 2020 - Plan 4",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "We’ve got you covered.  It looks like you want to enroll into a payment plan sometime between June 27th, 2020 and July 10th, 2020.  In order to complete your registration, you must pay 50% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payment will be due on:<br/>\n•\tMonday, 07/20/2020 (50%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "Would you like to learn how to pay for classes?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_8_1586965056120",
-      "conditions": "@IPP:Plan4",
-      "dialog_node": "node_3_1586965344664",
-      "previous_sibling": "node_4_1586965342686"
     },
     {
       "type": "standard",
@@ -32158,6 +32184,63 @@
       "conditions": "@Int_Topic:F-1",
       "dialog_node": "node_3_1610048183990",
       "previous_sibling": "node_10_1610048071060"
+    },
+    {
+      "type": "folder",
+      "title": "First Time SJC Student Admissions",
+      "parent": "node_33_1539871319864",
+      "dialog_node": "node_3_1617724307886"
+    },
+    {
+      "type": "standard",
+      "title": "Early College High School Information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1617726143080",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1617727562863"
+      },
+      "conditions": "#ECHS_Info",
+      "dialog_node": "node_3_1617726161101"
+    },
+    {
+      "type": "standard",
+      "title": "Option 2 - ECHS Eligibility",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Early College High School Eligibility</b><br/><br/>\nParticipants in the program entering in their 9th-grade year are chosen by a selection process established by the ISD's currently participating the Early College High School program with San Jacinto College. High School permission is required for both Dual Credit and Early Admission. Prior to completing the admission process at San Jacinto College, meet with your high school counselor first to verify your registration needs. All registration requests must be approved by your high school counselor.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1617727562863",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1617727562863"
+      },
+      "conditions": "@Topic:Eligibility",
+      "dialog_node": "node_3_1617727848959",
+      "previous_sibling": "node_6_1617727845755"
     },
     {
       "type": "standard",
@@ -32454,7 +32537,7 @@
           {
             "values": [
               {
-                "text": "The Central Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n\nCentral Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun: Closed<br/><br/>\n\nFor WINTER HOURS 2020 (Sat. 12/12/2010 - Sun. 1/17/2021)<a target=\"_blank\" href=\"https://sjcd.libguides.com/ld.php?content_id=58896495\"> click here</a>.<br/><br/>\n"
+                "text": "The Central Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n\nCentral Campus Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-9:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: 10:00AM-2:00PM<br/>\n• Sun:  1:00AM-5:00PM<br/><br/>\n\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun: Closed<br/><br/>\n\nFor Library Hours 2021 <a target=\"_blank\" href=\"https://sjcd.libguides.com/libraryhours\"> click here</a>.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -32497,7 +32580,7 @@
           {
             "values": [
               {
-                "text": "There are 3 steps for First Time Financial Aid Appeals<br/><br/>\nStep 1:  Scheduled appeal appointment<br/>\nStep 2:  Gather requested appeal documents<br/>\nStep 3:  Attend scheduled appeal appointment<br/><br/>\n\n\nNote: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\n"
+                "text": "There are 3 steps for First Time Financial Aid Appeals<br/><br/>\nStep 1:  Schedule your appeal appointment<br/>\nStep 2:  Gather requested appeal documents<br/>\nStep 3:  Attend scheduled appeal appointment<br/><br/>\nFor more information on San Jac financial aid satisfactory progress (SAP) requirements and appeals, please click<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/paying-college/financial-aid/appeals\"> here</a>.\n\nNote: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -32644,28 +32727,52 @@
           {
             "values": [
               {
-                "text": "We'd love to see you as a San Jac student! Applying for Admissions is easy - and it's free!  <br/><br/>\nClick the link for quick checklist on the admissions process: <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/types-admissions/high-school-graduate\"> First Time In College </a><br/><br/>\nFor a more detailed listing of steps to enroll, please click the link: <a target=\"_blank\" href=\"https://www.sanjac.edu/steps-enroll\">Steps To Enroll </a><br/><br/>l "
+                "text": "<b>First Time San Jacinto College Student Admissions Menu</b><br/><br/>"
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
           },
           {
-            "title": "Would you like additional information about the Admissions process?",
+            "title": "I can help you with first time San Jacinto College student information.  So that I can better assist you, please choose from the categories below:",
             "options": [
               {
-                "label": "Yes",
+                "label": "Applications for Admissions",
                 "value": {
                   "input": {
-                    "text": "Yes"
+                    "text": "Applications Admissions FTIC"
                   }
                 }
               },
               {
-                "label": "No",
+                "label": "Assistance Completing Application or Checking Status of Application",
                 "value": {
                   "input": {
-                    "text": "No"
+                    "text": "Assistance FTIC"
+                  }
+                }
+              },
+              {
+                "label": "Enrollment Information",
+                "value": {
+                  "input": {
+                    "text": "Enrollment FTIC"
+                  }
+                }
+              },
+              {
+                "label": "Financial Aid Application Information",
+                "value": {
+                  "input": {
+                    "text": "Financial Aid"
+                  }
+                }
+              },
+              {
+                "label": "Start Over/Cancel",
+                "value": {
+                  "input": {
+                    "text": "Cancel"
                   }
                 }
               }
@@ -32678,7 +32785,7 @@
       "metadata": {},
       "conditions": "$Student_Type:FTIC",
       "dialog_node": "node_34_1539871372256",
-      "previous_sibling": "node_2_1539956416135"
+      "previous_sibling": "node_10_1605716953340"
     },
     {
       "type": "response_condition",
@@ -32687,7 +32794,7 @@
           {
             "values": [
               {
-                "text": "The North Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n\nNorth Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nFor WINTER HOURS 2020 (Sat. 12/12/2010 - Sun. 1/17/2021)<a target=\"_blank\" href=\"https://sjcd.libguides.com/ld.php?content_id=58896495\"> click here</a>.<br/><br/>"
+                "text": "The North Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n\nNorth Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-9:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: 11:00AM-2:00PM<br/>\n• Sun:  Closed<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nFor Library Hours 2021 <a target=\"_blank\" href=\"https://sjcd.libguides.com/libraryhours\"> click here</a>.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -32943,7 +33050,7 @@
           {
             "values": [
               {
-                "text": "The South Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\nSouth Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nFor WINTER HOURS 2020 (Sat. 12/12/2010 - Sun. 1/17/2021)<a target=\"_blank\" href=\"https://sjcd.libguides.com/ld.php?content_id=58896495\"> click here</a>.<br/><br/>"
+                "text": "The South Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">here</a> to chat with a librarian remotely or to access digital content.<br/><br/>\nSouth Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-9:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: 10:00AM-1:00PM<br/>\n• Sun:  Closed<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nFor Library Hours 2021 <a target=\"_blank\" href=\"https://sjcd.libguides.com/libraryhours\"> click here</a>.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -33627,28 +33734,52 @@
           {
             "values": [
               {
-                "text": "We are thrilled you are considering San Jacinto College to continue your education! Please click the link for a short video regarding how to apply for admissions and a listing of steps to enroll: <a target=\"_blank\"https://www.sanjac.edu/transferring-to-san-jac\"> Returning and Transfer Students </a><br/><br/>\n"
+                "text": "<b>Returning, Visiting, and Transfer San Jacinto College Student Admissions Menu<br/><br/>\n"
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
           },
           {
-            "title": "Would you like additional information about the admissions process?",
+            "title": "I can help you with transfer, returning, or visiting San Jacinto College student information. So that I can better assist you, please choose from the categories below:",
             "options": [
               {
-                "label": "Yes",
+                "label": "Application for Admissions",
                 "value": {
                   "input": {
-                    "text": "Yes"
+                    "text": "Application for Admissions "
                   }
                 }
               },
               {
-                "label": "No",
+                "label": "Assistance Completing Application or Checking Status of Application",
                 "value": {
                   "input": {
-                    "text": "No"
+                    "text": "Assistance "
+                  }
+                }
+              },
+              {
+                "label": "Enrollment Information",
+                "value": {
+                  "input": {
+                    "text": "Enrollment "
+                  }
+                }
+              },
+              {
+                "label": "Financial Aid Application Information",
+                "value": {
+                  "input": {
+                    "text": "Financial Aid"
+                  }
+                }
+              },
+              {
+                "label": "Start Over/Cancel",
+                "value": {
+                  "input": {
+                    "text": "Cancel"
                   }
                 }
               }
@@ -33659,7 +33790,7 @@
       },
       "parent": "node_33_1539871319864",
       "metadata": {},
-      "conditions": "$Student_Type:Transfer",
+      "conditions": "$Student_Type:Transfer || $Student_Type:Returning || $Student_Type:Visiting",
       "dialog_node": "node_38_1539871498976",
       "previous_sibling": "node_34_1539871372256"
     },
@@ -33879,49 +34010,6 @@
       "user_label": "Does San Jac have first aid or a lost and found?",
       "dialog_node": "node_39_1539187136245",
       "previous_sibling": "node_19_1539183131352"
-    },
-    {
-      "type": "response_condition",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "Welcome back to San Jacinto College! If it’s been more than a year since you’ve attended classes, you’ll need to submit a new application. Please click the link below for a listing of instructions to re-apply and get back on track at San Jacinto College:<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/types-admissions/re-admission\">Readmission Steps </a> <br/>\n"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "Would you like additional information about the admissions process?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_33_1539871319864",
-      "metadata": {},
-      "conditions": "$Student_Type:Returning",
-      "dialog_node": "node_39_1539871541383",
-      "previous_sibling": "node_38_1539871498976"
     },
     {
       "type": "response_condition",
@@ -34543,25 +34631,6 @@
     },
     {
       "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_2_1539956416135",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_61_1535567953221"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_4_1539956493784",
-      "previous_sibling": "node_3_1539956474509"
-    },
-    {
-      "type": "standard",
       "title": "Cancel",
       "output": {
         "text": {
@@ -34904,13 +34973,13 @@
     },
     {
       "type": "standard",
-      "title": "Payment Deadline - Fall 2019",
+      "title": "Payment Deadline - Summer 2021",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "<b>Fall 2019 Registration & Payment Deadline:</b><br/><br/>\nThe registration and payment deadline for the Fall 2019 classes is Thursday, August 15th, 2019 at 7PM.  <br/><br/>\nPlease note if you register on or after August 16th, 2019, payment is due same day of registration to prevent classes from being dropped due to non-payment.<br/><br/>\nIf you need help keeping track of important semester dates, we've got you covered!  You can visit the <a target=\"_blank\" href=\"https://www.sanjac.edu/academic-calendar\">Academic Calendar Dates</a> and search for important registration deadlines for each semester and part of term. <br/><br/>"
+                "text": "<b>Summer 2021 Registration & Payment Deadline:</b><br/><br/>\nPayment Deadline for Summer Mini and Classes Beginning May 17 is Thursday, April 29, 2021 by 7pm.<br/><br/>\nPayment Deadline for Summer 2021 and Classes Beginning June 7 (Summer I-June), or later Summer terms (Summer II-July) is Thursday, May 13, 2021 by 7 pm.<br/><br/>\nAll financial obligations incurred after the above payment deadline for the Summer 2021 must be paid on the day of registration.<br/><br/>\nIf you need help keeping track of important semester dates, we've got you covered!  You can visit the <a target=\"_blank\" href=\"https://www.sanjac.edu/academic-calendar\">Academic Calendar Dates</a> and search for important registration deadlines for each semester and part of term. <br/><br/>"
               }
             ],
             "response_type": "text",
@@ -34941,7 +35010,7 @@
         ]
       },
       "parent": "node_3_1538138584472",
-      "conditions": "@Term:202010",
+      "conditions": "@Term:202130",
       "dialog_node": "node_4_1551719114679"
     },
     {
@@ -36187,49 +36256,6 @@
     },
     {
       "type": "standard",
-      "title": "IPP Summer 2020 - Plan 3",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "I’d love to help you.  It looks like you want to enroll into a payment plan sometime between June 6th, 2020 and June 26th, 2020.  In order to complete your registration, you must pay 50% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 07/06/2020 (25%)<br/>\n•\tMonday, 07/20/2020 (25%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "Would you like to learn how to pay for classes?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_8_1586965056120",
-      "conditions": "@IPP:Plan3",
-      "dialog_node": "node_4_1586965342686",
-      "previous_sibling": "node_5_1586965340903"
-    },
-    {
-      "type": "standard",
       "parent": "node_8_1595595111345",
       "next_step": {
         "behavior": "jump_to",
@@ -36390,7 +36416,7 @@
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_1_1610048860981"
+        "dialog_node": "node_9_1617741779694"
       },
       "conditions": "@Int_Topic:(Learn English)",
       "dialog_node": "node_4_1610048507328",
@@ -36413,9 +36439,47 @@
         ]
       },
       "parent": "node_7_1610047477526",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_9_1617741779694"
+      },
       "conditions": "@Int_Topic:(Contact Info)",
       "dialog_node": "node_4_1610048577366",
       "previous_sibling": "node_4_1610048507328"
+    },
+    {
+      "type": "folder",
+      "title": "Returning, Transfer, Visiting SJC Students Admissions",
+      "parent": "node_33_1539871319864",
+      "dialog_node": "node_4_1617724426047",
+      "previous_sibling": "node_3_1617724307886"
+    },
+    {
+      "type": "standard",
+      "title": "Option 5 - ECHS Contact Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Early College High School Contact Information</b><br/><br/>\n\nCentral Campus<br/>\n281-478-3628<br/><br/>\n \nNorth Campus<br/>\n281-459-7634<br/><br/>\n\nSouth Campus<br/>\n281-669-4704<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1617727562863",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1617727562863"
+      },
+      "conditions": "@Departments:ECHS",
+      "dialog_node": "node_4_1617727840766",
+      "previous_sibling": "node_8_1617727828739"
     },
     {
       "type": "standard",
@@ -37302,7 +37366,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/>\n\nAlthough the Business Offices are currently closed to visitors, students can reach the College’s Contact Center at 281-998-6150. If the representatives can’t answer your question, they will share your request with Business Office employees, who will then reach out to you as soon as we can.<br/><br/>\n\nNorth Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>"
+                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nNorth Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -37482,7 +37546,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/>\n\nAlthough the Business Offices are currently closed to visitors, students can reach the College’s Contact Center at 281-998-6150. If the representatives can’t answer your question, they will share your request with Business Office employees, who will then reach out to you as soon as we can.<br/><br/>\n\nSouth Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>"
+                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nSouth Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-5:00PM<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -40196,6 +40260,7 @@
         "dialog_node": "node_62_1535567995035"
       },
       "conditions": "@sys-date:2021-04-02 || @sys-date:2021-04-03 || @sys-date:2021-04-04 || @Holiday:Easter",
+      "user_label": "Will the college be open during the Easter holidays?",
       "dialog_node": "node_5_1583264276783",
       "previous_sibling": "node_10_1583263069721"
     },
@@ -40207,7 +40272,7 @@
           {
             "values": [
               {
-                "text": "In observance of the Martin Luther King, Jr. Holiday, San Jacinto College will be closed on Monday, January 18th.<br/><br/>\nCollege classes and services will return to normal operations on Tuesday, January 21st.<br/><br/>"
+                "text": "In observance of the Martin Luther King, Jr. Holiday, San Jacinto College will be closed on Monday, January 17th.<br/><br/>\nCollege classes and services will return to normal operations on Tuesday, January 18th.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -40221,74 +40286,20 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "@sys-date:2021-01-18 || @Holiday:MLK",
+      "conditions": "@sys-date:2022-01-17 || @Holiday:MLK",
+      "user_label": "Is the college open on Martin Luther King, Jr holiday?",
       "dialog_node": "node_5_1583269574226",
       "previous_sibling": "node_3_1583269707507"
     },
     {
       "type": "standard",
-      "title": "IPP Summer 2020 - Plan 2",
+      "title": "IPP Summer 2021 - Plan 2",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "No problem.  Just to confirm, it looks like you want to enroll into a payment plan sometime between May 16th, 2020 and June 5th, 2020.  In order to complete your registration, you must pay 25% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 06/15/2020 (25%)<br/>\n•\tMonday, 07/06/2020 (25%)<br/>\n•\tMonday, 07/20/2020 (25%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          },
-          {
-            "title": "Would you like to learn how to pay for classes?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_8_1586965056120",
-      "conditions": "@IPP:Plan2",
-      "dialog_node": "node_5_1586965340903",
-      "previous_sibling": "node_1_1586965338419"
-    },
-    {
-      "type": "standard",
-      "title": "Yes - Route to #Paying for Classes",
-      "parent": "node_1_1586965338419",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_6_1538058754191"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_5_1586965622426"
-    },
-    {
-      "type": "standard",
-      "title": "IPP Fall 2020 - Plan 2",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "No problem.  Just to confirm, it looks like you want to enroll into a payment plan sometime between July 25th, 2020 and September 11th, 2020.  In order to complete your registration, you must pay 25% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 09/21/2020 (20%)<br/>\n•\tMonday, 10/19/2020 (20%)<br/>\n•\tMonday, 11/23/2020 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
+                "text": "No problem.  Just to confirm, it looks like you want to enroll into a payment plan sometime between May 8th, 2021 – June 11th, 2021.  In order to complete your registration, you must pay 25% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 06/21/2021 (25%)<br/>\n•\tMonday, 07/12/2021 (25%)<br/>\n•\tMonday, 07/26/2021 (25%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -41432,7 +41443,7 @@
           {
             "values": [
               {
-                "text": "<b>Submitting Official Transcripts by Mail</b>\nHave your official transcripts mailed to:<br/>\n        San Jacinto College - Records Management<br/>\n        13735 Beamer Road<br/>\n        Houston, TX 77089<br/><br/>\n<b>Transcripts can be brought in person</b> to the Admissions Office or to the Office of Educational Planning, Counseling and Completion (EPCC).  If you bring them in, in order to be considered official, transcripts must be in a sealed envelope and they can be no older than 60 days old.<br/><br/>\n<b>San Jacinto College accepts electronic transcripts</b> from other institutions that utilize the National Student Clearinghouse, Credential Solutions, Parchment and SPEEDE. San Jacinto College will only accept transcripts sent electronically that are received in our secure login account.  We will not accept transcripts received via email from companies or students. <br/><br/>"
+                "text": "<b>Submitting Official Transcripts by Mail</b>\nHave your official transcripts mailed to:<br/>\n        San Jacinto College - Records Management<br/>\n        13735 Beamer Road<br/>\n        Houston, TX 77089<br/><br/>\n\n<b>San Jacinto College accepts electronic transcripts</b> from other institutions that utilize the National Student Clearinghouse, Credential Solutions, Parchment and SPEEDE. San Jacinto College will only accept transcripts sent electronically that are received in our secure login account.  We will not accept transcripts received via email from companies or students. <br/><br/>"
               }
             ],
             "response_type": "text",
@@ -42469,7 +42480,7 @@
           {
             "values": [
               {
-                "text": "SJCD-Guest provides wireless access for the San Jacinto College community.  Users can access wireless from most locations across each campus.  It is available to the general public for use and provides no more than basic Internet access.  You do not need a user name or password - just simply connect and accept the terms and conditions on your browser.<br/><br/>\nUsers can obtain connection instructions by clicking on the link below:<br/>\n<a target=\"_blank\" href=\"http://sjcblogs.sanjac.edu/its/files/2018/04/How-to-Connect-to-SJCD-Guest-Wireless.pdf\">Connecting to SJCD-Guest Wireless</a> <br/><br/>"
+                "text": "SJCD-Guest provides wireless access for the San Jacinto College community.  Users can access wireless from most locations across each campus.  It is available to the general public for use and provides no more than basic Internet access.  You do not need a user name or password - just simply connect and accept the terms and conditions on your browser.<br/><br/>\nUsers can obtain connection instructions by clicking on the link below:<br/>\n<a target=\"_blank\" href=\"https://www.sanjacits.org/wifi-secure-access\">Connecting to SJCD-Guest Wireless</a> <br/><br/>"
               }
             ],
             "response_type": "text",
@@ -43592,6 +43603,7 @@
         "dialog_node": "node_62_1535567995035"
       },
       "conditions": "          @Holiday:(Independence Day) || @sys-date:2021-07-03 || @sys-date:2021-07-04 || @sys-date:2021-07-05",
+      "user_label": "Is the college open on Independence Day?",
       "dialog_node": "node_6_1583269237240",
       "previous_sibling": "node_1_1583269169036"
     },
@@ -43603,7 +43615,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College will be closed for the Thanksgiving holidays from Wednesday, November 25th, through Sunday, November 29th. <br/><br/>\nClasses and college services will resume on Monday, November 30th.<br/><br/>"
+                "text": "San Jacinto College will be closed for the Thanksgiving holidays from Wednesday, November 24th, through Sunday, November 28th. <br/><br/>\nClasses and college services will resume on Monday, November 29th.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -43617,7 +43629,8 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "@Holiday:Thanksgiving || @sys-date:2020-11-25 || @sys-date:2020-11-26 || @sys-date:2020-11-27 || @sys-date:2020-11-28 || @sys-date:2020-11-29",
+      "conditions": "@Holiday:Thanksgiving || @sys-date:2021-11-24 || @sys-date:2021-11-25 || @sys-date:2021-11-26 || @sys-date:2021-11-27 || @sys-date:2021-11-28",
+      "user_label": "Is the college open over the Thanksgiving holidays?",
       "dialog_node": "node_6_1583270043087",
       "previous_sibling": "node_10_1583270225119"
     },
@@ -43769,7 +43782,7 @@
           {
             "values": [
               {
-                "text": "I can help you with that information. Federal CARES Act Emergency Aid Grant applications are no longer being accepted as of September 2020. For the most current information from San Jacinto College regarding the Federal CARES Act Emergency Aid Grants, please click on the link below:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/cares-act\">www.sanjac.edu/cares-act</a><br/><br/>"
+                "text": "I can help you with that information. All CARES Act funds have been awarded. Please look out for future announcements about additional funding or revisit this page at a later date to verify funding availability.<br/><br/>\n\nFor the most current information from San Jacinto College regarding the Federal CARES Act Emergency Aid Grants, please click on the link below:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/cares-act\">www.sanjac.edu/cares-act</a><br/><br/>\n\n"
               }
             ],
             "response_type": "text",
@@ -43843,7 +43856,7 @@
     },
     {
       "type": "standard",
-      "title": "IPP Due Dates - Spring 2020",
+      "title": "IPP Due Dates - Spring 2021",
       "output": {
         "generic": [
           {
@@ -43866,6 +43879,162 @@
       "conditions": "@Term:202120",
       "dialog_node": "node_6_1604500791469",
       "previous_sibling": "node_2_1586966829521"
+    },
+    {
+      "type": "standard",
+      "title": "First Time SJC Student - Application for Admissions",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Application for Admissions</b><br/><br/>\nOkay, I can help you with that information. There is NO COST to apply to San Jac, with no essay, minimum GPA or SAT/ACT test scores required.<br/><br/>\nClick the following link for a quick checklist on the admissions steps: <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/first-time-student-admission\\#next\"> First Time In College Student</a><br/><br/>\nThe application to San Jacinto College is administered through ApplyTexas at NO cost to you! Click on the link to get started, or to contact us to get help with your application: <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/admission-steps/apply-now-applytexas\">Apply Now with ApplyTexas</a><br/><br/>\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like additional information on how to apply to San Jac?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1617724307886",
+      "conditions": "$Student_Type:FTIC && @Topic:Admissions",
+      "dialog_node": "node_6_1617715315702"
+    },
+    {
+      "type": "standard",
+      "title": "First Time SJC Student - Application Assistance",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you need assistance completing your application:<br/>\n•\tFace-to-face assistance:  Our student ambassadors can assist you in any of our Student Services computer labs.<br/>\n•\tPhone assistance:  For general assistance over the phone, you can call 281.998.6150 ext.1076.  (Please note that walking through the application in real time may require scheduling a virtual appointment instead.)<br/>\n•\tVirtual appointment:  Schedule an <a target=\"_blank\" href=\"http://appointments.sanjac.edu/\">appointment online</a> with an outreach advisor.  Make sure to select Outreach & Recruitment as the department.<br/><br/>\nIf you already completed an application and just need an update on your status, please contact an outreach advisor:<br/>\n•\tEmail:  student.recruitment\\@sjcd.edu<br/>\n•\tPhone:  281.998.6150 Ext.1076<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1617724307886",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1539871319864"
+      },
+      "conditions": "$Student_Type:FTIC && @Topic:Assistance",
+      "dialog_node": "node_6_1617716570593",
+      "previous_sibling": "node_6_1617715315702"
+    },
+    {
+      "type": "standard",
+      "title": "First Time SJC Student - Enrollment Information 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For additional information on steps to applying to San Jacinto College please click the link: <a target=\"_blank\" href=\"https://www.sanjac.edu/steps-enroll-original\">Steps To Enroll </a><br/><br/>\nYou can access detailed registration steps at <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/register/registration\"> Registering for Classes</a>.<br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1617717553563",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1539871319864"
+      },
+      "conditions": "@YesNo:Yes",
+      "dialog_node": "node_6_1617717795128"
+    },
+    {
+      "type": "standard",
+      "title": "Transfer, Returning, Visiting SJC College Student - Application for Admissions 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For additional information on steps to applying to San Jacinto College please click the link: <a target=\"_blank\" href=\"https://www.sanjac.edu/steps-enroll-original\">Steps To Enroll </a><br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1617719093236",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1539871319864"
+      },
+      "conditions": "@YesNo:Yes",
+      "dialog_node": "node_6_1617720094735"
+    },
+    {
+      "type": "standard",
+      "title": "Return to Applications for Admissions",
+      "parent": "node_2_1617719093236",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1539871319864"
+      },
+      "conditions": "@YesNo:No",
+      "dialog_node": "node_6_1617720096757",
+      "previous_sibling": "node_6_1617720094735"
+    },
+    {
+      "type": "standard",
+      "title": "Option 1 - What is ECHS?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>What is Early College High School?</b><br/><br/>\nThe Early College High School (ECHS) initiative is an open-enrollment four-year program that blends college and high school coursework, enabling students to earn up to two years of college credit (60 hours), tuition-free, while enrolled in high school. This program aims to support historically underserved and at-risk students, providing an access ramp to postsecondary education for those most in need.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1617727562863",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1617727562863"
+      },
+      "conditions": "@Topic:Definition",
+      "dialog_node": "node_6_1617727845755"
     },
     {
       "type": "standard",
@@ -45251,32 +45420,6 @@
     },
     {
       "type": "standard",
-      "title": "IPP Due Dates - Summer 2020",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "To determine which payment plan is available for your class(es) for the <b>Summer 2020</b> semester, please follow these simple steps:<br/><br/>\nStep 1:  Review the <a target=\"_blank\" href=\"https://www.sanjac.edu/sites/default/files/inline-files/Academic-Calendar-2019-20-11-11-19.pdf\"> Academic Calendar</a> and make note of the date when your class(es) start.  Payment plans are only available for those classes that have not started yet.<br/><br/>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_1_1538138053906",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_8_1586965056120"
-      },
-      "conditions": "@Term:202030",
-      "dialog_node": "node_7_1551718713190",
-      "previous_sibling": "node_10_1551718582759"
-    },
-    {
-      "type": "standard",
       "title": "Payment Deadline - Spring 2020",
       "output": {
         "generic": [
@@ -46452,7 +46595,7 @@
       "output": {
         "text": {
           "values": [
-            "4. Register for classes. <br/>\no Students must visit the Dual Credit office in person to register. Web registration is NOT available for dual credit students. To register, complete a <a target=\"_blank\" href=\"http://www.sanjac.edu/sites/default/files/SJC-Generic Dual Credit Enrollment Form_2018-2019.pdf\">Dual Credit/Early Admission Enrollment Form</a> with your high school counselor. The form must indicate the college classes that you need to take and be signed by the student, parent, and high school counselor or designee<br/>\no Turn the completed, signed, form in to the San Jac Dual Credit Office or your high school counselor. <br/>\no To speed up the registration process, you can view a list of available courses by searching our <a target=\"_blank\" href=\"https://www.sanjac.edu/coursefinder\">Course Finder</a>.<br/><br/>"
+            "4. Register for classes.<br/><br/> \n•Students must visit the Dual Credit office in person to register. Web registration is NOT available for dual credit students. To register, complete a <a target=\"_blank\" href=\"http://www.sanjac.edu/sites/default/files/SJC-Generic Dual Credit Enrollment Form_2018-2019.pdf\">Dual Credit/Early Admission Enrollment Form</a> with your high school counselor. The form must indicate the college classes that you need to take and be signed by the student, parent, and high school counselor or designee<br/>\n•Turn the completed, signed, form in to the San Jac Dual Credit Office or your high school counselor. <br/>\n•To speed up the registration process, you can view a list of available courses by searching our <a target=\"_blank\" href=\"https://www.sanjac.edu/coursefinder\">Course Finder</a>.<br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -46473,7 +46616,7 @@
       "output": {
         "text": {
           "values": [
-            "5. Pay for Classes.<br/>\nDual Credit at San Jacinto College is affordable.  You pay only 25% of tuition and fees for certain classes that count toward both high school and college, and you may even be covered for that amount if you qualify for the Texas Public Education Grant (TPEG). Check with your high school counselor, the Dual Credit Office, or SJC  Financial Aid for more information.<br/>\no To remain in your classes, you must pay your portion of tuition and fees by the college's posted deadline. Some schools cover these costs for students. Check with your counselor for further information.<br/>\no Once a student has been registered, they will be given the 75% fee waiver if applicable to be taken to the Business Office. The remaining balance is due immediately to avoid being dropped from classes. <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register/paying-college/payments\">Payment Plans</a> are available.<br/>\no Financial Aid - If you're in high school and enroll in dual credit classes, you may apply for a TPEG to cover your share of the tuition and fees. You must complete the TASFA or a paper version of the FAFSA and submit income documents along with your TPEG dual credit application at one of our campus Financial Aid Offices<br/><br/>"
+            "5. Pay for Classes.<br/><br/>\n•To remain in your classes, you must pay your portion of tuition and fees by the college's posted deadline. Some schools cover these costs for students. Check with your counselor for further information.<br/>\n•Once a student has been registered, they will be given the 75% fee waiver if applicable to be taken to the Business Office. The remaining balance is due immediately to avoid being dropped from classes. <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/payments/installment-payment-plan\">Payment Plans</a> are available.<br/>\n•Financial Aid - If you're in high school and enroll in dual credit classes, you may apply for a TPEG to cover your share of the tuition and fees. You must complete the TASFA or a paper version of the FAFSA and submit income documents along with your TPEG dual credit application at one of our campus Financial Aid Offices<br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -46697,31 +46840,6 @@
       "conditions": "@Campus:South",
       "dialog_node": "node_7_1570632199837",
       "previous_sibling": "node_9_1570632197450"
-    },
-    {
-      "type": "standard",
-      "title": "Yes - Application for Admissions - Returning SJC Student Part 2",
-      "output": {
-        "generic": [
-          {
-            "values": [
-              {
-                "text": "• For students whose last application was prior to Fall 2014, you will first need to create an <a target=\"_blank\" href=\"https://www.applytexas.org/adappc/gen/c_start.WBX\"> Apply Texas </a> profile. After your profile has been created, you will need to fill out an application for your term of interest. If you already have an Apply Texas profile, you will need to log in and submit an updated application for your term of interest. <br/><br/>\n• Within 24-48 business hours, you can check your application status via your email or by calling 218-998-6150. If you previously submitted documentation to the College, you may not need to submit any further documentation. If you have completed coursework at another college or university and we do not have those records, you will need to have an official transcript(s) sent in and evaluated. <br/><br/>\n• We also strongly suggest that you meet with an advisor to make sure you’re on track to complete your certificate or degree at San Jacinto College. If you know which classes you need, you can create your schedule using the <a target=\"_blank\" href=\"https://www.sanjac.edu/coursefinder?semester_term=19646&field_class_semester_code_tax_tid_1=All&term=All&Campus=All&terms=General+Psychology&field_class_start_time_value=All&field_class_end_time_value=All&crn=&subj=&crse=&section=&Instructor=&sort_by=field_class_course_num_value&items_per_page=100\"> Course Finder</a> tool located on our website. You can access detailed registration instructions at <a target=\"_blank\" href=\"https://nam01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sanjac.edu%2Fapply-register-pay%2Fregister%2Fregistration&data=02%7C01%7CKeirra.Mitchell%40sjcd.edu%7Cbb296d8b9224412ed7dd08d741cc43aa%7C514efd408efe4f15819f34e56acf1562%7C0%7C0%7C637050217878610489&sdata=14xe9gZkqgS0R3JZs%2FT7igY9ibTTticBLoLJgHEeHVk%3D&reserved=0\"> Registering for Classes</a>.<br/><br/>\nFor more information about the application process, visit our website at <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/steps-enroll\"> Steps to Enroll</a>.<br/><br/>"
-              }
-            ],
-            "response_type": "text",
-            "selection_policy": "sequential"
-          }
-        ]
-      },
-      "parent": "node_33_1539871319864",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_62_1535567995035"
-      },
-      "conditions": "$Student_Type:Returning && @YesNo:Yes",
-      "dialog_node": "node_7_1570717374211"
     },
     {
       "type": "standard",
@@ -47229,7 +47347,7 @@
           {
             "values": [
               {
-                "text": "We are thrilled about the addition of San Jacinto College's Generation Park campus, and look forward to welcoming faculty, staff, and students in the fall of 2020 semester! <br/><br/>\nThe Generation Park campus will initially offer general education and academic courses focused on the educational needs of students looking to continue their education, perfect for students looking to transfer to a four-year university. Although the Generation Park campus is initially focusing on the educational needs of transfer students, the new campus will ultimately expand course offerings as further construction is completed.<br/><br/>\nTo see a listing of San Jac course offerings and locations, please view the <a target=\"_blank\" href=\"https://www.sanjac.edu/coursefinder/\">Course Finder</a>.<br/><br/>"
+                "text": "The foundation of our Generation Park Campus is academic classes that transfer to a 4-year college or university. You can also earn a 2-year academic Associate of Arts (A.A.) or Associate of Science (A.S.) degree at Generation Park.<br/><br/>\n\nTo explore all available courses at Generation Park, please view the <a target=\"_blank\" href=\"https://www.sanjac.edu/coursefinder?term_type_select=credit&semester_term=1143191&field_class_semester_code_tax_tid_1=All&term=All&Campus=G&terms=&field_class_start_time_value=All&field_class_end_time_value=All&crn=&subj=&crse=&section=&Instructor=&sort_by=field_class_course_num_value&items_per_page=100\">Course Finder</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -47306,7 +47424,7 @@
           {
             "values": [
               {
-                "text": "For the latest information from San Jacinto College on Coronavirus 2019 (COVID-19), please click the following link: <br/> <a target = \"_ blank\" href = \"https: //www.sanjac.edu /coronavirus \"> www.sanjac.edu/coronavirus </a> <br/> <br/> For a list of frequently asked questions related to Coronavirus, please click on: <br/> <a target = \"_blank\" href = \"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/faqs-san-jac-covid-19\"> Coronavirus FAQ's </a> <br/> <br/>For a list of frequently asked questions about student college operations, please click: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/node/4485956 \"> Student FAQs about College operations </a> <br/> <br/> If you need access to technology or need technical assistance, click: <br/> <a target=\"_blank\" href=\"https://www.sanjacits.org/\"> Technical support </a> <br/> <br/> You can also email your questions to Covid-19 \\ @ sjcd.edu. <br/> <br/>"
+                "text": "For the latest information from San Jacinto College on Coronavirus 2019 (COVID-19), please click the following link: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/coronavirus \"> www.sanjac.edu/coronavirus </a> <br/> <br/> For a list of frequently asked questions related to Coronavirus, please click on: <br/> <a target = \"_blank\" href = \"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/faqs-san-jac-covid-19\"> Coronavirus FAQ's </a> <br/> <br/>For a list of frequently asked questions about student college operations, please click: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/node/4485956 \"> Student FAQs about College operations </a> <br/> <br/> If you need access to technology or need technical assistance, click: <br/> <a target=\"_blank\" href=\"https://www.sanjacits.org/\"> Technical support </a> <br/> <br/> You can also email your questions to Covid-19 \\ @ sjcd.edu. <br/> <br/>"
               }
             ],
             "response_type": "text",
@@ -47323,30 +47441,6 @@
       "digress_in": "does_not_return",
       "dialog_node": "node_7_1584471516562",
       "previous_sibling": "node_20_1537383885776"
-    },
-    {
-      "type": "standard",
-      "title": "Yes - Route to #Paying for Classes",
-      "parent": "node_4_1586965342686",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_6_1538058754191"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_7_1586965929895"
-    },
-    {
-      "type": "standard",
-      "title": "Yes - Route to #Paying for Classes",
-      "parent": "node_3_1586965344664",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_6_1538058754191"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_7_1586966009746"
     },
     {
       "type": "standard",
@@ -49174,7 +49268,7 @@
           {
             "values": [
               {
-                "text": "• <b>Be a High School Student</b>.  Public, private, or home school students can qualify.  *High School permission/approval is required for both Dual Credit and Early Admission.  Prior to completing the admission's processes at San Jacinto College, students should meet with their high school counselor for additional details regarding how to register for dual credit courses. <br/>\n• <b>Pass your classes</b>.  In most cases grades of “C” or better in college coursework is required for both transferability and to maintain enrollment in the program and receive high school credit.<br/>\n• <b>Meet all application requirements and deadlines </b> which vary by program.  Informational meetings for incoming Dual Credit students are scheduled by school districts for each spring – please plan to attend your local school district’s meeting for specific information about your dual credit options.<br/>\n• In order to register for classes, students must show that they <b>meet the Texas Success Initiative (TSI) requirement</b>.  This shows that they are college ready.  There are a few test scores that are used to prove this.  Further details about the TSIA can be found by clicking here. <br/>"
+                "text": "For more dual credit enrollment information, students may refer to the following link:<a target=\"_blank\" href=\"https://publications.sanjac.edu/general-information/admissions/dual-credit-early-admission/\"> Dual Credit/Early Admission</a><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -50373,82 +50467,13 @@
     },
     {
       "type": "standard",
-      "title": "IPP Summer 2020 Menu Options",
-      "output": {
-        "generic": [
-          {
-            "title": "Step 2:  Choose the option with the date range that best fits when you will be enrolling and making the down payment for your plan.",
-            "options": [
-              {
-                "label": "Option 1:  April 28th2020 - May 15th, 2020 (20% Down Payment)",
-                "value": {
-                  "input": {
-                    "text": "IPP Plan1"
-                  }
-                }
-              },
-              {
-                "label": "Option 2:  May 16th, 2020 - June 5th, 2020 (25% Down Payment)",
-                "value": {
-                  "input": {
-                    "text": "IPP Plan2"
-                  }
-                }
-              },
-              {
-                "label": "Option 3:  June 6th, 2020 - June 26th, 2020 (50% Down Payment)",
-                "value": {
-                  "input": {
-                    "text": "IPP Plan3"
-                  }
-                }
-              },
-              {
-                "label": "Option 4:  June 27th, 2020 - July 10th, 2020 (50% Down Payment)",
-                "value": {
-                  "input": {
-                    "text": "IPP Plan4"
-                  }
-                }
-              },
-              {
-                "label": "Start Over/Cancel",
-                "value": {
-                  "input": {
-                    "text": "Cancel"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
-          }
-        ]
-      },
-      "parent": "node_7_1551718713190",
-      "dialog_node": "node_8_1586965056120"
-    },
-    {
-      "type": "standard",
-      "title": "No - Route to IPP Summer 2020 Menu Options",
-      "parent": "node_5_1586965340903",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_8_1586965056120"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_8_1586965803915",
-      "previous_sibling": "node_9_1586965802500"
-    },
-    {
-      "type": "standard",
       "title": "IPP Fall 2020 - Plan 3",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "I’d love to help you.  It looks like you want to enroll into a payment plan sometime between September 12th, 2020 and October 9th, 2020.  In order to complete your registration, you must pay 50% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 10/19/2020 (20%)<br/>\n•\tMonday, 11/23/2020 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
+                "text": "I’d love to help you.  It looks like you want to enroll into a payment plan sometime between June 12th, 2021 – July 2nd, 2021.  In order to complete your registration, you must pay 50% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payments will be due on:<br/>\n•\tMonday, 07/12/2021 (20%)<br/>\n•\tMonday, 07/26/2021 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -50684,6 +50709,96 @@
       },
       "conditions": "@YesNo:Yes",
       "dialog_node": "node_8_1604501641894"
+    },
+    {
+      "type": "standard",
+      "title": "First Time SJC Student  - Application for Admissions 2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "For additional information on steps to applying to San Jacinto College please click the link: <a target=\"_blank\" href=\"https://www.sanjac.edu/steps-enroll-original\">Steps To Enroll </a><br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1617715315702",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1539871319864"
+      },
+      "conditions": "@YesNo:Yes",
+      "dialog_node": "node_8_1617715558858"
+    },
+    {
+      "type": "standard",
+      "title": "Return to Application for Admissions",
+      "parent": "node_6_1617715315702",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1539871319864"
+      },
+      "conditions": "@YesNo:No",
+      "dialog_node": "node_8_1617715561631",
+      "previous_sibling": "node_8_1617715558858"
+    },
+    {
+      "type": "standard",
+      "title": "Option 4 - Who We Serve",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Who We Serve</b><br/><br/>\nPlease click on the link to see the complete list of school districts with ECHS agreements with San Jacinto College <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/dual-credit/early-admission-program/early-college-high-school\"> High School Partnerships</a><br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1617727562863",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1617727562863"
+      },
+      "conditions": "@Topic:Other",
+      "dialog_node": "node_8_1617727828739",
+      "previous_sibling": "node_8_1617727843395"
+    },
+    {
+      "type": "standard",
+      "title": "Option 3 - Steps to Apply & Register for ECHS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Steps to Apply & Register for Early College High School</b><br/><br/>\nPrior to completing the admission process at San Jacinto College, students should meet with their High School Counselor regarding ECHS courses. <br/>\nStudents classified as high school freshmen, sophomores, juniors, and seniors enrolling in college-level courses as part of this program must meet the following requirements to be admitted for concurrent enrollment:<br/>\n•\tSubmit a San Jacinto College admission application.<br/>\n•\tSubmit official scores on a TSI-approved assessment test.<br/>\n•\tMeet the current academic standing rules of San Jacinto College to continue enrollment in college-level courses.<br/>\n•\tSubmit proof of meeting the Texas meningitis requirements.<br/><br/>\n\nPlease click on the link to see the complete list of school districts with ECHS agreements with San Jacinto College and the <a target=\"_blank\" href=\"https://publications.sanjac.edu/general-information/admissions/early-college-high-school-programs/\"> Steps to Apply & Register for Early College High School</a><br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1617727562863",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1617727562863"
+      },
+      "conditions": "@Topic:Steps",
+      "dialog_node": "node_8_1617727843395",
+      "previous_sibling": "node_3_1617727848959"
     },
     {
       "type": "standard",
@@ -52892,7 +53007,7 @@
       },
       "conditions": "$Student_Type:Veteran && @YesNo:Yes",
       "dialog_node": "node_9_1580744782242",
-      "previous_sibling": "node_10_1605716953340"
+      "previous_sibling": "node_4_1617724426047"
     },
     {
       "type": "folder",
@@ -53143,39 +53258,14 @@
     },
     {
       "type": "standard",
-      "title": "Yes - Route to #Paying for Classes",
-      "parent": "node_5_1586965340903",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_6_1538058754191"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_9_1586965802500"
-    },
-    {
-      "type": "standard",
-      "title": "No - Route to IPP Summer 2020 Menu Options",
-      "parent": "node_4_1586965342686",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_8_1586965056120"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_9_1586965931613",
-      "previous_sibling": "node_7_1586965929895"
-    },
-    {
-      "type": "standard",
-      "title": "IPP Fall 2020 Menu Options",
+      "title": "IPP Summer 2021 Menu Options",
       "output": {
         "generic": [
           {
             "title": "Step 2:  Choose the option with the date range that best fits when you will be enrolling and making the down payment for your plan.",
             "options": [
               {
-                "label": "Option 1:  June 15th, 2020 – July 24th, 2020 (20% Down Payment)",
+                "label": "Option 1:  April 5th, 2021 – May 7th, 2021 (20% Down Payment)",
                 "value": {
                   "input": {
                     "text": "IPP Plan1"
@@ -53183,7 +53273,7 @@
                 }
               },
               {
-                "label": "Option 2:  July 25th, 2020 – September 11th, 2020 (25% Down Payment)",
+                "label": "Option 2:  May 8th, 2021 – June 11th, 2021 (25% Down Payment)",
                 "value": {
                   "input": {
                     "text": "IPP Plan2"
@@ -53191,7 +53281,7 @@
                 }
               },
               {
-                "label": "Option 3:  September 12th, 2020 – October 9th, 2020 (50% Down Payment)",
+                "label": "Option 3:  June 12th, 2021 – July 2nd, 2021 (50% Down Payment)",
                 "value": {
                   "input": {
                     "text": "IPP Plan3"
@@ -53199,7 +53289,7 @@
                 }
               },
               {
-                "label": "Option 4:  October 10th, 2020 – November 13th, 2020 (50% Down Payment)",
+                "label": "Option 4:  July 3rd, 2021 – July 16th, 2021 (50% Down Payment)",
                 "value": {
                   "input": {
                     "text": "IPP Plan4"
@@ -53230,7 +53320,7 @@
           {
             "values": [
               {
-                "text": "We’ve got you covered.  It looks like you want to enroll into a payment plan sometime between October 10th, 2020 and November 13th, 2020.  In order to complete your registration, you must pay 50% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payment will be due on:<br/>\n•\tMonday, 11/23/2020 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
+                "text": "We’ve got you covered.  It looks like you want to enroll into a payment plan sometime between July 3rd, 2021 – July 16th, 2021.  In order to complete your registration, you must pay 50% of the total tuition and fees as a down payment.  A \\$25 service fee is also prorated over all installments, and there’s a \\$25 fee if there are any late payments. Once your down payment has been made, the remaining payment will be due on:<br/>\n•\tMonday, 07/26/2021 (20%)<br/><br/>\nBe sure that you enroll and make your down payment for your payment plan before the first day of class.  Note:  We do not offer late registration.  If your payment has not been made prior to the start date of the class, you will be removed from the course.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -53496,6 +53586,127 @@
       "conditions": "@YesNo:No",
       "dialog_node": "node_9_1604501638556",
       "previous_sibling": "node_7_1604501636241"
+    },
+    {
+      "type": "standard",
+      "title": "Transfer, Returning, Visiting SJC Student - Enrollment Information",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Enrollment Information</b><br/><br/>\nGreat! Once you have been admitted, you will need to see an admissions advisor for course selection and registration.  <br/><br/>\nClick the following link for a quick checklist on the enrollment process: <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/first-time-student-admission\\#enrollment\"> Enrollment Steps </a><br/><br/>\nOnce you know which classes you need, you can create your schedule using the <a target=\"_blank\" href=\"http://sjc.prod.acquia-sites.com/coursefinder?term_type_select=credit&semester_term=30476&field_class_semester_code_tax_tid_1=27156&term=All&campus=All&terms=&field_class_start_time_value=All&field_class_end_time_value=All&crn=&subj=&crse=&section=&instructor=&sort_by=title&sort_order=ASC&items_per_page=100\"> Course Finder</a> tool located on our website.<br/><br/>\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like additional information on how to enroll to San Jac?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1617724426047",
+      "conditions": "$Student_Type:Transfer || $Student_Type:Returning || $Student_Type:Visiting && @Topic:Enrollment",
+      "dialog_node": "node_9_1617719090529",
+      "previous_sibling": "node_2_1617719096405"
+    },
+    {
+      "type": "standard",
+      "title": "International Student Menu Options",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>International Student Menu Options</b><br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Please choose from the following for more information:",
+            "options": [
+              {
+                "label": "International Admissions Steps",
+                "value": {
+                  "input": {
+                    "text": "International Admissions Steps"
+                  }
+                }
+              },
+              {
+                "label": "International Admissions Requirements",
+                "value": {
+                  "input": {
+                    "text": "International Student Required Documents"
+                  }
+                }
+              },
+              {
+                "label": "International Student Tuition & Fees",
+                "value": {
+                  "input": {
+                    "text": "Cost"
+                  }
+                }
+              },
+              {
+                "label": "Learn English",
+                "value": {
+                  "input": {
+                    "text": "Learn English"
+                  }
+                }
+              },
+              {
+                "label": "Contact International Student Services",
+                "value": {
+                  "input": {
+                    "text": "Contact Info"
+                  }
+                }
+              },
+              {
+                "label": "Start Over/Cancel",
+                "value": {
+                  "input": {
+                    "text": "Cancel"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1610048860981",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_2_1610047584940"
+      },
+      "dialog_node": "node_9_1617741779694"
     },
     {
       "type": "standard",
@@ -54161,6 +54372,27 @@
     },
     {
       "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1539871319864",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_61_1535567953221"
+      },
+      "conditions": "$Student_Type:Other",
+      "dialog_node": "response_10_1617732733263",
+      "previous_sibling": "response_5_1617732305515"
+    },
+    {
+      "type": "response_condition",
       "title": "response_1_1570624724718",
       "output": {
         "generic": [
@@ -54750,20 +54982,42 @@
       "type": "response_condition",
       "title": "response_5_1569413797191",
       "output": {
-        "text": {
-          "values": [
-            ""
-          ],
-          "selection_policy": "sequential"
-        }
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Dual Credit and Early College High School Admissions</b><br/><br/>\nGreat! Thank you for your interest in San Jacinto College. Taking courses through San Jacinto College can provide lasting benefits while in high school and increase your confidence for college success. <br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "In order to better assist you, please choose which program you are interested in:",
+            "options": [
+              {
+                "label": "Dual Credit",
+                "value": {
+                  "input": {
+                    "text": "Dual Credit Information"
+                  }
+                }
+              },
+              {
+                "label": "Early College High School",
+                "value": {
+                  "input": {
+                    "text": "Early College High School Information"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
       },
       "parent": "node_33_1539871319864",
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_9_1569249029974"
-      },
-      "conditions": "$Student_Type:(Dual Credit)",
+      "conditions": "$Student_Type:(Dual Credit) || $Student_Type:ECHS",
       "dialog_node": "response_5_1569413797191",
       "previous_sibling": "node_13_1540579887654"
     },
@@ -54850,6 +55104,31 @@
       "conditions": "@person_type:Faculty",
       "dialog_node": "response_5_1584995905963",
       "previous_sibling": "slot_1_1584995906250"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_33_1539871319864",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_2_1572449679071"
+      },
+      "conditions": "$Student_Type:(Continuing Education)",
+      "dialog_node": "response_5_1617732305515",
+      "previous_sibling": "response_5_1569413797191"
     },
     {
       "type": "response_condition",
@@ -55682,7 +55961,7 @@
       "metadata": {},
       "variable": "$Student_Type",
       "dialog_node": "slot_35_1539871372274",
-      "previous_sibling": "node_39_1539871541383"
+      "previous_sibling": "node_38_1539871498976"
     },
     {
       "type": "slot",
@@ -55805,12 +56084,6 @@
   ],
   "counterexamples": [
     {
-      "text": ":(((((((((((((((((((("
-    },
-    {
-      "text": "?"
-    },
-    {
       "text": "."
     },
     {
@@ -55818,6 +56091,12 @@
     },
     {
       "text": "..........."
+    },
+    {
+      "text": ":(((((((((((((((((((("
+    },
+    {
+      "text": "?"
     },
     {
       "text": "\\"
@@ -56243,7 +56522,7 @@
     "spelling_auto_correct": true
   },
   "learning_opt_out": false,
-  "name": "Ask Jac!  General Skill 7.8",
+  "name": "Ask Jac!  General Skill 7.9",
   "language": "en",
-  "description": "Copy of 7.7 sent to TEST on 11/04/2020 8AM"
+  "description": "Copy of 7.8 sent to TEST on 01/12/2021 8AM"
 }
