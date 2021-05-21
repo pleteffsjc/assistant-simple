@@ -70,7 +70,7 @@
           "text": "I am a deaf student"
         },
         {
-          "text": "I am deaf can you help"
+          "text": "I am deaf can you help.."
         },
         {
           "text": "I have a disability - can I get some help?"
@@ -295,6 +295,9 @@
           "text": "how do i get in?"
         },
         {
+          "text": "How do i readmit for San Jac?"
+        },
+        {
           "text": "How do I reapply for admissions if attended San Jac a few years ago?"
         },
         {
@@ -365,6 +368,12 @@
         },
         {
           "text": "readmission"
+        },
+        {
+          "text": "Re-apply"
+        },
+        {
+          "text": "reapply"
         },
         {
           "text": "scholarship"
@@ -13547,7 +13556,7 @@
           {
             "values": [
               {
-                "text": "South Campus Educational Planning Counseling & Continuation<br/>\n281-998-6150<br/><br/>\n\nWelcome Center, S-6.120<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a> to schedule a time to meet with an advisor remotely.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "South Campus Educational Planning Counseling & Continuation<br/>\n281-998-6150<br/><br/>\n\nWelcome Center, S-6.120<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a> to schedule a time to meet with an advisor remotely.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -13714,7 +13723,7 @@
           {
             "values": [
               {
-                "text": "For inquiries regarding Educational Planning Counseling & Continuation, please call:<br/>\n281-998-6150<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a> to schedule a time to meet with an advisor remotely.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "For inquiries regarding Educational Planning Counseling & Continuation, please call:<br/>\n281-998-6150<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a> to schedule a time to meet with an advisor remotely.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -15995,7 +16004,7 @@
           {
             "values": [
               {
-                "text": "We're back! We appreciate everyone’s patience and flexibility during the COVID-19 pandemic. From enhancing safety measures, to increasing ways to connect with us, we're here to help! The College’s student support services and resources are available face-to-face and online<br/><br/>\nHowever, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire for the safety of our students and community.<br/><br/>\n\nFor more information regarding the arrival procedures and daily questionnaires, or for ways to connect with our student resource departments, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>"
+                "text": "We're back! We appreciate everyone’s patience and flexibility during the COVID-19 pandemic. From enhancing safety measures, to increasing ways to connect with us, we're here to help! The College’s student support services and resources are available face-to-face and online.<br/><br/>\nIf you would like to connect with our student resource departments, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -16453,6 +16462,18 @@
       "dialog_node": "node_10_1617727562863"
     },
     {
+      "type": "standard",
+      "parent": "node_10_1609866787228",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1595598244169"
+      },
+      "conditions": "@Format:Support",
+      "dialog_node": "node_10_1621517150772",
+      "previous_sibling": "node_4_1621517148931"
+    },
+    {
       "type": "folder",
       "title": "Holds",
       "metadata": {},
@@ -16719,7 +16740,7 @@
           {
             "values": [
               {
-                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nCentral Financial Aid Fax :<br/>\n281-478-2710<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nCentral Financial Aid Fax :<br/>\n281-478-2710<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -17683,7 +17704,7 @@
           {
             "values": [
               {
-                "text": "Central Campus Dual Credit<br/>\n281-478-3628<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "Central Campus Dual Credit<br/>\n281-478-3628<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -19796,7 +19817,7 @@
           {
             "values": [
               {
-                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nNorth Campus Financial Aid Fax:<br/>\nFax 281-669-4385<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nNorth Campus Financial Aid Fax:<br/>\nFax 281-669-4385<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -20181,7 +20202,7 @@
           {
             "values": [
               {
-                "text": "For Admissions related inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nYou can also send your Admissions Department inquiries to\n<b>admissions\\@sjcd.edu</b>.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "For Admissions related inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nYou can also send your Admissions Department inquiries to\n<b>admissions\\@sjcd.edu</b>.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -20224,7 +20245,7 @@
           {
             "values": [
               {
-                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nSouth Campus Financial Aid Fax:<br/>\nFax 281-669-4336<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nSouth Campus Financial Aid Fax:<br/>\nFax 281-669-4336<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -20515,7 +20536,7 @@
           {
             "values": [
               {
-                "text": "If you have earned college credits previously at San Jac, it is recommended for you to speak with one of our Educational Planning Counselors in the Educational Planning, Counseling, and Completion Department for detailed advisement on changing your major.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "If you have earned college credits previously at San Jac, it is recommended for you to speak with one of our Educational Planning Counselors in the Educational Planning, Counseling, and Completion Department for detailed advisement on changing your major.<br/><br/>\nPlease click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -20610,7 +20631,7 @@
           {
             "values": [
               {
-                "text": "If you are a first time San Jac student, it is recommended for you to speak with one of our Admissions Advisors at the Admissions Office for detailed advisement on changing your major.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "If you are a first time San Jac student, it is recommended for you to speak with one of our Admissions Advisors at the Admissions Office for detailed advisement on changing your major.<br/><br/>\nPlease click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -21106,7 +21127,7 @@
           {
             "values": [
               {
-                "text": "Being a new student, you will need to take your official or unofficial transcript to an admissions advisor for an override and request a transcript evaluation.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "Being a new student, you will need to take your official or unofficial transcript to an admissions advisor for an override and request a transcript evaluation.<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -21233,7 +21254,7 @@
           {
             "values": [
               {
-                "text": "As a returning student, you will need to take your official or unofficial transcript to an Educational Planner for an override and request a transcript evaluation.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "As a returning student, you will need to take your official or unofficial transcript to an Educational Planner for an override and request a transcript evaluation.<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -21291,7 +21312,7 @@
           {
             "values": [
               {
-                "text": "Changing your last name or home address - please visit or contact the Educational Planning, Counseling and Completion office at any campus.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "Changing your last name or home address - please visit or contact the Educational Planning, Counseling and Completion office at any campus.<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -21931,7 +21952,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format. Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely..<br/><br/>\n\n-May Mini term courses will be delivered online.\n-Summer I & II courses will be delivered online as much as possible.\n-Some technical courses may be available on campus, following social distancing and CDC guidelines.Students will be notified by their faculty as this applies to their specific courses.<br/><br/>\n\nFor a listing of FAQ's concerning college operations for students, please click on:<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/student-resources/coronavirus-covid-19-student-faqs-about-college-operations\">Student FAQs about College Operations</a><br/><br/>"
+                "text": "San Jacinto College will observe 2021 Summer Hours beginning Tuesday, June 1st through Friday, July 31st.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -21943,7 +21964,7 @@
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_62_1535567995035"
+        "dialog_node": "node_7_1540559618642"
       },
       "conditions": "#Summer_Hours",
       "user_label": "When do summer hours begin?",
@@ -22663,7 +22684,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nCentral Campus Admissions Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>"
+                "text": "Central Campus Admissions Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -22988,7 +23009,7 @@
           {
             "values": [
               {
-                "text": "The Central Campus Bookstore is currently open under Altered Operations. Customers must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \nPlease click <a target=\"_blank\" href=\"https://msjc-central.bncollege.com/\">HERE</a> to purchase your books online..<br/><br/>\n\nCentral Campus Bookstore<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-2:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-2:00PM<br/><br/>"
+                "text": "Central Campus Bookstore<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-2:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-Noon<br/><br/>\n\nPlease click <a target=\"_blank\" href=\"https://msjc-central.bncollege.com/\">HERE</a> to purchase your books online..<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -23052,7 +23073,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nCentral Campus Career Services<br/>\nFall/Spring Hours<br/>\n• Monday/Wednesday: 8:00AM - 5:00PM<br/>\n• Tuesday/Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Wednesday: 8:00AM - 5:00PM<br/>\n• Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM -5:00PM"
+                "text": "Central Campus Career Services<br/>\nFall/Spring Hours<br/>\n• Monday/Wednesday: 8:00AM - 5:00PM<br/>\n• Tuesday/Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Wednesday: 8:00AM - 5:00PM<br/>\n• Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM -Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -23404,7 +23425,7 @@
           {
             "values": [
               {
-                "text": "The North Campus Bookstore is currently open under Altered Operations. Customers must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \nPlease click <a target=\"_blank\" href=\"https://msjc-central.bncollege.com/\">HERE</a> to purchase your books online..<br/><br/>\n\nNorth Campus Bookstore<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-2:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-2:00PM<br/><br/>"
+                "text": "North Campus Bookstore<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-2:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-2:00PM<br/><br/>\n\nPlease click <a target=\"_blank\" href=\"https://msjc-central.bncollege.com/\">HERE</a> to purchase your books online.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -23468,7 +23489,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\n\nNorth Campus Career Services<br/>\nFall/Spring Hours<br/>\n• Monday/Wednesday: 8:00AM - 5:00PM<br/>\n• Tuesday/Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Wednesday: 8:00AM - 5:00PM<br/>\n• Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM -5:00PM"
+                "text": "North Campus Career Services<br/>\nFall/Spring Hours<br/>\n• Monday/Wednesday: 8:00AM - 5:00PM<br/>\n• Tuesday/Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Wednesday: 8:00AM - 5:00PM<br/>\n• Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM -Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -23787,7 +23808,7 @@
           {
             "values": [
               {
-                "text": "The South Campus Bookstore is currently open under Altered Operations. Customers must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \nPlease click <a target=\"_blank\" href=\"https://msjc-central.bncollege.com/\">HERE</a> to purchase your books online..<br/><br/>\n\nSouth Campus Bookstore<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-2:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-2:00PM<br/><br/>"
+                "text": "South Campus Bookstore<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-2:00PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8:00AM-4:00PM<br/>\n• Fri: 8:00AM-2:00PM<br/><br/>\n\nPlease click <a target=\"_blank\" href=\"https://msjc-central.bncollege.com/\">HERE</a> to purchase your books online.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -23851,7 +23872,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nSouth Campus Career Services<br/>\nFall/Spring Hours<br/>\n• Monday/Wednesday: 8:00AM - 5:00PM<br/>\n• Tuesday/Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Wednesday: 8:00AM - 5:00PM<br/>\n• Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM -5:00PM"
+                "text": "South Campus Career Services<br/>\nFall/Spring Hours<br/>\n• Monday/Wednesday: 8:00AM - 5:00PM<br/>\n• Tuesday/Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Wednesday: 8:00AM - 5:00PM<br/>\n• Thursday: 8:00AM - 6:00PM<br/>\n• Friday: 8:00AM -Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -24650,7 +24671,7 @@
           {
             "values": [
               {
-                "text": "North Campus Dual Credit<br/>\n281-459-7634<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "North Campus Dual Credit<br/>\n281-459-7634<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -26662,7 +26683,7 @@
           {
             "values": [
               {
-                "text": "<b>International Tuition & Fees</b><br/><br/>\nSan Jacinto College is supported by local and state tax dollars, which allows us to keep costs low for our students. Here is an estimate of what it might cost an international student to attend San Jac for one year:<br/><br/>\nFall and Spring International Student <br/>\nTuition/fees- \\$5,784<br/>\nBooks/Transportation/Insurance- \\$3,900<br/>\nLiving Expenses- \\$13,800<br/>\nTotal = \\$23,484<br/><br/>\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/tuition\">here</a> to see more information on San Jacinto College tuition.<br/><br/>\nPlease click <a target=\"_blank\" href=\" https://www.sanjac.edu/apply-register-pay/types-admissions/international-students/working-us\">here</a> to see more information on working in the United States while you’re going to San Jacinto College.<br/><br/>\n"
+                "text": "<b>International Tuition & Costs</b><br/><br/>\nSan Jacinto College is supported by local and state tax dollars, which allows us to keep costs low for our students. Here is an estimate of what it might cost an international student to attend San Jac for one year:<br/><br/>\nFall and Spring International Student <br/>\nTuition/costs- \\$5,784<br/>\nBooks/Transportation/Insurance- \\$3,900<br/>\nLiving Expenses- \\$13,800<br/>\nTotal = \\$23,484<br/><br/>\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/apply-register-pay/paying-college/tuition\">here</a> to see more information on San Jacinto College tuition.<br/><br/>\nPlease click <a target=\"_blank\" href=\" https://www.sanjac.edu/apply-register-pay/types-admissions/international-students/working-us\">here</a> to see more information on working in the United States while you’re going to San Jacinto College.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -26831,6 +26852,18 @@
     },
     {
       "type": "standard",
+      "parent": "node_10_1609866787228",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_19_1547573696554"
+      },
+      "conditions": "#Bookstore_Info",
+      "dialog_node": "node_2_1621517152530",
+      "previous_sibling": "node_10_1621517150772"
+    },
+    {
+      "type": "standard",
       "title": "Financial Aid Application Info - Part 2",
       "output": {
         "generic": [
@@ -26936,7 +26969,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nCentral Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Wed: 8:00AM-5:00PM<br/>\n• Thursday: 8:00AM-7:00PM<br/><br/>\n• Fri: 8:00AM-4:30PM<br/><br/>\n"
+                "text": "Central Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Wed: 8:00AM-5:00PM<br/>\n• Thursday: 8:00AM-7:00PM<br/><br/>\n• Fri: 8:00AM-4:30PM<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -27000,7 +27033,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n \nIf you need access to ILC technology, click on:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/helpful-resources-facilities/interactive-learning-centers\">Interactive Learning Center</a> for a listing of locations and hours of operation.<br/><br/>\n\nIf you need technical assistance, click on:<br/><a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/> We are open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n\n"
+                "text": "The ILC is open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n\nIf you need access to ILC technology, click on:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/helpful-resources-facilities/interactive-learning-centers\">Interactive Learning Center</a> for a listing of locations and hours of operation.<br/><br/>\n\nIf you need technical assistance, click on:<br/><a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/><br/>\n\n"
               }
             ],
             "response_type": "text",
@@ -27191,7 +27224,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nCentral Campus Services<br/>\n• Mon-Fri: 8AM - 10PM<br/>\n• Sat: 7:30AM - 4:30PM<br/>\n• Sun: Closed"
+                "text": "Central Campus Services<br/>\n• Mon-Fri: 8AM - 10PM<br/>\n• Sat: 7:30AM - 4:30PM<br/>\n• Sun: Closed"
               }
             ],
             "response_type": "text",
@@ -27255,7 +27288,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n \nIf you need access to ILC technology, click on:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/helpful-resources-facilities/interactive-learning-centers\">Interactive Learning Center</a> for a listing of locations and hours of operation.<br/><br/>\n\nIf you need technical assistance, click on:<br/><a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/> We are open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n"
+                "text": "The ILC is open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n\nIf you need access to ILC technology, click on:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/helpful-resources-facilities/interactive-learning-centers\">Interactive Learning Center</a> for a listing of locations and hours of operation.<br/><br/>\n\nIf you need technical assistance, click on:<br/><a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -27527,7 +27560,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nNorth Campus Services<br/>\n• Mon-Thurs: 7:30AM - 9:30PM<br/>\n• Fri: 7:30AM - 4PM<br/>\n• Sat: 7:30AM - 2PM<br/>\n• Sun: Closed"
+                "text": "North Campus Services<br/>\n• Mon-Thurs: 7:30AM - 9:30PM<br/>\n• Fri: 7:30AM - 4PM<br/>\n• Sat: 7:30AM - 2PM<br/>\n• Sun: Closed"
               }
             ],
             "response_type": "text",
@@ -27591,7 +27624,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n \nIf you need access to ILC technology, click on:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/helpful-resources-facilities/interactive-learning-centers\">Interactive Learning Center</a> for a listing of locations and hours of operation.<br/><br/>\n\nIf you need technical assistance, click on:<br/><a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/> We are open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n"
+                "text": "The ILC is open Monday to Thursday 7AM-10PM, Friday 7AM-7PM, Saturday 8AM-5PM and Sunday 12PM-5PM.<br/><br/>\n\nIf you need access to ILC technology, click on:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/helpful-resources-facilities/interactive-learning-centers\">Interactive Learning Center</a> for a listing of locations and hours of operation.<br/><br/>\n\nIf you need technical assistance, click on:<br/><a target=\"_blank\" href=\"https://www.sanjacits.org/\">Technical Support</a><br/><br/>You can also email TechSupport\\@sjcd.edu or call (281) 998-6137. <br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -27833,7 +27866,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nSouth Campus Services<br/>\n• Mon-Thurs: 7AM - 10PM<br/>\n• Fri: 7AM - 5PM<br/>\n• Sat: 7AM - 3PM<br/>\n• Sun: Closed"
+                "text": "South Campus Services<br/>\n• Mon-Thurs: 7AM - 10PM<br/>\n• Fri: 7AM - 5PM<br/>\n• Sat: 7AM - 3PM<br/>\n• Sun: Closed"
               }
             ],
             "response_type": "text",
@@ -28188,7 +28221,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nFor maritime assistance, please contact the San Jacinto College Maritime staff at 281-459-5483 or email SanJacinto.Maritime@sjcd.edu\n\nMonica Fuentes<br/>\nMaritime Administrative Assistant<br/>\nMonica.Fuentes@sjcd.edu\n\nMaritime Campus Services<br/>\n• Mon-Fri: 8AM - 5PM<br/>\n• Sat & Sun: Closed"
+                "text": "For maritime assistance, please contact the San Jacinto College Maritime staff at 281-459-5483 or email SanJacinto.Maritime\\@sjcd.edu\n\nMonica Fuentes<br/>\nMaritime Administrative Assistant<br/>\nMonica.Fuentes\\@sjcd.edu\n\nMaritime Campus Services<br/>\n• Mon-Fri: 8AM - 5PM<br/>\n• Sat & Sun: Closed"
               }
             ],
             "response_type": "text",
@@ -28491,7 +28524,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format. \n\nNote: The child care centers have been closed across all campuses...<br/><br/>\n\nCentral Campus Child Care<br/>\nFall and Spring:<br/>\n• Mon-Fri: 7AM - 5:30PM<br/><br/>\n\nSummer:<br/>\n• Mon-Thurs: 7AM - 5:30PM<br/>\n• Fri: 7AM - Noon"
+                "text": "Central Campus Child Care<br/>\nFall and Spring:<br/>\n• Mon-Fri: 7AM - 5:30PM<br/><br/>\n\nSummer:<br/>\n• Mon-Thurs: 7AM - 5:30PM<br/>\n• Fri: 7AM - Noon"
               }
             ],
             "response_type": "text",
@@ -28724,7 +28757,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format. \n\nNote: The child care centers have been closed across all campuses...<br/><br/>\n\nNorth Campus Child Care<br/>\nFall and Spring:<br/>\n• Mon-Fri: 7AM - 5:30PM<br/><br/>\n\nSummer:<br/>\n• Mon-Thurs: 7AM - 5:30PM<br/>\n• Fri: 7AM - Noon"
+                "text": "North Campus Child Care<br/>\nFall and Spring:<br/>\n• Mon-Fri: 7AM - 5:30PM<br/><br/>\n\nSummer:<br/>\n• Mon-Thurs: 7AM - 5:30PM<br/>\n• Fri: 7AM - Noon"
               }
             ],
             "response_type": "text",
@@ -28955,7 +28988,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\nCentral Campus Educational Planning Counseling & Continuation<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>"
+                "text": "Central Campus Educational Planning Counseling & Continuation<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">HERE</a> .<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -29209,7 +29242,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nCentral Campus Financial Aid<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>"
+                "text": "Central Campus Financial Aid<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">HERE</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -29384,7 +29417,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nNorth Campus Financial Aid<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am -5 pm<br/><br/>"
+                "text": "North Campus Financial Aid<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">HERE</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -30070,7 +30103,7 @@
           {
             "values": [
               {
-                "text": "South Campus Dual Credit<br/>\n281-669-4704<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "South Campus Dual Credit<br/>\n281-669-4704<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -32621,7 +32654,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nSouth Campus Financial Aid<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am -5 pm<br/><br/>"
+                "text": "South Campus Financial Aid<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">HERE</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -32846,7 +32879,7 @@
           {
             "values": [
               {
-                "text": "The Central Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">HERE</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n\nCentral Campus Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-9:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: 10:00AM-2:00PM<br/>\n• Sun:  1:00AM-5:00PM<br/><br/>\n\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun: Closed<br/><br/>\n\nFor Library Hours 2021 <a target=\"_blank\" href=\"https://sjcd.libguides.com/libraryhours\"> click here</a>.<br/><br/>\n"
+                "text": "For Library Hours 2021 <a target=\"_blank\" href=\"https://sjcd.libguides.com/libraryhours\"> click here</a>.<br/><br/>\n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">HERE</a> to chat with a librarian remotely or to access digital content.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -33103,7 +33136,7 @@
           {
             "values": [
               {
-                "text": "The North Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">HERE</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n\nNorth Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-9:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: 11:00AM-2:00PM<br/>\n• Sun:  Closed<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nFor Library Hours 2021 <a target=\"_blank\" href=\"https://sjcd.libguides.com/libraryhours\"> click here</a>.<br/><br/>\n"
+                "text": "For Library Hours 2021 <a target=\"_blank\" href=\"https://sjcd.libguides.com/libraryhours\"> click here</a>.<br/><br/>\n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">HERE</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -33359,7 +33392,7 @@
           {
             "values": [
               {
-                "text": "The South Campus Library is currently open under Altered Operations. Students must adhere to the current San Jac COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.  <br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/> \n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">HERE</a> to chat with a librarian remotely or to access digital content.<br/><br/>\nSouth Campus Library Chat Hours<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-9:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: 10:00AM-1:00PM<br/>\n• Sun:  Closed<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 7:30AM-5:00PM<br/>\n• Fri:  7:30AM-3:00PM<br/>\n• Sat: Closed<br/>\n• Sun:  Closed<br/><br/>\n\nFor Library Hours 2021 <a target=\"_blank\" href=\"https://sjcd.libguides.com/libraryhours\"> click here</a>.<br/><br/>\n"
+                "text": "For Library Hours 2021 <a target=\"_blank\" href=\"https://sjcd.libguides.com/libraryhours\"> click here</a>.<br/><br/>\n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/library/\">HERE</a> to chat with a librarian remotely or to access digital content.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -33633,7 +33666,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nDuring this period of altered operations, the College’s Student Success Centers staff are still available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">HERE</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/> \n\nCentral Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-8:45PM<br/>\n• Fri:  7:30AM-2:45PM<br/>\n• Sat: 10:00AM-1:45PM<br/>\n• Sun:  1:00PM-4:45PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 9AM-6PM<br/>\n• Sat:  10AM-1:45PM<br/><br/>\n\nSSC tutoring for Spring 2021 will resume the first day of classes, Jan. 19th.\n"
+                "text": "Central Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 7:30AM-8:45PM<br/>\n• Fri:  7:30AM-2:45PM<br/>\n• Sat: 10:00AM-1:45PM<br/>\n• Sun:  1:00PM-4:45PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 9AM-6PM<br/>\n• Sat:  10AM-1:45PM<br/><br/>\n\nThe College’s Student Success Centers staff are  available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">HERE</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -33849,7 +33882,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nDuring this period of altered operations, the College’s Student Success Centers staff are still available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">HERE</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/> \n\nNorth Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8AM-8:45PM<br/>\n• Fri:  8AM-2:45PM<br/>\n• Sat: 11AM-1:45PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8AM-6PM<br/><br/>\n\nSSC tutoring for Spring 2021 will resume the first day of classes, Jan. 19th."
+                "text": "North Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8AM-8:45PM<br/>\n• Fri:  8AM-2:45PM<br/>\n• Sat: 11AM-1:45PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8AM-6PM<br/><br/>\n\nThe College’s Student Success Centers staff are  available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">HERE</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -34110,7 +34143,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nDuring this period of altered operations, the College’s Student Success Centers staff are still available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">HERE</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/> \n\nSouth Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8AM-8PM<br/>\n• Fri:  8AM-3PM<br/>\n• Sat: 10AM-1PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8AM-5PM<br/>\n• Fri:  8AM-Noon<br/><br/>\n\nSSC tutoring for Spring 2021 will resume the first day of classes, Jan. 19th."
+                "text": "South Campus Student Success Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8AM-8PM<br/>\n• Fri:  8AM-3PM<br/>\n• Sat: 10AM-1PM<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8AM-5PM<br/>\n• Fri:  8AM-Noon<br/><br/>\n\nThe College’s Student Success Centers staff are  available to support students with online tutoring. Please click <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/\">HERE</a> to schedule a time to meet with an advisor online via TutorTrac.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -34327,7 +34360,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nIf you need to speak with someone in Testing, you can reach your campus Testing Center via email: TestingCenter-Central\\@sjcd.edu<br/><br/>\n\nCentral Campus Testing Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm\n"
+                "text": "Central Campus Testing Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-Noon<br/><br/>\n\nIf you need to speak with someone in Testing, you can reach your campus Testing Center via email: TestingCenter-Central\\@sjcd.edu<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -34483,7 +34516,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nIf you need to speak with someone in Testing, you can reach your campus Testing Center via email: TestingCenter-North\\@sjcd.edu<br/><br/>\n\nNorth Campus Testing Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am -5 pm"
+                "text": "North Campus Testing Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-Noon<br/><br/>\n\nIf you need to speak with someone in Testing, you can reach your campus Testing Center via email: TestingCenter-North\\@sjcd.edu<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -34650,7 +34683,7 @@
           {
             "values": [
               {
-                "text": "All students who are new to San Jacinto College will need to come into one of our campuses to meet with an Admissions Advisor to talk about programs available, choose their courses, and potential career options.  Due to FERPA regulations, detailed advising is unavailable over the phone.<br/><br/>\nNote: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here</a>.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "All students who are new to San Jacinto College will need to come into one of our campuses to meet with an Admissions Advisor to talk about programs available, choose their courses, and potential career options.  Due to FERPA regulations, detailed advising is unavailable over the phone.<br/><br/>\nPlease click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here</a>.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Friday 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -34693,7 +34726,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nIf you need to speak with someone in Testing, you can reach your campus Testing Center via email: TestingCenter-South\\@sjcd.edu<br/><br/>\n\nSouth Campus Testing Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am -5 pm"
+                "text": "South Campus Testing Center<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-Noon<br/><br/>\n\nIf you need to speak with someone in Testing, you can reach your campus Testing Center via email: TestingCenter-South\\@sjcd.edu<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -35008,7 +35041,7 @@
           {
             "values": [
               {
-                "text": "Veterans Center Central Campus<br/>\n281-998-6150 ext. 1387<br/>\nFax 281-478-2707<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "Veterans Center Central Campus<br/>\n281-998-6150 ext. 1387<br/>\nFax 281-478-2707<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -36739,7 +36772,7 @@
           {
             "values": [
               {
-                "text": "Our International Student Services Office is here to help guide you through this process and will become an important resource for you during your time at San Jacinto College. <br/><br/>\nSchedule A Virtual Appointment:<br/>\nInternational Student Services accepts appointments for:<br/>\n•\tI-20 Extension/Reduced Course Load<br/>\n•\tReinstatement/Out of Status<br/>\n•\tGeneral Advising<br/>\n•\tNew Student/Admission Process<br/>\n•\tTransfer In/Out/Travel Signature<br/><br/>\n\nPlease click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\n\nChat With International Student Services:<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.\nTo chat with International Student Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/internationalsjc@chat.libraryh3lp.com?skin=30837\">here</a>.<br/><br/>\n\nPhone Support: <br/>\nContact International Student Services- 281-998-6150 x4636<br/><br/>\n"
+                "text": "Our International Student Services Office is here to help guide you through this process and will become an important resource for you during your time at San Jacinto College. <br/><br/>\nSchedule A Virtual Appointment:<br/>\nInternational Student Services accepts appointments for:<br/>\n•\tI-20 Extension/Reduced Course Load<br/>\n•\tReinstatement/Out of Status<br/>\n•\tGeneral Advising<br/>\n•\tNew Student/Admission Process<br/>\n•\tTransfer In/Out/Travel Signature<br/><br/>\n\nPlease click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\n\nChat With International Student Services:<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).\nTo chat with International Student Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/internationalsjc@chat.libraryh3lp.com?skin=30837\">here</a>.<br/><br/>\n\nPhone Support: <br/>\nContact International Student Services- 281-998-6150 x4636<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -36792,6 +36825,18 @@
     },
     {
       "type": "standard",
+      "parent": "node_10_1609866787228",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1595598189260"
+      },
+      "conditions": "@Format:Search",
+      "dialog_node": "node_4_1621517148931",
+      "previous_sibling": "node_8_1621517147138"
+    },
+    {
+      "type": "standard",
       "output": {
         "text": {
           "values": [
@@ -36816,7 +36861,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nCentral Campus Veterans Office<br/>\nFall/Spring Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM -5:00PM<br/><br/>"
+                "text": "Central Campus Veterans Office<br/>\nFall/Spring Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM -Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">HERE</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -36964,7 +37009,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nNorth Campus Veterans Office<br/>\nFall/Spring Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM -5:00PM<br/><br/>"
+                "text": "North Campus Veterans Office<br/>\nFall/Spring Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM -Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">HERE</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -37142,7 +37187,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nSouth Campus Veterans Office<br/>\nFall/Spring Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM -5:00PM<br/><br/>"
+                "text": "South Campus Veterans Office<br/>\nFall/Spring Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday: 8:00AM - 7:00PM<br/>\n• Tuesday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday: 8:00AM -Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">HERE</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -37306,7 +37351,7 @@
           {
             "values": [
               {
-                "text": "First-time students transferring in with less than 12 credit hours will be required to meet with an Admissions Advisor before registering for classes, attend New Student Orientation, and complete a student success course.<br/><br/>\nStudents transferring to San Jac after previous enrollment will need to re-admit after 3 consecutive semesters or more of non-attendance, turn in transcripts from any accredited college(s) attended after San Jac, and meet with an Educational Planner. Students transferring in with less than 12 credit hours will be required to attend New Student Orientation before registering for classes<br/><br/>\nDue to FERPA regulations, detailed advising is unavailable over the phone.<br/><br/>\nNote: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nFirst-time transfer students needing to chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/><br/>\nReturning transfer students needing to chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "First-time students transferring in with less than 12 credit hours will be required to meet with an Admissions Advisor before registering for classes, attend New Student Orientation, and complete a student success course.<br/><br/>\nStudents transferring to San Jac after previous enrollment will need to re-admit after 3 consecutive semesters or more of non-attendance, turn in transcripts from any accredited college(s) attended after San Jac, and meet with an Educational Planner. Students transferring in with less than 12 credit hours will be required to attend New Student Orientation before registering for classes<br/><br/>\nDue to FERPA regulations, detailed advising is unavailable over the phone.<br/><br/>\nPlease click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nFirst-time transfer students needing to chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/><br/>\nReturning transfer students needing to chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Friday 8AM-Noon)<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -37349,7 +37394,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nNorth Campus Admissions Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>"
+                "text": "North Campus Admissions Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -37481,7 +37526,7 @@
           {
             "values": [
               {
-                "text": "Returning San Jac students with less than 12 credit hours will be required to meet with an Educational Planner before registering for classes, attend New Student Orientation, and complete a re-admission application if you have been out for 3 consecutive semesters or more. We will also need transcripts from any accredited colleges attended after San Jac. Due to FERPA regulations, detailed advising is unavailable over the phone.<br/><br/>\nNote: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Educational Planner, returning & previously enrolled San Jac students please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a>.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/><br/>"
+                "text": "Returning San Jac students with less than 12 credit hours will be required to meet with an Educational Planner before registering for classes, attend New Student Orientation, and complete a re-admission application if you have been out for 3 consecutive semesters or more. We will also need transcripts from any accredited colleges attended after San Jac. Due to FERPA regulations, detailed advising is unavailable over the phone.<br/><br/>\nPlease click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Educational Planner, returning & previously enrolled San Jac students please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a>.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Friday 8AM-Noon)<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -37524,7 +37569,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nSouth Campus Admissions Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>"
+                "text": "South Campus Admissions Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -37632,7 +37677,7 @@
           {
             "values": [
               {
-                "text": "Dual Credit students are required to meet with the Dual Credit Educational Planner for registration.<br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "Dual Credit students are required to meet with the Dual Credit Educational Planner for registration.<br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -37675,7 +37720,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nNorth Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Wed: 8:00AM-5:00PM<br/>\n• Thursday: 8:00AM-7:00PM<br/><br/>\n• Fri: 8:00AM-4:30PM<br/><br/>\n"
+                "text": "North Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Wed: 8:00AM-5:00PM<br/>\n• Thursday: 8:00AM-7:00PM<br/><br/>\n• Fri: 8:00AM-4:30PM<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -37855,7 +37900,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nSouth Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Wed: 8:00AM-5:00PM<br/>\n• Thursday: 8:00AM-7:00PM<br/><br/>\n• Fri: 8:00AM-4:30PM<br/><br/>\n"
+                "text": "South Campus Business Office<br/>\nFall/Spring Hours<br/>\n• Mon-Wed: 8:00AM-5:00PM<br/>\n• Thursday: 8:00AM-7:00PM<br/><br/>\n• Fri: 8:00AM-4:30PM<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -38030,7 +38075,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nIf you are in need of information on available food resources, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/student-support/student-support-resources/food-resources/\">here</a> to view a list of food resources in the local area.<br/><br/>\n\nCentral Café<br/>\nMonday-Friday<br/>\n• Breakfast 7:30AM-9:30AM<br/>\n• Lunch 10:30AM-1:30PM<br/>\n• Grab n Go - All day"
+                "text": "Central Café<br/>\nMonday-Friday<br/>\n• Breakfast 7:30AM-9:30AM<br/>\n• Lunch 10:30AM-1:30PM<br/>\n• Grab n Go - All day"
               }
             ],
             "response_type": "text",
@@ -38180,7 +38225,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nIf you are in need of information on available food resources, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/student-support/student-support-resources/food-resources/\">here</a> to view a list of food resources in the local area.<br/><br/>\n\nNorth Café<br/>\nMonday-Friday<br/>\n• Breakfast 7:30AM-9:30AM<br/>\n• Lunch 10:30AM-1:30PM<br/>\n• Grab n Go - All day"
+                "text": "North Café<br/>\nMonday-Friday<br/>\n• Breakfast 7:30AM-9:30AM<br/>\n• Lunch 10:30AM-1:30PM<br/>\n• Grab n Go - All day"
               }
             ],
             "response_type": "text",
@@ -38309,7 +38354,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nIf you are in need of information on available food resources, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/student-support/student-support-resources/food-resources/\">here</a> to view a list of food resources in the local area.<br/><br/>\n\nSouth Café<br/>\nMonday-Friday<br/>\n• Breakfast 7:30AM-9:30AM<br/>\n• Lunch 10:30AM-1:30PM<br/>\n• Grab n Go - All day<br/><br/>\n\nSouth Allied Kiosk<br/>\nMonday-Thursday<br/>\n• Grab n Go - All day"
+                "text": "South Café<br/>\nMonday-Friday<br/>\n• Breakfast 7:30AM-9:30AM<br/>\n• Lunch 10:30AM-1:30PM<br/>\n• Grab n Go - All day<br/><br/>\n\nSouth Allied Kiosk<br/>\nMonday-Thursday<br/>\n• Grab n Go - All day"
               }
             ],
             "response_type": "text",
@@ -38582,7 +38627,7 @@
           {
             "values": [
               {
-                "text": "Veterans Center North Campus<br/>\n281-998-6150 ext. 7692<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "Veterans Center North Campus<br/>\n281-998-6150 ext. 7692<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -40881,7 +40926,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nNorth Campus Educational Planning Counseling & Continuation<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>"
+                "text": "North Campus Educational Planning Counseling & Continuation<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">HERE</a> .<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -41014,7 +41059,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nSouth Campus Educational Planning Counseling & Continuation<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>"
+                "text": "South Campus Educational Planning Counseling & Continuation<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">HERE</a> .<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -42005,7 +42050,7 @@
           {
             "values": [
               {
-                "text": "Veterans Center South Campus<br/>\n281-998-6150 ext. 4672<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "Veterans Center South Campus<br/>\n281-998-6150 ext. 4672<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -44701,7 +44746,7 @@
           {
             "values": [
               {
-                "text": "Central Campus Admissions<br/>\n281-998-6150<br/>\n<b>admissions\\@sjcd.edu</b>.<br/><br/>\n\nWelcome Center Building, C-27.1100.<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>\n\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "Central Campus Admissions<br/>\n281-998-6150<br/>\n<b>admissions\\@sjcd.edu</b>.<br/><br/>\n\nWelcome Center Building, C-27.1100.<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -45232,7 +45277,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nNote: The game room is closed. The College has canceled all on-campus events, including student led events through the Spring semester.<br/><br/>\n\n\nCentral Campus Game Room<br/>\nFall/Spring Hours<br/>\n• Monday/Wednesday: 11:00AM - 3:00PM<br/>\n• Tuesday/Thursday: 11:00AM - 2:30PM<br/>\n*Hours are subject to change"
+                "text": "Central Campus Game Room<br/>\nFall/Spring Hours<br/>\n• Monday/Wednesday: 11:00AM - 3:00PM<br/>\n• Tuesday/Thursday: 11:00AM - 2:30PM<br/>\n*Hours are subject to change"
               }
             ],
             "response_type": "text",
@@ -45344,7 +45389,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\n\nNorth Campus Game Room<br/>\nFall/Spring Hours<br/>\n• Monday/Wednesday: 9:00AM - 1:00PM<br/>\n• Tuesday/Thursday: 10:00AM - 4:00PM<br/>\n*Hours are subject to change"
+                "text": "North Campus Game Room<br/>\nFall/Spring Hours<br/>\n• Monday/Wednesday: 9:00AM - 1:00PM<br/>\n• Tuesday/Thursday: 10:00AM - 4:00PM<br/>\n*Hours are subject to change"
               }
             ],
             "response_type": "text",
@@ -45430,7 +45475,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\n\nNote: The game room is closed. The College has canceled all on-campus events, including student led events through the Spring semester.<br/><br/>\n\nSouth Campus Game Room<br/>\nFall/Spring Hours<br/>\n• Monday-Friday: 10:00AM - 4:00PM<br/>\n*Hours are subject to change"
+                "text": "South Campus Game Room<br/>\nFall/Spring Hours<br/>\n• Monday-Friday: 10:00AM - 4:00PM<br/>\n*Hours are subject to change"
               }
             ],
             "response_type": "text",
@@ -46132,7 +46177,7 @@
           {
             "values": [
               {
-                "text": "To apply for graduation, please follow these simple steps:<br/><br/>\nDo a Graduation Status Check.  Log into <a target=\"_blank\" href=\"http://www.sjcd.edu/soslogin\">SOS</a> and go to <b>Student Records</b>, run a degree evaluation and print it out.  Write in notes next to requirements that are currently in progress or pending, and bring the form to the EPCC office on the campus where you would like to graduate by the deadline listed in the class schedule.<br/><br/>\nOnce the EPCC office verifies that you are eligible to graduate, you will be provided an application for your degree or certificate.  Be sure to inform us whether you'd like to attend your graduation ceremony.  If you do, be sure to order your cap and gown through one of the campus bookstores.<br/><br/>\nDue to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format. Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely..<br/><br/>"
+                "text": "To apply for graduation, please follow these simple steps:<br/><br/>\nDo a Graduation Status Check.  Log into <a target=\"_blank\" href=\"http://www.sjcd.edu/soslogin\">SOS</a> and go to <b>Student Records</b>, run a degree evaluation and print it out.  Write in notes next to requirements that are currently in progress or pending, and bring the form to the EPCC office on the campus where you would like to graduate by the deadline listed in the class schedule.<br/><br/>\nOnce the EPCC office verifies that you are eligible to graduate, you will be provided an application for your degree or certificate.  Be sure to inform us whether you'd like to attend your graduation ceremony.  If you do, be sure to order your cap and gown through one of the campus bookstores.<br/><br/>\nPlease click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -48258,7 +48303,7 @@
           {
             "values": [
               {
-                "text": "Central Campus Educational Planning Counseling & Continuation<br/>\n281-998-6150<br/><br/>\n\nWelcome Center Building, C-27.1500<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a> to schedule a time to meet with an advisor remotely.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "Central Campus Educational Planning Counseling & Continuation<br/>\n281-998-6150<br/><br/>\n\nWelcome Center Building, C-27.1500<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a> to schedule a time to meet with an advisor remotely.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -48344,7 +48389,7 @@
           {
             "values": [
               {
-                "text": "Central Campus Financial Aid<br/>\n281-998-6150<br/>\n281-478-2710 - Fax<br/>\nfinaid\\@sjcd.edu<br/><br/>\n\nWelcome Center Building, C-27.1300<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "Central Campus Financial Aid<br/>\n281-998-6150<br/>\n281-478-2710 - Fax<br/>\nfinaid\\@sjcd.edu<br/><br/>\n\nWelcome Center Building, C-27.1300<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -48406,7 +48451,7 @@
           {
             "values": [
               {
-                "text": "North Campus Financial Aid<br/>\n281-998-6150<br/>\n281-669-4385 - Fax<br/>\nfinaid\\@sjcd.edu<br/><br/>\n\nWelcome Center, N-6.150<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "281-998-6150<br/>\n281-669-4385 - Fax<br/>\nfinaid\\@sjcd.edu<br/><br/>\n\nWelcome Center, N-6.150<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -48467,7 +48512,7 @@
           {
             "values": [
               {
-                "text": "South Campus Financial Aid<br/>\n281-998-6150<br/>\n281-669-4336 - Fax<br/>\nfinaid\\@sjcd.edu<br/><br/>\n\nWelcome Center, S-6.181<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "South Campus Financial Aid<br/>\n281-998-6150<br/>\n281-669-4336 - Fax<br/>\nfinaid\\@sjcd.edu<br/><br/>\n\nWelcome Center, S-6.181<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -51303,6 +51348,18 @@
     },
     {
       "type": "standard",
+      "title": "Return to Class Format Options",
+      "parent": "node_10_1609866787228",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1595595308417"
+      },
+      "conditions": "@Format:Options",
+      "dialog_node": "node_8_1621517147138"
+    },
+    {
+      "type": "standard",
       "title": "Requesting a Student ID - Part 2",
       "output": {
         "generic": [
@@ -51832,7 +51889,7 @@
           {
             "values": [
               {
-                "text": "Veterans Center Central Campus<br/>\n281-998-6150 ext. 1387<br/>\nFax 281-478-2707<br/><br/>\n\nWelcome Center Building, C-24.1400<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "Veterans Center Central Campus<br/>\n281-998-6150 ext. 1387<br/>\nFax 281-478-2707<br/><br/>\n\nWelcome Center Building, C-24.1400<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -51893,7 +51950,7 @@
           {
             "values": [
               {
-                "text": "Veterans Center North Campus<br/>\n281-998-6150 ext. 7692<br/><br/>\n\nSpencer Administration Building, N-8.101<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "Veterans Center North Campus<br/>\n281-998-6150 ext. 7692<br/><br/>\n\nSpencer Administration Building, N-8.101<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -51955,7 +52012,7 @@
           {
             "values": [
               {
-                "text": "Veterans Center South Campus<br/>\n281-998-6150 ext. 4672<br/><br/>\n\nLongenecker Administration Building, S-8.2066<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "Veterans Center South Campus<br/>\n281-998-6150 ext. 4672<br/><br/>\n\nLongenecker Administration Building, S-8.2066<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -52179,7 +52236,7 @@
       "output": {
         "text": {
           "values": [
-            "At this time, you can request for a transcript evaluation by visiting any campus student services office or by calling 281-998-6150.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+            "You can request for a transcript evaluation by visiting any campus student services office or by calling 281-998-6150.<br/><br/>To schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -54251,7 +54308,7 @@
           {
             "values": [
               {
-                "text": "North Campus Admissions<br/>\n281-998-6150<br/>\n<b>admissions\\@sjcd.edu</b>.<br/><br/>\n\nWelcome Center, N-6.120.<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>\n\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "North Campus Admissions<br/>\n281-998-6150<br/>\n<b>admissions\\@sjcd.edu</b>.<br/><br/>\n\nWelcome Center, N-6.120.<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -54294,7 +54351,7 @@
           {
             "values": [
               {
-                "text": "South Campus Admissions<br/>\n281-998-6150<br/>\n<b>admissions\\@sjcd.edu</b>.<br/><br/>\n\nWelcome Center,S-6.160.<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>\n\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "South Campus Admissions<br/>\n281-998-6150<br/>\n<b>admissions\\@sjcd.edu</b>.<br/><br/>\n\nWelcome Center,S-6.160.<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -54625,7 +54682,7 @@
           {
             "values": [
               {
-                "text": "North Campus Educational Planning Counseling & Continuation<br/>\n281-998-6150<br/><br/>\n\nWelcome Center, N-6.170<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>\nNote: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a> to schedule a time to meet with an advisor remotely.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM.<br/><br/>"
+                "text": "North Campus Educational Planning Counseling & Continuation<br/>\n281-998-6150<br/><br/>\n\nWelcome Center, N-6.170<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a> to schedule a time to meet with an advisor remotely.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -54669,7 +54726,7 @@
           {
             "values": [
               {
-                "text": "Central Campus Dual Credit<br/>\n281-478-3628<br/><br/>\n\nWelcome Center Building, C-27.2300<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>Note: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>"
+                "text": "Central Campus Dual Credit<br/>\n281-478-3628<br/><br/>\n\nWelcome Center Building, C-27.2300<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -54712,7 +54769,7 @@
           {
             "values": [
               {
-                "text": "South Campus Dual Credit<br/>\n281-669-4704<br/><br/>\n\nAcademic Hall, S-8.1000<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>Note: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>"
+                "text": "South Campus Dual Credit<br/>\n281-669-4704<br/><br/>\n\nAcademic Hall, S-8.1000<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -54753,7 +54810,7 @@
       "output": {
         "text": {
           "values": [
-            "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nSouth Campus Dual Credit Office<br/>\nFall/Spring Hours<br/>\n• Monday-Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday:  8:00AM - 5:00PM<br/><br/>"
+            "South Campus Dual Credit Office<br/>\nFall/Spring Hours<br/>\n• Monday-Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday:  8:00AM - Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -55097,7 +55154,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nCentral Campus Dual Credit Office<br/>\nFall/Spring Hours<br/>\n• Monday-Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday:  8:00AM - 5:00PM<br/><br/>"
+                "text": "Central Campus Dual Credit Office<br/>\nFall/Spring Hours<br/>\n• Monday-Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday:  8:00AM - Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -55154,7 +55211,7 @@
           {
             "values": [
               {
-                "text": "Good morning!  I'm Jac, and I will be your personal advisor today.<br/><br/>\nI've had my coffee, so I'm awake and ready to help you! Thanks so much for reaching out. Please note, San Jacinto College is currently open. However, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire for the safety of our students and community.<br/><br/>\nFor more information regarding the arrival procedures and daily questionnaires, or for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n\n"
+                "text": "Good morning!  I'm Jac, and I will be your personal advisor today.<br/><br/>\nI've had my coffee, so I'm awake and ready to help you! Thanks so much for reaching out.<br/><br/>\nPlease note, beginning May 22, 2021:<br/>\n•\tFace coverings will be optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College will no longer require a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form will be available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that will allow employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n\n"
               }
             ],
             "response_type": "text",
@@ -55226,7 +55283,7 @@
           {
             "values": [
               {
-                "text": "I'm learning new things daily - so I may not have all the answers yet, but I always do my best!\nPlease keep your questions brief and ask them one at a time, so that I may better assist you.\nIf you need to start over, simply type 'Back'.<br/><br/>\n"
+                "text": "<br/>I'm learning new things daily - so I may not have all the answers yet, but I always do my best!\nPlease keep your questions brief and ask them one at a time, so that I may better assist you.\nIf you need to start over, simply type 'Back'.<br/><br/>For more information for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -55245,7 +55302,7 @@
           {
             "values": [
               {
-                "text": "Good evening!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope your having a great day. Thanks so much for reaching out. Please note, San Jacinto College is currently open. However, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire for the safety of our students and community.<br/><br/>\nFor more information regarding the arrival procedures and daily questionnaires, or for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
+                "text": "Good evening!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope your having a great day. Thanks so much for reaching out. <br/><br/>\nPlease note, beginning May 22, 2021:<br/>\n•\tFace coverings will be optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College will no longer require a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form will be available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that will allow employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -55316,7 +55373,7 @@
           {
             "values": [
               {
-                "text": "I'm learning new things daily - so I may not have all the answers yet, but I always do my best!\nPlease keep your questions brief and ask them one at a time, so that I may better assist you.\nIf you need to start over, simply type 'Back'.<br/><br/>\n"
+                "text": "I'm learning new things daily - so I may not have all the answers yet, but I always do my best!\nPlease keep your questions brief and ask them one at a time, so that I may better assist you.\nIf you need to start over, simply type 'Back'.<br/><br/>For more information for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -55335,7 +55392,7 @@
       "output": {
         "text": {
           "values": [
-            "South Campus Student Engagement & Activities<br/><br/>281-929-4633<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+            "South Campus Student Engagement & Activities<br/><br/>281-929-4633<br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -55356,7 +55413,7 @@
       "output": {
         "text": {
           "values": [
-            "South Campus Office of Student Engagement & Activities<br/>\n281-929-4633<br/><br/>\n\nBruce Student Center Building, S-11.115<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>Note: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>"
+            "South Campus Office of Student Engagement & Activities<br/>\n281-929-4633<br/><br/>\n\nBruce Student Center Building, S-11.115<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/south-campus\"> South Campus Map</a> <br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -55400,7 +55457,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/> \n\nThe South Campus Print & Mail Center is open:<br/>\n• Monday-Friday:  8:00AM-5:00PM<br/><br/>"
+                "text": "The South Campus Print & Mail Center is open:<br/>\n• Monday-Friday:  8:00AM-5:00PM<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -55456,7 +55513,7 @@
       "output": {
         "text": {
           "values": [
-            "North Campus Office of Student Engagement & Activities<br/>\n281-459-1767<br/><br/>\n\nSlovaceck Student Center building, N-12.101<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>Note: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>"
+            "North Campus Office of Student Engagement & Activities<br/>\n281-459-1767<br/><br/>\n\nSlovaceck Student Center building, N-12.101<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -55479,7 +55536,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nThe Central Campus Print & Mail Center is open:<br/>\n• Monday-Friday:  8:00AM-5:00PM<br/><br/>"
+                "text": "The Central Campus Print & Mail Center is open:<br/>\n• Monday-Friday:  8:00AM-5:00PM<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -55650,7 +55707,7 @@
       "output": {
         "text": {
           "values": [
-            "Central Campus Office of Student Engagement & Activities<br/>\n281-476-1877<br/><br/>\n\nNewton Student Center Building, C-14.100<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>Note: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>"
+            "Central Campus Office of Student Engagement & Activities<br/>\n281-476-1877<br/><br/>\n\nNewton Student Center Building, C-14.100<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/central-campus\"> Central Campus Map</a> <br/><br/>\n"
           ],
           "selection_policy": "sequential"
         }
@@ -55715,7 +55772,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is currently closed to visitors due to the evolving coronavirus (COVID-19) situation. Due to the current campus closures, San Jac is conducting altered operations by moving the college’s student support services and resources to an online format.<br/><br/> \n\nThe North Campus Print & Mail Center is open:<br/>\n• Monday-Thursday:  8:30AM-5:30PM<br/>\n• Friday:  8:00AM-5:00PM<br/><br/>"
+                "text": "The North Campus Print & Mail Center is open:<br/>\n• Monday-Thursday:  8:30AM-5:30PM<br/>\n• Friday:  8:00AM-5:00PM<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -55859,7 +55916,7 @@
       "output": {
         "text": {
           "values": [
-            "North Campus Student Engagement & Activities<br/><br/>281-459-1767<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+            "North Campus Student Engagement & Activities<br/><br/>281-459-1767<br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -55981,7 +56038,7 @@
           {
             "values": [
               {
-                "text": "North Campus Dual Credit<br/>\n281-459-7634<br/><br/>\n\nSpencer Administration Building, N-8.130<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>Note: San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">here</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>"
+                "text": "North Campus Dual Credit<br/>\n281-459-7634<br/><br/>\n\nSpencer Administration Building, N-8.130<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/north-campus\"> North Campus Map</a> <br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -56022,7 +56079,7 @@
       "output": {
         "text": {
           "values": [
-            "San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>\n\nNorth Campus Dual Credit Office<br/>\nFall/Spring Hours<br/>\n• Monday-Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday:  8:00AM - 5:00PM<br/><br/>"
+            "North Campus Dual Credit Office<br/>\nFall/Spring Hours<br/>\n• Monday-Friday: 8:00AM - 5:00PM<br/><br/>\n\nSummer Hours<br/>\n• Monday-Thursday: 8:00AM - 5:00PM<br/>\n• Friday:  8:00AM - Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -56164,7 +56221,7 @@
       "output": {
         "text": {
           "values": [
-            "Central Campus Student Engagement & Activities<br/><br/>281-476-1877<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+            "Central Campus Student Engagement & Activities<br/><br/>281-476-1877<br/><br/>"
           ],
           "selection_policy": "sequential"
         }
@@ -56270,7 +56327,7 @@
           {
             "values": [
               {
-                "text": "Good afternoon!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope your having a great day. Thanks so much for reaching out. Please note, San Jacinto College is currently open. However, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire for the safety of our students and community.<br/><br/>\nFor more information regarding the arrival procedures and daily questionnaires, or for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
+                "text": "Good afternoon!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope your having a great day. Thanks so much for reaching out. <br/><br/>\nPlease note, beginning May 22, 2021:<br/>\n•\tFace coverings will be optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College will no longer require a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form will be available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that will allow employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -56341,7 +56398,7 @@
           {
             "values": [
               {
-                "text": "I'm learning new things daily, so I may not have all the answers yet. But, I always do my best!\nPlease keep your questions brief and ask them one at a time, so that I may better assist you.\nIf you need to start over, simply type 'Back'.<br/><br/>\n"
+                "text": "I'm learning new things daily, so I may not have all the answers yet. But, I always do my best!\nPlease keep your questions brief and ask them one at a time, so that I may better assist you.\nIf you need to start over, simply type 'Back'.<br/><br/>For more information for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -57036,7 +57093,7 @@
     "spelling_auto_correct": true
   },
   "learning_opt_out": false,
-  "name": "Ask Jac!  General Skill 8.0",
+  "name": "Ask Jac!  General Skill 8.1",
   "language": "en",
-  "description": "Copy of 7.9.5 sent to TEST on 04/09/2021 8AM"
+  "description": "Copy of 8.0 sent to TEST on 05/07/2021 Noon"
 }
