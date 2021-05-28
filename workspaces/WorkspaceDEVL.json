@@ -193,13 +193,28 @@
           "text": "EPCC"
         },
         {
+          "text": "How do i connect with a counselor using Zoom?"
+        },
+        {
+          "text": "How do i schedule an appointment to talk with a counselor using Zoom?"
+        },
+        {
           "text": "How do I see the Educational Planning Counseling and Continuation office?"
+        },
+        {
+          "text": "How do I speak to a counselor using Zoom?"
         },
         {
           "text": "I need help to determine what classes to take."
         },
         {
+          "text": "I need to set up an appointment to speak to a counselor."
+        },
+        {
           "text": "I need to speak to an advisor."
+        },
+        {
+          "text": "I need to speak to an advisor via Zoom"
         },
         {
           "text": "I need to speak with an Educational Planner"
@@ -5053,7 +5068,16 @@
           "text": "Deadlines"
         },
         {
+          "text": "deadline to pay for classes"
+        },
+        {
           "text": "Deadline to register"
+        },
+        {
+          "text": "deadline to register for classes"
+        },
+        {
+          "text": "deadline to sign up for classes"
         },
         {
           "text": "Fall registration deadline"
@@ -5084,6 +5108,12 @@
         },
         {
           "text": "Last day to register"
+        },
+        {
+          "text": "last day to register for classes"
+        },
+        {
+          "text": "last day to sign up for classes"
         },
         {
           "text": "Registration cut off"
@@ -7407,6 +7437,30 @@
       "description": "General info regarding Residency"
     },
     {
+      "intent": "Retake_Class_on_Us",
+      "examples": [
+        {
+          "text": "retake a class and college pay for tuition"
+        },
+        {
+          "text": "retake a class for free"
+        },
+        {
+          "text": "Retake a class on us"
+        },
+        {
+          "text": "retake a course for free"
+        },
+        {
+          "text": "retake a course on us"
+        },
+        {
+          "text": "retake class on us"
+        }
+      ],
+      "description": "Info regarding the Retake a Class on Us campaign offered for Spring 2021 and Fall 2021."
+    },
+    {
       "intent": "Room_Number",
       "examples": [
         {
@@ -8783,7 +8837,10 @@
         {
           "type": "synonyms",
           "value": "Generation Park",
-          "synonyms": []
+          "synonyms": [
+            "Gen Park",
+            "Gen Prk"
+          ]
         },
         {
           "type": "synonyms",
@@ -12140,6 +12197,14 @@
                 }
               },
               {
+                "label": "Generation Park Campus",
+                "value": {
+                  "input": {
+                    "text": "Generation Park Campus"
+                  }
+                }
+              },
+              {
                 "label": "Maritime Campus",
                 "value": {
                   "input": {
@@ -12316,6 +12381,14 @@
                 "value": {
                   "input": {
                     "text": "South Campus"
+                  }
+                }
+              },
+              {
+                "label": "Generation Park Campus",
+                "value": {
+                  "input": {
+                    "text": "Generation Park Campus"
                   }
                 }
               },
@@ -13063,6 +13136,14 @@
                 }
               },
               {
+                "label": "Generation Park Campus",
+                "value": {
+                  "input": {
+                    "text": "Generation Park Campus"
+                  }
+                }
+              },
+              {
                 "label": "Maritime Campus",
                 "value": {
                   "input": {
@@ -13723,7 +13804,7 @@
           {
             "values": [
               {
-                "text": "For inquiries regarding Educational Planning Counseling & Continuation, please call:<br/>\n281-998-6150<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a> to schedule a time to meet with an advisor remotely.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+                "text": "For inquiries regarding Educational Planning Counseling & Continuation, please call:<br/>\n281-998-6150<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a> to schedule a time to meet with an advisor remotely.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -13837,7 +13918,7 @@
       "metadata": {},
       "conditions": "$Departments:ILC && $Campus:Central",
       "dialog_node": "node_10_1541000875888",
-      "previous_sibling": "node_9_1541000789217"
+      "previous_sibling": "node_65_1541018010762"
     },
     {
       "type": "standard",
@@ -16029,7 +16110,7 @@
           {
             "values": [
               {
-                "text": "Okay, I can help you with that information. Click the following link for a quick checklist on the admissions steps: <a target=\"_blank\" href=\" https://www.sanjac.edu/admissions\">Admissions</a><br/><br/>\nFor more information regarding the arrival procedures and daily questionnaires, or for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
+                "text": "Okay, I can help you with that information. Click the following link for a quick checklist on the admissions steps: <a target=\"_blank\" href=\" https://www.sanjac.edu/admissions\">Admissions</a><br/><br/>\nFor more information for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -16740,7 +16821,7 @@
           {
             "values": [
               {
-                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nCentral Financial Aid Fax :<br/>\n281-478-2710<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nCentral Financial Aid Fax :<br/>\n281-478-2710<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -17294,7 +17375,7 @@
       "metadata": {},
       "conditions": "$Departments:(Testing Center) && $Campus:Central",
       "dialog_node": "node_1_1540558188458",
-      "previous_sibling": "node_19_1540483808154"
+      "previous_sibling": "response_6_1622128906361"
     },
     {
       "type": "standard",
@@ -17418,7 +17499,7 @@
       "metadata": {},
       "conditions": "$Departments:Police && $Campus",
       "dialog_node": "node_1_1540992885891",
-      "previous_sibling": "node_6_1540558403189"
+      "previous_sibling": "response_7_1568209472371"
     },
     {
       "type": "standard",
@@ -17464,7 +17545,7 @@
       },
       "conditions": "$Departments && $Campus",
       "dialog_node": "node_1_1541176029034",
-      "previous_sibling": "response_7_1568209472371"
+      "previous_sibling": "response_5_1622126879440"
     },
     {
       "type": "standard",
@@ -17738,7 +17819,7 @@
       "metadata": {},
       "conditions": "$Departments:(Dual Credit) && $Campus:Central",
       "dialog_node": "node_1_1557427280450",
-      "previous_sibling": "node_65_1541018010762"
+      "previous_sibling": "response_2_1622127899586"
     },
     {
       "type": "standard",
@@ -17902,7 +17983,9 @@
       "output": {
         "text": {
           "values": [
-            "What else can I help you with?"
+            "I am here to serve.  What else can I help you with?",
+            "Wonderful!  How else can I assist you?",
+            "Great!  How else can I be of service?"
           ],
           "selection_policy": "sequential"
         }
@@ -19267,7 +19350,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is closed for Memorial Day, Monday, May 25th, 2020.  <br/><br/>\nCollege classes and services will return to normal operations on Tuesday, June 1st.<br/><br/>"
+                "text": "San Jacinto College is closed for Memorial Day, Monday, May 31st, 2021.  <br/><br/>\nCollege classes and services will return to normal operations on Tuesday, June 1st.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -19332,7 +19415,7 @@
           {
             "values": [
               {
-                "text": "Educational Planning, Counseling, & Completion services have been moved to an online format and will continue for the foreseeable future. Advising will now be provided online. <br/>\nEducational Planning, Counseling, & Completion main webpage: <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/student-support/educational-planning-counseling-completion\">EPCC Webpage</a><br/>\nSchedule a virtual appointment with an Educational Planner: <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">Appointments</a><br/> \nRequest a Zoom Meeting: educational.planning\\@sjcd.edu<br/>\nChat with an Educational Planner: <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/student-support/educational-planning-counseling-completion\">Chat with Ed Planner</a><br/>\nQuestions concerning advising: Email educational.planning\\@sjcd.edu<br/>\nFAQs about college operations: <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/student-resources/coronavirus-covid-19-student-faqs-about-college-operations\">Student FAQs about College Operations</a><br/>\nRequest a Transcript: Visit the <a target=\"_blank\" href=\"http://www.sanjac.edu/students-services/records-transcripts\">Transcripts</a><br/> webpage.  Please Note: At this time, students cannot pick up a transcript from the College. An unofficial transcript can be accessed through the students <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/educational-planning/sos-login\">SOS Login</a><br/> under “My Student Records”<br/>\nWithdraw Course(s): Web Drop capability has been removed for parts of term that have already started. This means students are not able to drop on their own through their SOS account. Students requesting to be withdrawn from class(es) can schedule an appointment with an advisor. <br/>\nEducational Planning, Counseling, and Completion phone support: 281-998-6150<br/>\nEducational Planning hours of operation: M-Th 8am - 7pm / F 8am - 5pm<br/><br/><br/>"
+                "text": "Educational Planning, Counseling, & Completion main webpage: <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/student-support/educational-planning-counseling-completion\">EPCC Webpage</a><br/>\nSchedule a virtual appointment with an Educational Planner: <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">Appointments</a><br/> \nRequest a Zoom Meeting: educational.planning\\@sjcd.edu<br/>\nChat with an Educational Planner: <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/student-support/educational-planning-counseling-completion\">Chat with Ed Planner</a><br/>\nQuestions concerning advising: Email educational.planning\\@sjcd.edu<br/>\nFAQs about college operations: <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/student-resources/coronavirus-covid-19-student-faqs-about-college-operations\">Student FAQs about College Operations</a><br/>\nRequest a Transcript: Visit the <a target=\"_blank\" href=\"http://www.sanjac.edu/students-services/records-transcripts\">Transcripts</a><br/> webpage.  Please Note: At this time, students cannot pick up a transcript from the College. An unofficial transcript can be accessed through the students <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/educational-planning/sos-login\">SOS Login</a><br/> under “My Student Records”<br/>\nWithdraw Course(s): Web Drop capability has been removed for parts of term that have already started. This means students are not able to drop on their own through their SOS account. Students requesting to be withdrawn from class(es) can schedule an appointment with an advisor. <br/>\nEducational Planning, Counseling, and Completion phone support: 281-998-6150<br/>\nEducational Planning hours of operation: M-Th 8am - 7pm / F 8am - 5pm<br/><br/><br/>"
               }
             ],
             "response_type": "text",
@@ -19817,7 +19900,7 @@
           {
             "values": [
               {
-                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nNorth Campus Financial Aid Fax:<br/>\nFax 281-669-4385<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nNorth Campus Financial Aid Fax:<br/>\nFax 281-669-4385<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -20202,7 +20285,7 @@
           {
             "values": [
               {
-                "text": "For Admissions related inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nYou can also send your Admissions Department inquiries to\n<b>admissions\\@sjcd.edu</b>.<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+                "text": "For Admissions related inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nYou can also send your Admissions Department inquiries to\n<b>admissions\\@sjcd.edu</b>.<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -20245,7 +20328,7 @@
           {
             "values": [
               {
-                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nSouth Campus Financial Aid Fax:<br/>\nFax 281-669-4336<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+                "text": "For Financial Aid inquiries, please call:<br/>\n281-998-6150<br/><br/>\n\nSouth Campus Financial Aid Fax:<br/>\nFax 281-669-4336<br/><br/>\n\nYou can email your financial aid inquiries to: finaid\\@sjcd.edu<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with a Financial Aid Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834#\">here.<br/><br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -20361,7 +20444,7 @@
       "metadata": {},
       "conditions": "$Departments:(Career Services) && $Campus:Central",
       "dialog_node": "node_13_1541001051015",
-      "previous_sibling": "node_5_1540993581637"
+      "previous_sibling": "node_14_1541001104520"
     },
     {
       "type": "standard",
@@ -20853,7 +20936,7 @@
       "metadata": {},
       "conditions": "$Departments:Library && $Campus:Central",
       "dialog_node": "node_14_1540483605472",
-      "previous_sibling": "node_13_1540483548095"
+      "previous_sibling": "node_12_1541000987625"
     },
     {
       "type": "standard",
@@ -20915,7 +20998,7 @@
       "metadata": {},
       "conditions": "$Departments:(Career Services) && $Campus:North",
       "dialog_node": "node_14_1541001104520",
-      "previous_sibling": "node_13_1541001051015"
+      "previous_sibling": "node_73_1540561075430"
     },
     {
       "type": "standard",
@@ -21497,7 +21580,7 @@
       "metadata": {},
       "conditions": "$Departments:(Career Services) && $Campus:South",
       "dialog_node": "node_15_1541001159221",
-      "previous_sibling": "node_14_1541001104520"
+      "previous_sibling": "node_13_1541001051015"
     },
     {
       "type": "standard",
@@ -21916,7 +21999,7 @@
       "metadata": {},
       "conditions": "$Departments:ILC && $Campus:Central",
       "dialog_node": "node_16_1541001226193",
-      "previous_sibling": "node_15_1541001159221"
+      "previous_sibling": "node_68_1541018199347"
     },
     {
       "type": "standard",
@@ -22274,7 +22357,7 @@
       "metadata": {},
       "conditions": "$Departments:SSC && $Campus:Central",
       "dialog_node": "node_17_1540483741577",
-      "previous_sibling": "node_16_1540483671248"
+      "previous_sibling": "response_9_1622128581720"
     },
     {
       "type": "response_condition",
@@ -23043,7 +23126,7 @@
       "metadata": {},
       "conditions": "$Departments:Bookstore && $Campus:Central",
       "dialog_node": "node_19_1540559618691",
-      "previous_sibling": "node_18_1540559618691"
+      "previous_sibling": "response_9_1622037377924"
     },
     {
       "type": "response_condition",
@@ -23107,7 +23190,7 @@
       "metadata": {},
       "conditions": "$Departments:(Career Services) && $Campus:Central",
       "dialog_node": "node_19_1541001386703",
-      "previous_sibling": "node_6_1540993681063"
+      "previous_sibling": "node_26_1540559618692"
     },
     {
       "type": "standard",
@@ -24452,7 +24535,7 @@
       "metadata": {},
       "conditions": "$Departments:Police && $Campus:Central",
       "dialog_node": "node_2_1540993402022",
-      "previous_sibling": "node_98_1540561075430"
+      "previous_sibling": "response_9_1622124833930"
     },
     {
       "type": "response_condition",
@@ -24471,7 +24554,7 @@
       },
       "conditions": "$Departments:(Contact Center) && $Campus",
       "dialog_node": "node_2_1541176480706",
-      "previous_sibling": "response_2_1568209184490"
+      "previous_sibling": "response_3_1622041375112"
     },
     {
       "type": "standard",
@@ -26531,7 +26614,7 @@
           {
             "values": [
               {
-                "text": "The Barnes & Noble locations at Central, North and South Campuses each has a team working on-site to process orders, receive adoptions, and source textbooks. While the bookstores are closed to walk-in traffic, all locations are processing online orders every day<br/>\nPlease note the following bookstore information for students:<br/>\n•\tIf you placed an order online and selected in-store pick up, a member of the bookstore staff will reach out to you and offer to ship the material/products to you. All deliveries via ground shipping are free. <br/>\n•\tIf you are utilizing student financial aid as a method of payment, you should select “SFA” as the payment option when ordering your books online. You will also need to include your student ID number.<br/>\n•\tIf you are using a voucher, your financial aid counselor will provide you with information on how to proceed online with a book voucher and provide you with the required code. You will enter the voucher credentials in the student ID field rather than your student ID number.<br/><br/>"
+                "text": "The Barnes & Noble locations at Central, North and South Campuses each has a team working on-site to process orders, receive adoptions, and source textbooks. <br/>\nPlease note the following bookstore information for students:<br/>\n•\tIf you placed an order online and selected in-store pick up, a member of the bookstore staff will reach out to you and offer to ship the material/products to you. All deliveries via ground shipping are free. <br/>\n•\tIf you are utilizing student financial aid as a method of payment, you should select “SFA” as the payment option when ordering your books online. You will also need to include your student ID number.<br/>\n•\tIf you are using a voucher, your financial aid counselor will provide you with information on how to proceed online with a book voucher and provide you with the required code. You will enter the voucher credentials in the student ID field rather than your student ID number.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -27067,7 +27150,7 @@
       "metadata": {},
       "conditions": "$Departments:ILC && $Campus:Central",
       "dialog_node": "node_22_1541001550824",
-      "previous_sibling": "node_21_1541001489767"
+      "previous_sibling": "node_70_1541018320528"
     },
     {
       "type": "standard",
@@ -27258,7 +27341,7 @@
       "metadata": {},
       "conditions": "$Departments:(Campus Services) && $Campus:Central",
       "dialog_node": "node_23_1540559618692",
-      "previous_sibling": "node_22_1540559618691"
+      "previous_sibling": "node_51_1540560237472"
     },
     {
       "type": "response_condition",
@@ -28558,7 +28641,7 @@
       "metadata": {},
       "conditions": "$Departments:(Child Care) && $Campus:Central",
       "dialog_node": "node_27_1540559618692",
-      "previous_sibling": "node_26_1540559618692"
+      "previous_sibling": "response_6_1622040730667"
     },
     {
       "type": "response_condition",
@@ -29022,7 +29105,7 @@
       "metadata": {},
       "conditions": "$Departments:EPCC && $Campus:Central",
       "dialog_node": "node_29_1540559618692",
-      "previous_sibling": "node_28_1540559618692"
+      "previous_sibling": "response_10_1565985583684"
     },
     {
       "type": "response_condition",
@@ -29276,7 +29359,7 @@
       "metadata": {},
       "conditions": "$Departments:(Financial Aid) && $Campus:Central",
       "dialog_node": "node_30_1540559618692",
-      "previous_sibling": "node_29_1540559618692"
+      "previous_sibling": "response_9_1622039713976"
     },
     {
       "type": "response_condition",
@@ -29749,7 +29832,7 @@
           {
             "values": [
               {
-                "text": "Unfortunately at this time, the Business Office is not accepting phone calls.  For Business Office inquiries, please submit an email to one of the campus business office addresses below.  Please include your name, student ID#, contact information, and question, and a Business Office representative will respond as quickly as possible.<br/><br/>\ndl-centralbusinessoffice\\@sjcd.edu<br/>\ndl-northbusinessoffice\\@sjcd.edu<br/>\ndl-southbusinessoffice\\@sjcd.edu<br/><br/>"
+                "text": "Unfortunately at this time, the Business Office is not accepting phone calls.  For Business Office inquiries, please submit an email to one of the campus business office addresses below.  Please include your name, student ID#, contact information, and question, and a Business Office representative will respond as quickly as possible.<br/><br/>\ndl-centralbusinessoffice\\@sjcd.edu<br/>\ndl-northbusinessoffice\\@sjcd.edu<br/>\ndl-southbusinessoffice\\@sjcd.edu<br/>dl-gpbusinessoffice\\@sjcd.edu<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -29931,7 +30014,7 @@
       },
       "conditions": "$Departments:(Contact Center) && $Campus",
       "dialog_node": "node_3_1541176655241",
-      "previous_sibling": "response_4_1568208510130"
+      "previous_sibling": "response_7_1622041601714"
     },
     {
       "type": "standard",
@@ -32913,7 +32996,7 @@
       "metadata": {},
       "conditions": "$Departments:Library && $Campus:Central",
       "dialog_node": "node_33_1540559618692",
-      "previous_sibling": "node_32_1540559618692"
+      "previous_sibling": "node_24_1541001637815"
     },
     {
       "type": "standard",
@@ -33700,7 +33783,7 @@
       "metadata": {},
       "conditions": "$Departments:SSC && $Campus:Central",
       "dialog_node": "node_36_1540559618692",
-      "previous_sibling": "node_35_1540559618692"
+      "previous_sibling": "response_4_1568208510130"
     },
     {
       "type": "standard",
@@ -34062,10 +34145,10 @@
       "metadata": {},
       "next_step": {
         "behavior": "jump_to",
-        "selector": "user_input",
+        "selector": "condition",
         "dialog_node": "node_27_1539184503965"
       },
-      "conditions": "true",
+      "conditions": "",
       "dialog_node": "node_38_1539185052143",
       "previous_sibling": "node_37_1539184969064"
     },
@@ -34271,7 +34354,7 @@
           {
             "values": [
               {
-                "text": "During altered operations, the Testing Centers at the Central, North, and South campuses are offering limited on-campus and virtual testing for San Jac Students.  All services are by appointment only and may vary per campus.<br/><br/>\nFor the most current hours of opererations, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/testing-centers\"> Testing Center Info</a>.<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\"> Make an Appointment</a>.<br/><br/>\nYou can also request additional information from the Testing Centers by email:  <br/>\nTestingCenter-Central\\@sjcd.edu <br/>\nTestingCenter-North\\@sjcd.edu <br/>\nTestingCenter-South\\@sjcd.edu <br/><br/>"
+                "text": "The Testing Centers at the Central, North, and South campuses are offering on-campus and virtual testing for San Jac Students.  All services are by appointment only and may vary per campus.<br/><br/>\nFor the most current hours of operations, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/testing-centers\"> Testing Center Info</a>.<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\"> Make an Appointment</a>.<br/><br/>\nYou can also request additional information from the Testing Centers by email:  <br/>\nTestingCenter-Central\\@sjcd.edu <br/>\nTestingCenter-North\\@sjcd.edu <br/>\nTestingCenter-South\\@sjcd.edu <br/><br/>"
               }
             ],
             "response_type": "text",
@@ -34394,7 +34477,7 @@
       "metadata": {},
       "conditions": "$Departments:(Testing Center) && $Campus:Central",
       "dialog_node": "node_39_1540559618692",
-      "previous_sibling": "node_38_1540559618692"
+      "previous_sibling": "response_5_1622126236488"
     },
     {
       "type": "standard",
@@ -35041,7 +35124,7 @@
           {
             "values": [
               {
-                "text": "Veterans Center Central Campus<br/>\n281-998-6150 ext. 1387<br/>\nFax 281-478-2707<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+                "text": "Veterans Center Central Campus<br/>\n281-998-6150 ext. 1387<br/>\nFax 281-478-2707<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -35075,7 +35158,7 @@
       "metadata": {},
       "conditions": "$Departments:Veterans && $Campus:Central",
       "dialog_node": "node_4_1540558328159",
-      "previous_sibling": "node_3_1540558282806"
+      "previous_sibling": "response_7_1622128178396"
     },
     {
       "type": "standard",
@@ -36895,7 +36978,7 @@
       "metadata": {},
       "conditions": "$Departments:Veterans && $Campus:Central",
       "dialog_node": "node_42_1540559618692",
-      "previous_sibling": "node_41_1540559618692"
+      "previous_sibling": "response_6_1622124206028"
     },
     {
       "type": "standard",
@@ -37428,7 +37511,7 @@
       "metadata": {},
       "conditions": "$Departments:Admissions && $Campus:North",
       "dialog_node": "node_45_1540559751888",
-      "previous_sibling": "node_44_1540559618692"
+      "previous_sibling": "node_18_1540559618691"
     },
     {
       "type": "standard",
@@ -37754,7 +37837,7 @@
       "metadata": {},
       "conditions": "$Departments:(Business Office) && $Campus:North",
       "dialog_node": "node_47_1540560071694",
-      "previous_sibling": "node_46_1540559785745"
+      "previous_sibling": "node_22_1540559618691"
     },
     {
       "type": "standard",
@@ -38109,7 +38192,7 @@
       "metadata": {},
       "conditions": "$Departments:Cafeteria && $Campus:Central",
       "dialog_node": "node_49_1540560161319",
-      "previous_sibling": "node_48_1540560108476"
+      "previous_sibling": "response_10_1622038431384"
     },
     {
       "type": "standard",
@@ -38627,7 +38710,7 @@
           {
             "values": [
               {
-                "text": "Veterans Center North Campus<br/>\n281-998-6150 ext. 7692<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+                "text": "Veterans Center North Campus<br/>\n281-998-6150 ext. 7692<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -40960,7 +41043,7 @@
       "metadata": {},
       "conditions": "$Departments:EPCC && $Campus:North",
       "dialog_node": "node_52_1540560522920",
-      "previous_sibling": "node_51_1540560237472"
+      "previous_sibling": "node_29_1540559618692"
     },
     {
       "type": "standard",
@@ -42050,7 +42133,7 @@
           {
             "values": [
               {
-                "text": "Veterans Center South Campus<br/>\n281-998-6150 ext. 4672<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+                "text": "Veterans Center South Campus<br/>\n281-998-6150 ext. 4672<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -42171,7 +42254,7 @@
       "metadata": {},
       "conditions": "$Departments:Police && $Campus",
       "dialog_node": "node_6_1540993681063",
-      "previous_sibling": "node_53_1540560570355"
+      "previous_sibling": "response_6_1622125246360"
     },
     {
       "type": "standard",
@@ -43970,7 +44053,7 @@
           {
             "values": [
               {
-                "text": "For the safety of our students and community, San Jacinto College is currently opened under Altered Operations.  During Altered Operations, all visitors to the campus must adhere to the current COVID-19 guidelines as far as entering the campus and completing the required daily pre-screening questionnaire.<br/><br/>\nFor more information regarding the arrival procedures under Altered Operations and daily questionnaires, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/arrival-procedures\">HERE</a> .<br/><br/>\nDon’t forget, we are still here to assist you via telephone or online!<br/><br/>"
+                "text": "San Jacinto College is open.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -44021,7 +44104,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College will be closed for Independence Day, from Saturday, July 3rd through Monday, July 5th.  <br/><br/>\nCollege classes and services will return to normal operations on Monday, July 6th.<br/><br/>"
+                "text": "San Jacinto College will be closed for Independence Day, from Saturday, July 3rd through Monday, July 5th.  <br/><br/>\nCollege classes and services will return to normal operations on Tuesday, July 6th.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -44231,7 +44314,7 @@
       "conditions": "#CARES",
       "user_label": "I would like information regarding the CARES Act.",
       "dialog_node": "node_6_1589458379751",
-      "previous_sibling": "node_9_1584724773369"
+      "previous_sibling": "node_8_1621948907845"
     },
     {
       "type": "standard",
@@ -44597,7 +44680,7 @@
       "metadata": {},
       "conditions": "$Departments:(Game Room) && $Campus:Central",
       "dialog_node": "node_63_1541017874563",
-      "previous_sibling": "node_12_1541000987625"
+      "previous_sibling": "node_13_1540483548095"
     },
     {
       "type": "response_condition",
@@ -44913,7 +44996,7 @@
       "metadata": {},
       "conditions": "$Departments:Bookstore && $Campus:Central",
       "dialog_node": "node_66_1540561075430",
-      "previous_sibling": "node_93_1540561075430"
+      "previous_sibling": "response_4_1622036928268"
     },
     {
       "type": "response_condition",
@@ -44956,7 +45039,7 @@
       "metadata": {},
       "conditions": "$Departments:(Game Room) && $Campus:Central",
       "dialog_node": "node_66_1541018078353",
-      "previous_sibling": "node_18_1541001320623"
+      "previous_sibling": "node_79_1540561075430"
     },
     {
       "type": "response_condition",
@@ -45311,7 +45394,7 @@
       "metadata": {},
       "conditions": "$Departments:(Game Room) && $Campus:Central",
       "dialog_node": "node_69_1541018263424",
-      "previous_sibling": "node_24_1541001637815"
+      "previous_sibling": "node_71_1541018367865"
     },
     {
       "type": "response_condition",
@@ -45380,7 +45463,7 @@
       "metadata": {},
       "conditions": "$Departments:(Campus Services) && $Campus:Central",
       "dialog_node": "node_70_1540561075430",
-      "previous_sibling": "node_95_1540561075430"
+      "previous_sibling": "node_98_1540561075430"
     },
     {
       "type": "response_condition",
@@ -45509,7 +45592,7 @@
       "metadata": {},
       "conditions": "$Departments:(Game Room) && $Campus:South",
       "dialog_node": "node_71_1541018367865",
-      "previous_sibling": "node_70_1541018320528"
+      "previous_sibling": "node_32_1540559618692"
     },
     {
       "type": "standard",
@@ -45719,7 +45802,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College Career Services - Central Campus<br/>\n281-476-1805<br/>\ncareer.centers\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "San Jacinto College Career Services - Central Campus<br/>\n281-476-1805<br/>\ncareer.centers\\@sjcd.edu<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -45753,7 +45836,7 @@
       "metadata": {},
       "conditions": "$Departments:(Career Services) && $Campus:Central",
       "dialog_node": "node_7_1541000658172",
-      "previous_sibling": "node_1_1540992885891"
+      "previous_sibling": "node_7_1540482925466"
     },
     {
       "type": "standard",
@@ -48167,7 +48250,7 @@
       "metadata": {},
       "conditions": "$Departments:(Child Care) && $Campus:Central",
       "dialog_node": "node_74_1540561075430",
-      "previous_sibling": "node_73_1540561075430"
+      "previous_sibling": "response_8_1622040281426"
     },
     {
       "type": "standard",
@@ -48337,7 +48420,7 @@
       "metadata": {},
       "conditions": "$Departments:EPCC && $Campus:Central",
       "dialog_node": "node_76_1540561075430",
-      "previous_sibling": "node_75_1540561075430"
+      "previous_sibling": "response_10_1565985349840"
     },
     {
       "type": "standard",
@@ -48423,7 +48506,7 @@
       "metadata": {},
       "conditions": "$Departments:(Financial Aid) && $Campus:Central",
       "dialog_node": "node_77_1540561075430",
-      "previous_sibling": "node_100_1540561075430"
+      "previous_sibling": "node_78_1540561075430"
     },
     {
       "type": "standard",
@@ -48485,7 +48568,7 @@
       "metadata": {},
       "conditions": "$Departments:(Financial Aid) && $Campus:North",
       "dialog_node": "node_78_1540561075430",
-      "previous_sibling": "node_77_1540561075430"
+      "previous_sibling": "response_2_1622039425741"
     },
     {
       "type": "standard",
@@ -48546,7 +48629,7 @@
       "metadata": {},
       "conditions": "$Departments:(Financial Aid) && $Campus:South",
       "dialog_node": "node_79_1540561075430",
-      "previous_sibling": "node_78_1540561075430"
+      "previous_sibling": "node_77_1540561075430"
     },
     {
       "type": "standard",
@@ -48608,7 +48691,7 @@
       "metadata": {},
       "conditions": "$Departments:Library && $Campus:Central",
       "dialog_node": "node_80_1540561075430",
-      "previous_sibling": "node_79_1540561075430"
+      "previous_sibling": "node_18_1541001320623"
     },
     {
       "type": "standard",
@@ -48866,7 +48949,7 @@
       "metadata": {},
       "conditions": "$Departments:(Child Care) && $Campus:Central",
       "dialog_node": "node_8_1540482975857",
-      "previous_sibling": "node_7_1540482925466"
+      "previous_sibling": "response_10_1622127655566"
     },
     {
       "type": "standard",
@@ -48895,7 +48978,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College Career Services - North Campus<br/>\n281-459-7156<br/>\ncareer.centers\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "San Jacinto College Career Services - North Campus<br/>\n281-459-7156<br/>\ncareer.centers\\@sjcd.edu<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -51360,6 +51443,32 @@
     },
     {
       "type": "standard",
+      "title": "Retake a Class on Us",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you withdrew or received an 'F' in a class in Fall 2020 or Spring 2021, this is for you!<br/><br/>\nStudents who attended San Jac in the Fall 2020 or Spring 2021 and received an F, FX, W, or WL in a class, can retake the class this summer or fall - the college will pay your tuition.<br/><br/>\n•\tIf you are a <b>dual credit student</b>, please contact your high school counselor or your <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/dual-credit-early-admission/meet-dual-credit-staff\">San Jac Dual Credit counselor</a> to enroll this summer.<br/>\n•\t<b>All other students</b>, can simply register in <a target=\"_blank\" href=\"https://www.sos.sanjac.edu/ssomanager/c/SSB\">SOS</a>.  The tuition will be waived.<br/><br/>\nClick <a target=\"_blank\" href=\"https://www.sanjac.edu/retake\">HERE</a> for additional information regarding Retake a Class on Us.<br/>\nYou can also email your inquiries to educational.planning\\@sjcd.edu .<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "#Retake_Class_on_Us",
+      "user_label": "How do I retake a class for free?",
+      "dialog_node": "node_8_1621948907845",
+      "previous_sibling": "node_9_1584724773369"
+    },
+    {
+      "type": "standard",
       "title": "Requesting a Student ID - Part 2",
       "output": {
         "generic": [
@@ -51503,7 +51612,7 @@
       "metadata": {},
       "conditions": "$Departments:SSC && $Campus:Central",
       "dialog_node": "node_83_1540561075430",
-      "previous_sibling": "node_82_1540561075430"
+      "previous_sibling": "response_4_1565979761666"
     },
     {
       "type": "standard",
@@ -51713,7 +51822,7 @@
       "metadata": {},
       "conditions": "$Departments:(Testing Center) && $Campus:Central",
       "dialog_node": "node_86_1540561075430",
-      "previous_sibling": "node_85_1540561075430"
+      "previous_sibling": "response_3_1622126070771"
     },
     {
       "type": "standard",
@@ -51923,7 +52032,7 @@
       "metadata": {},
       "conditions": "$Departments:Veterans && $Campus:Central",
       "dialog_node": "node_89_1540561075430",
-      "previous_sibling": "node_88_1540561075430"
+      "previous_sibling": "response_7_1622123166509"
     },
     {
       "type": "standard",
@@ -52157,7 +52266,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College Career Services - South Campus<br/>\n281-922-3488<br/>\ncareer.centers\\@sjcd.edu<br/><br/>Note: Due to the current campus closures, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+                "text": "San Jacinto College Career Services - South Campus<br/>\n281-922-3488<br/>\ncareer.centers\\@sjcd.edu<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -54587,7 +54696,7 @@
       "metadata": {},
       "conditions": "$Departments:Cafeteria && $Campus:Central",
       "dialog_node": "node_96_1540561075430",
-      "previous_sibling": "node_91_1540561075430"
+      "previous_sibling": "response_3_1622038058546"
     },
     {
       "type": "response_condition",
@@ -54759,7 +54868,7 @@
       "parent": "node_54_1540561075395",
       "conditions": "$Departments:(Dual Credit) && $Campus:Central",
       "dialog_node": "response_10_1565985254805",
-      "previous_sibling": "response_4_1565984192948"
+      "previous_sibling": "node_75_1540561075430"
     },
     {
       "type": "response_condition",
@@ -54834,7 +54943,7 @@
       "parent": "node_54_1540561075395",
       "conditions": "$Departments:(Print & Mail) && $Campus:Central",
       "dialog_node": "response_10_1568209105462",
-      "previous_sibling": "response_10_1565985349840"
+      "previous_sibling": "node_5_1540993581637"
     },
     {
       "type": "response_condition",
@@ -54964,6 +55073,115 @@
     },
     {
       "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Business Office<br/><br/>\nFall/Spring Hours<br/>\n• Monday-Thursday: 8:00AM-7:00PM<br/>\n• Fri: 8:00AM-4:30PM<br/><br/>\nSummer Hours<br/>\n• Monday-Thursday: 7:30AMAM-7:00PM<br/>\n• Fri: 8:00AM-11:30AM<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Did I provide the answer you were looking for?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1540559618642",
+      "conditions": "$Departments:(Business Office) && $Campus:(Generation Park)",
+      "dialog_node": "response_10_1622038431384",
+      "previous_sibling": "node_48_1540560108476"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry, but I am unable to provide any hours of operation for the $Campus Campus $Departments at this time.<br/><br/>\nPlease click on the  <a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus\"> Generation Park Campus </a>link for the most up to date information. <br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1540559618642",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Campus:(Generation Park)",
+      "dialog_node": "response_10_1622124326394",
+      "previous_sibling": "response_2_1570628944137"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "San Jacinto College Career Services - Generation Park Campus<br/><br/>\n281-998-6150 ext 7678<br/>\ncareer.centers\\@sjcd.edu<br/><br/>Please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like their hours of operation?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_12_1540414660557",
+      "conditions": "$Departments:(Career Services) && $Campus:(Generation Park)",
+      "dialog_node": "response_10_1622127655566",
+      "previous_sibling": "node_9_1541000789217"
+    },
+    {
+      "type": "response_condition",
       "title": "response_1_1570624724718",
       "output": {
         "generic": [
@@ -55044,7 +55262,7 @@
       },
       "conditions": "$Departments:(Rec Sports) && $Campus:Central",
       "dialog_node": "response_2_1565984117113",
-      "previous_sibling": "response_4_1565979761666"
+      "previous_sibling": "response_2_1568209184490"
     },
     {
       "type": "response_condition",
@@ -55127,6 +55345,90 @@
     },
     {
       "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Educational Planning Counseling & Continuation<br/>\n281-998-6150<br/><br/>\n\nAcademic Building, G-2.101<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus-map\"> Generation Park Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">here</a> to schedule a time to meet with an advisor remotely.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like their hours of operation?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_54_1540561075395",
+      "conditions": "$Departments:EPCC && $Campus:(Generation Park)",
+      "dialog_node": "response_2_1622039425741",
+      "previous_sibling": "node_100_1540561075430"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Veterans Center Generation Park Campus<br/>\n281-998-6150 ext. 7678<br/><br/>\nPlease click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a> to schedule a time to meet with an advisor remotely.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like their hours of operation?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_12_1540414660557",
+      "conditions": "$Departments:Veterans && $Campus:(Generation Park)",
+      "dialog_node": "response_2_1622127899586",
+      "previous_sibling": "node_6_1540558403189"
+    },
+    {
+      "type": "response_condition",
       "title": "response_3_1565982780936",
       "output": {
         "text": {
@@ -55165,7 +55467,7 @@
       "parent": "node_7_1540559618642",
       "conditions": "$Departments:(Dual Credit) && $Campus:Central",
       "dialog_node": "response_3_1565985500059",
-      "previous_sibling": "node_71_1541018367865"
+      "previous_sibling": "node_28_1540559618692"
     },
     {
       "type": "response_condition",
@@ -55388,6 +55690,115 @@
     },
     {
       "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Business Office<br/><br/>\nAcademic Building, G2.101A<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus-map\"> Generation Park Campus Map</a> <br/><br/>\nUnfortunately at this time, the Business Office is not accepting phone calls.  For Business Office inquiries, please submit an email to the campus business office addresses below.  Please include your name, student ID#, contact information, and question, and a Business Office representative will respond as quickly as possible.<br/>\ndl-gpbusinessoffice\\@sjcd.edu<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like their hours of operation?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_54_1540561075395",
+      "conditions": "$Departments:(Business Office) && $Campus:(Generation Park)",
+      "dialog_node": "response_3_1622038058546",
+      "previous_sibling": "node_95_1540561075430"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Veterans Center Generation Park Campus<br/><br/>\nAcademic Building, G-2.101<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus-map\"> Generation Park Campus Map</a> <br/><br/>\n281-998-6150 ext. 7678<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like their hours of operation?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_54_1540561075395",
+      "conditions": "$Departments:Veterans && $Campus:(Generation Park)",
+      "dialog_node": "response_3_1622041375112",
+      "previous_sibling": "node_91_1540561075430"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Student Success Center<br/><br/>\nI'm sorry, but at this time I am unable to provide a location for the Student Success Center at Generation Park.<br/><br/>\nStudent Success Center Tutors are available for online appointments through <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/TracWeb40/Default.html\"> TutorTrac </a>.<br/><br/>\nPlease visit the <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/tutoring-free/student-success-center-generation-park\"> Gen Park Student Success Center </a> for the most up to date information. <br/><br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus-map\"> Generation Park Campus Map</a> <br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_54_1540561075395",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Departments:SSC && $Campus:(Generation Park)",
+      "dialog_node": "response_3_1622126070771",
+      "previous_sibling": "node_85_1540561075430"
+    },
+    {
+      "type": "response_condition",
       "title": "response_4_1565893145224",
       "output": {
         "text": {
@@ -55509,6 +55920,48 @@
     },
     {
       "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Admissions<br/>\n281-998-6150<br/>\n<b>admissions\\@sjcd.edu</b>.<br/><br/>\n\nGeneration Park, Bldg G-2.101<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus-map\"> Generation Park Campus Map</a> <br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">here</a>.<br/><br/>\nTo chat with an Admissions Advisor, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563#\">here.<br/>\nThe online chat is available Monday-Thursday from 8AM-7PM, and Friday 8AM-5PM (Summer Fridays 8AM-Noon).<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like their hours of operation?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_54_1540561075395",
+      "conditions": "$Departments:Admissions && $Campus:(Generation Park)",
+      "dialog_node": "response_4_1622036928268",
+      "previous_sibling": "node_93_1540561075430"
+    },
+    {
+      "type": "response_condition",
       "title": "response_5_1565979682427",
       "output": {
         "text": {
@@ -55547,7 +56000,7 @@
       "parent": "node_7_1540559618642",
       "conditions": "$Departments:(Print & Mail) && $Campus:Central",
       "dialog_node": "response_5_1568208387361",
-      "previous_sibling": "response_10_1565985583684"
+      "previous_sibling": "node_6_1540993681063"
     },
     {
       "type": "response_condition",
@@ -55703,6 +56156,56 @@
     },
     {
       "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Student Success Center<br/><br/>\nI'm sorry, but at this time I am unable to provide hours of operation for the Student Success Center at Generation Park.<br/><br/>\nStudent Success Center Tutors are available for online appointments through <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/TracWeb40/Default.html\"> TutorTrac </a>.<br/><br/>\nPlease visit the <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/tutoring-free/student-success-center-generation-park\"> Gen Park Student Success Center </a> for the most up to date information. <br/><br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus-map\"> Generation Park Campus Map</a> <br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1540559618642",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Departments:SSC && $Campus:(Generation Park)",
+      "dialog_node": "response_5_1622126236488",
+      "previous_sibling": "node_38_1540559618692"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry, but I am unable to provide a phone number for the $Campus Campus $Departments at this time.<br/><br/>\nPlease click on the  <a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus\"> Generation Park Campus </a>link for the most up to date information. <br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1540414660557",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Campus:(Generation Park)",
+      "dialog_node": "response_5_1622126879440",
+      "previous_sibling": "response_8_1570628863360"
+    },
+    {
+      "type": "response_condition",
       "title": "response_6_1565979520035",
       "output": {
         "text": {
@@ -55720,7 +56223,7 @@
       },
       "conditions": "$Departments:SEA && $Campus:Central",
       "dialog_node": "response_6_1565979520035",
-      "previous_sibling": "node_68_1541018199347"
+      "previous_sibling": "response_4_1565984192948"
     },
     {
       "type": "response_condition",
@@ -55820,7 +56323,7 @@
       "parent": "node_12_1540414660557",
       "conditions": "$Campus:Maritime",
       "dialog_node": "response_6_1569860264602",
-      "previous_sibling": "node_1_1541176029034"
+      "previous_sibling": "node_1_1540992885891"
     },
     {
       "type": "response_condition",
@@ -55909,6 +56412,106 @@
       "conditions": "@person_type:Student",
       "dialog_node": "response_6_1584989294959",
       "previous_sibling": "slot_3_1584989295310"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Career Services<br/><br/>\nI'm sorry, but I currently can't find their current hours of operation.  Please click the link <a target=\"_blank\" href=\"https://www.sanjac.edu/career-services\">Career Services</a> to take you to their website for the most current information.<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1540559618642",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Departments:(Career Services) && $Campus:(Generation Park)",
+      "dialog_node": "response_6_1622040730667",
+      "previous_sibling": "node_21_1541001489767"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Testing Center<br/><br/>\nOn Campus Hours<br/>\n• Monday:  No Testing<br/>\n• Tuesday: 8:00AM-5:00PM<br/>\n• Wednesday: 8:00AM-5:00PM<br/>\n• Thursday: 10:00AM-7:00PM<br/>\n• Friday: No Testing<br/><br/>\nVirtual Hours<br/>\n• Monday:  8:30AM-4:30PM<br/>\n• Tuesday: 8:30AM-4:30PM<br/>\n• Wednesday: 8:30AM-4:30PM<br/>\n• Thursday: 10:30AM-6:30PM<br/>\n• Friday: 8:30AM-4:30PM<br/><br/>\nIf you need to speak with someone in Testing, you can reach your campus Testing Center via email: TestingCenter-GenPark\\@sjcd.edu<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1540559618642",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Departments:(Testing Center) && Campus:(Generation Park)",
+      "dialog_node": "response_6_1622124206028",
+      "previous_sibling": "node_41_1540559618692"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Library<br/><br/>\nI'm sorry, but I currently can't find the Generation Park Library hours of operation.  Please contact the North Campus Library at 281.459.7116 or visit the <a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus\"> Generation Park Campus </a> for the most up to date information. <br/><br/>\nYou can also email your inquiries to reference.librarian\\@sjcd.edu<br/><br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus-map\"> Generation Park Campus Map</a> <br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1540559618642",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Departments:Library && $Campus:(Generation Park)",
+      "dialog_node": "response_6_1622125246360",
+      "previous_sibling": "node_35_1540559618692"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Student Success Center<br/>\nI'm sorry, but at this time I am unable to provide a phone number for the Student Success Center at Generation Park.<br/>\nYou can email the Student Success Center at:  tutoringcenter\\@sjcd.edu<br/><br/><br/>\nStudent Success Center Tutors are available for online appointments through <a target=\"_blank\" href=\"http://sjctutortrac.sanjac.edu/TracWeb40/Default.html\"> TutorTrac </a>.<br/><br/>\nPlease visit the <a target=\"_blank\" href=\"https://www.sanjac.edu/student-services/tutoring-free/student-success-center-generation-park\"> Gen Park Student Success Center </a> for the most up to date information. <br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1540414660557",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Departments:SSC && $Campus:(Generation Park)",
+      "dialog_node": "response_6_1622128906361",
+      "previous_sibling": "node_19_1540483808154"
     },
     {
       "type": "response_condition",
@@ -56008,6 +56611,115 @@
       "conditions": "@person_type:Faculty",
       "dialog_node": "response_7_1584988495036",
       "previous_sibling": "response_8_1584988289352"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Veterans Office<br/><br/>\nI'm sorry, but I currently can't find their current hours of operation.  Please click the link <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/veteran-services\">Veterans Services</a> to take you to their website for the most current information.<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/>\nTo chat with Veterans Services, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/veteransjc@chat.libraryh3lp.com?skin=30657#\">HERE</a>.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1540559618642",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Departments:Veterans && $Campus:(Generation Park)",
+      "dialog_node": "response_7_1622041601714",
+      "previous_sibling": "node_44_1540559618692"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Testing Center<br/><br/>\nAcademic Building, G-2.115<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus-map\"> Generation Park Campus Map</a> <br/><br/>\n281-998-6150 x8129<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like their hours of operation?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_54_1540561075395",
+      "conditions": "$Departments:(Testing Center) && $Campus:(Generation Park)",
+      "dialog_node": "response_7_1622123166509",
+      "previous_sibling": "node_88_1540561075430"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Testing Center<br/>\n281-998-6150 x8129<br/>\nYou can also email the Testing Center at: TestingCenter-GenPark\\@sjcd.edu<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like their hours of operation?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_12_1540414660557",
+      "conditions": "$Departments:(Testing Center) &&  $Campus:(Generation Park)",
+      "dialog_node": "response_7_1622128178396",
+      "previous_sibling": "node_3_1540558282806"
     },
     {
       "type": "response_condition",
@@ -56217,6 +56929,73 @@
     },
     {
       "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Career Services<br/><br/>\nAcademic Building, G-2.101 (located in the Student Services office)<br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus-map\"> Generation Park Campus Map</a> <br/><br/>\n281-998-6150 ext 7678<br/>\ncareer.centers\\@sjcd.edu<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like their hours of operation?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_54_1540561075395",
+      "conditions": "$Departments:(Career Services) && $Campus:(Generation Park)",
+      "dialog_node": "response_8_1622040281426",
+      "previous_sibling": "node_15_1541001159221"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry, but I am unable to provide a location for the $Campus Campus $Departments at this time.<br/><br/>\nPlease click on the  <a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus\"> Generation Park Campus </a>link for the most up to date information. <br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_54_1540561075395",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Campus:(Generation Park)",
+      "dialog_node": "response_8_1622123551984",
+      "previous_sibling": "response_7_1570628772346"
+    },
+    {
+      "type": "response_condition",
       "title": "response_9_1565892963975",
       "output": {
         "text": {
@@ -56412,6 +57191,123 @@
       "previous_sibling": "response_3_1586873298687"
     },
     {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Admissions Office<br/>\nFall/Spring Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-5 pm<br/><br/>\n\nSummer Hours<br/>\n• Mon-Thurs: 8 am-7 pm<br/>\n• Fri: 8 am-Noon<br/><br/>\n\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Did I provide the answer you were looking for?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1540559618642",
+      "conditions": "$Departments:Admissions && $Campus:(Generation Park)",
+      "dialog_node": "response_9_1622037377924",
+      "previous_sibling": "node_46_1540559785745"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Educational Planning Counseling & Continuation<br/><br>\nFall/Spring Hours<br/>\n• Monday-Wednesday: 8:00AM-5:00PM<br/>\n• Thursday:  8:00AM-7:00PM<br/>\n• Friday:  8:00AM-Noon<br/><br/>\nSummer Hours<br/>\n• TBD<br/><br/>\nIf you would like to schedule a time to meet with an advisor remotely, please click <a target=\"_blank\" href=\"http://appointments.sjcd.edu/\">HERE</a>.<br/>\nTo chat with an Educational Planner, please click <a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129#\">HERE</a> .<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1540559618642",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Departments:EPCC && $Campus:(Generation Park)",
+      "dialog_node": "response_9_1622039713976",
+      "previous_sibling": "node_53_1540560570355"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Library<br/><br/>\nUnfortunately, I do not have any information regarding the Generation Park Library at this time.  Please contact the North Campus Library at 281.459.7116 or visit <a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus\"> Generation Park Campus </a> for the most up to date information. <br/><br/>\nYou can also email your inquiries to reference.librarian\\@sjcd.edu<br/><br/>\n<a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus-map\"> Generation Park Campus Map</a> <br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_54_1540561075395",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Departments:Library && $Campus:(Generation Park)",
+      "dialog_node": "response_9_1622124833930",
+      "previous_sibling": "node_82_1540561075430"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Generation Park Campus Library<br/><br/>\nPlease contact the North Campus Library at 281.459.7116 or visit the <a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus\"> Generation Park Campus </a> for the most up to date information. <br/><br/>\nYou can also email your inquiries to reference.librarian\\@sjcd.edu<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1540414660557",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "$Departments:Library && $Campus:(Generation Park)",
+      "dialog_node": "response_9_1622128581720",
+      "previous_sibling": "node_16_1540483671248"
+    },
+    {
       "type": "slot",
       "output": {},
       "parent": "node_4_1584987687442",
@@ -56463,7 +57359,7 @@
       },
       "variable": "$Departments",
       "dialog_node": "slot_14_1540414675046",
-      "previous_sibling": "response_8_1570628863360"
+      "previous_sibling": "node_1_1541176029034"
     },
     {
       "type": "slot",
@@ -56570,7 +57466,7 @@
       "metadata": {},
       "variable": "$Departments",
       "dialog_node": "slot_55_1540561075430",
-      "previous_sibling": "response_7_1570628772346"
+      "previous_sibling": "response_8_1622123551984"
     },
     {
       "type": "slot",
@@ -56602,7 +57498,7 @@
       "metadata": {},
       "variable": "$Departments",
       "dialog_node": "slot_8_1540559618691_copy",
-      "previous_sibling": "response_2_1570628944137"
+      "previous_sibling": "response_10_1622124326394"
     },
     {
       "type": "slot",
@@ -57093,7 +57989,7 @@
     "spelling_auto_correct": true
   },
   "learning_opt_out": false,
-  "name": "Ask Jac!  General Skill 8.1",
+  "name": "Ask Jac!  General Skill 8.2",
   "language": "en",
-  "description": "Copy of 8.0 sent to TEST on 05/07/2021 Noon"
+  "description": "Copy of 8.1 sent to TEST on 05/21/2021 1115AM"
 }
