@@ -3529,6 +3529,29 @@
       "description": "General info on fax machines - none available for student use"
     },
     {
+      "intent": "Feedback",
+      "examples": [
+        {
+          "text": "Feedback"
+        },
+        {
+          "text": "Opinion"
+        },
+        {
+          "text": "Rating"
+        },
+        {
+          "text": "Survey"
+        },
+        {
+          "text": "Where can I complete a survey?"
+        },
+        {
+          "text": "Where can I go to give my opinion?"
+        }
+      ]
+    },
+    {
       "intent": "FERPA",
       "examples": [
         {
@@ -3727,7 +3750,19 @@
       "intent": "General_About_You",
       "examples": [
         {
+          "text": "About you"
+        },
+        {
           "text": "Can I use another language?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Do you know who you are?"
         },
         {
           "text": "How can I configure you?"
@@ -3739,19 +3774,40 @@
           "text": "How old are you?"
         },
         {
+          "text": "Introduce your self"
+        },
+        {
           "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "Let us talk about you"
         },
         {
           "text": "Tell me about your life"
         },
         {
+          "text": "Tell me something about yourself"
+        },
+        {
           "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
         },
         {
           "text": "Where are you from?"
         },
         {
           "text": "Where were you born?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "Why are you here?"
         }
       ],
       "description": "Request generic personal attributes."
@@ -4330,6 +4386,9 @@
           "text": "I am getting bored"
         },
         {
+          "text": "I'm bored"
+        },
+        {
           "text": "I want a joke"
         },
         {
@@ -4357,7 +4416,19 @@
       "intent": "General_Negative_Feedback",
       "examples": [
         {
+          "text": ":("
+        },
+        {
+          "text": "👎"
+        },
+        {
           "text": "Do not like you?"
+        },
+        {
+          "text": "dumb"
+        },
+        {
+          "text": "dummy"
         },
         {
           "text": "Everyone hates you"
@@ -4390,6 +4461,9 @@
           "text": "Stupid"
         },
         {
+          "text": "thats not what i asked"
+        },
+        {
           "text": "this stinks"
         },
         {
@@ -4418,6 +4492,12 @@
         },
         {
           "text": "You're too stupid"
+        },
+        {
+          "text": "your no help"
+        },
+        {
+          "text": "your not helping me"
         }
       ],
       "description": "Express unfavorable feedback."
@@ -4426,10 +4506,19 @@
       "intent": "General_Positive_Feedback",
       "examples": [
         {
+          "text": ":)"
+        },
+        {
+          "text": "👍"
+        },
+        {
           "text": "Brilliant!"
         },
         {
           "text": "Can't believe you are that good"
+        },
+        {
+          "text": "great job"
         },
         {
           "text": "How cool is this?"
@@ -10948,6 +11037,38 @@
       "fuzzy_match": true
     },
     {
+      "entity": "Satisfied",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "👍",
+          "synonyms": [
+            "🙂",
+            "correct",
+            "good",
+            "happy",
+            "pleased",
+            "satisfied"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "👎",
+          "synonyms": [
+            "🙁",
+            "bad",
+            "incorrect",
+            "sad",
+            "unhappy",
+            "unpleased",
+            "unsatisfied",
+            "wrong"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
       "entity": "Scholarship",
       "values": [
         {
@@ -11761,8 +11882,16 @@
     "api_version": {
       "major_version": "v2",
       "minor_version": "2018-11-08"
-    }
+    },
+    "from-sample": true
   },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
   "dialog_nodes": [
     {
       "type": "standard",
@@ -13838,7 +13967,7 @@
       "metadata": {},
       "conditions": "$Departments:EPCC && $Campus",
       "dialog_node": "node_10_1540483307322",
-      "previous_sibling": "node_9_1540483015018"
+      "previous_sibling": "node_3_1557427547451"
     },
     {
       "type": "standard",
@@ -15231,7 +15360,7 @@
       "output": {
         "generic": [
           {
-            "source": "https://www.sanjac.edu/sites/default/files/Van-Wigginton.jpg",
+            "source": "https://www.sanjac.edu/sites/default/files/van-wigginton-2020_0.jpg",
             "response_type": "image"
           },
           {
@@ -15742,7 +15871,7 @@
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_62_1535567995035"
+        "dialog_node": "node_33_1538143760507"
       },
       "conditions": "@YesNo:No",
       "dialog_node": "node_10_1580313172247",
@@ -17499,7 +17628,7 @@
       "metadata": {},
       "conditions": "$Departments:Police && $Campus",
       "dialog_node": "node_1_1540992885891",
-      "previous_sibling": "response_7_1568209472371"
+      "previous_sibling": "response_9_1622128581720"
     },
     {
       "type": "standard",
@@ -17819,7 +17948,7 @@
       "metadata": {},
       "conditions": "$Departments:(Dual Credit) && $Campus:Central",
       "dialog_node": "node_1_1557427280450",
-      "previous_sibling": "response_2_1622127899586"
+      "previous_sibling": "node_9_1540483015018"
     },
     {
       "type": "standard",
@@ -18719,13 +18848,13 @@
       "output": {
         "generic": [
           {
-            "source": "https://www.sanjac.edu/sites/default/files/Brenda-Jones_0.jpg",
+            "source": "https://www.sanjac.edu/sites/default/files/aaron-knight-2020_0.jpg",
             "response_type": "image"
           },
           {
             "values": [
               {
-                "text": "Dr. Brenda Jones is the provost for the San Jacinto College South Campus. <br/>\n<br/>\nClick <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/overview/our-leadership/strategic-leadership-team\"> HERE </a> for more information on Dr. Brenda Jones.<br/><br/>"
+                "text": "Dr. Aaron Knight is the provost for the San Jacinto College South Campus. <br/>\n<br/>\nClick <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/overview/our-leadership/strategic-leadership-team\"> HERE </a> for more information on Dr. Aaron Knight.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -19258,7 +19387,7 @@
           {
             "values": [
               {
-                "text": "Sure, I am happy to assist you with information on Generation Park location and contact info.  The Generation Park Campus is conveniently located just off Beltway 8 at West Lake Houston Parkway in northeast Houston.<br/><br/>\n13455 Lockwood Rd., Bldg. 2<br/>\nHouston, Texas 77044<br/><br/>\n<a target=\"_blank\" href=\"https://www.google.com/maps/dir/''/13455+Lockwood+Rd,+Houston,+TX+77044/\">Directions </a>| <a target=\"_blank\" href=\"https://www.sanjac.edu/sites/default/files/inline-files/Generation-Park-Map-1-23-20.pdf\">Printable PDF of campus map</a><br/><br/>"
+                "text": "Sure, I am happy to assist you with information on Generation Park location and contact info.  The Generation Park Campus is conveniently located just off Beltway 8 at West Lake Houston Parkway in northeast Houston.<br/><br/>\n13455 Lockwood Rd., Bldg. 2<br/>\nHouston, Texas 77044<br/><br/>\n<a target=\"_blank\" href=\"https://www.google.com/maps/dir/''/13455+Lockwood+Rd,+Houston,+TX+77044/\">Directions </a>| <a target=\"_blank\" href=\"https://www.sanjac.edu/sites/default/files/inline-files/Generation-Park-Map-1-23-20.pdf\">Printable PDF of campus map</a><br/><br/>\nPlease click on the  <a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus\"> Generation Park Campus </a>link for the most up to date information. <br/><br/>"
               }
             ],
             "response_type": "text",
@@ -19350,7 +19479,7 @@
           {
             "values": [
               {
-                "text": "San Jacinto College is closed for Memorial Day, Monday, May 31st, 2021.  <br/><br/>\nCollege classes and services will return to normal operations on Tuesday, June 1st.<br/><br/>"
+                "text": "San Jacinto College is closed for Memorial Day, Monday, May 30th, 2022.  <br/><br/>\nCollege classes and services will return to normal operations on Tuesday, May 31st.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -19364,7 +19493,7 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "@sys-date:2021-05-31 ||    @Holiday:(Memorial Day) || @sys-date:2020-05-25",
+      "conditions": "@sys-date:2022-05-30 ||      @Holiday:(Memorial Day)",
       "user_label": "Is the college open on Memorial Day?",
       "dialog_node": "node_1_1583269169036",
       "previous_sibling": "node_5_1583264276783"
@@ -19768,6 +19897,32 @@
       "conditions": "#FA_Tax_Transcript",
       "dialog_node": "node_1_1619539138688",
       "previous_sibling": "node_9_1619539990709"
+    },
+    {
+      "type": "standard",
+      "title": "Route to What Else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No problem."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1622661408179",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "@YesNo:No",
+      "dialog_node": "node_1_1622659690515",
+      "previous_sibling": "node_9_1622659687244"
     },
     {
       "type": "standard",
@@ -21400,32 +21555,15 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "title": "Did I answer your question?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "@YesNo:Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "@YesNo:No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
           }
         ]
       },
       "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1538143760507"
+      },
       "conditions": "#Personal_Changes",
       "digress_in": "does_not_return",
       "user_label": "I need to change my name and/or address.",
@@ -21856,24 +21994,6 @@
       "previous_sibling": "node_153_1538171332831"
     },
     {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_15_1539274269802",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_62_1535567995035"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_16_1539275560770"
-    },
-    {
       "type": "response_condition",
       "output": {
         "text": {
@@ -22232,7 +22352,7 @@
       "metadata": {},
       "conditions": "$Area:Auditorium && $Campus:Central",
       "dialog_node": "node_16_1557338707282",
-      "previous_sibling": "node_15_1557338602969"
+      "previous_sibling": "node_29_1557340571942"
     },
     {
       "type": "standard",
@@ -22278,25 +22398,6 @@
       "user_label": "I need help with drop deadlines and refunds",
       "dialog_node": "node_17_1537974670283",
       "previous_sibling": "node_3_1538138584472"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_15_1539274269802",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_61_1535567953221"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_17_1539275586731",
-      "previous_sibling": "node_16_1539275560770"
     },
     {
       "type": "standard",
@@ -22357,7 +22458,7 @@
       "metadata": {},
       "conditions": "$Departments:SSC && $Campus:Central",
       "dialog_node": "node_17_1540483741577",
-      "previous_sibling": "response_9_1622128581720"
+      "previous_sibling": "response_4_1565893145224"
     },
     {
       "type": "response_condition",
@@ -23408,7 +23509,7 @@
       "metadata": {},
       "conditions": "$Area:(Welcome Center) && $Campus:Central",
       "dialog_node": "node_19_1557338830314",
-      "previous_sibling": "node_18_1557338775114"
+      "previous_sibling": "node_27_1557339970149"
     },
     {
       "type": "standard",
@@ -24302,33 +24403,16 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "title": "Did I provide the answer you were looking for?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
           }
         ]
       },
       "parent": "node_40_1539871863332",
       "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1538143760507"
+      },
       "conditions": "@YesNo:Yes",
       "dialog_node": "node_2_1539953050519",
       "previous_sibling": "node_1_1539953027243"
@@ -27280,7 +27364,7 @@
       "metadata": {},
       "conditions": "$Area:Gym && $Campus:Central",
       "dialog_node": "node_22_1557339629771",
-      "previous_sibling": "node_21_1557339583305"
+      "previous_sibling": "node_15_1557338602969"
     },
     {
       "type": "standard",
@@ -32669,6 +32753,31 @@
     },
     {
       "type": "standard",
+      "title": "Thumbs Down Explanation Node",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thank you for your input.  I will relay this information back to my team so we can learn from this experience.<br/><br/>If it's not too much to ask, we'd love to learn more on how we can help.  Please click on one of the links below to complete a short survey about your experience.<br/><br/>\n<a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYnsLqu9OiPFKjALmz0G2qqRUNkJMSUtPTkxKQ1A5NkhUWjZUT0VHMVJWUS4u\">Provide Feedback</a><br/>\n<a target=\"_blank\" href=\"https://forms.office.com/Pages/ResponsePage.aspx?id=QP1OUf6OFU-BnzTlas8VYpLPtvYqi6tIvXGXP0yW-kZUNlJPRUozRkhJWUcyTTk2RUNLQjFGWUNSQy4u\">Proporcionar comentarios</a><br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_35_1538143848466",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1622661408179"
+      },
+      "conditions": "true",
+      "dialog_node": "node_3_1622659400464"
+    },
+    {
+      "type": "standard",
       "output": {
         "text": {
           "values": [],
@@ -32863,25 +32972,25 @@
     },
     {
       "type": "standard",
-      "title": "Did I answer your question?",
+      "title": "Was this information helpful?",
       "output": {
         "generic": [
           {
-            "title": "Did I answer your question?",
+            "title": "Was this information helpful?",
             "options": [
               {
-                "label": "Yes",
+                "label": "👍",
                 "value": {
                   "input": {
-                    "text": "@YesNo:Yes"
+                    "text": "👍"
                   }
                 }
               },
               {
-                "label": "No",
+                "label": "👎",
                 "value": {
                   "input": {
-                    "text": "@YesNo:No"
+                    "text": "👎"
                   }
                 }
               }
@@ -32891,6 +33000,7 @@
         ]
       },
       "metadata": {},
+      "conditions": "#Feedback",
       "dialog_node": "node_33_1538143760507",
       "previous_sibling": "node_2_1536864996622"
     },
@@ -33110,9 +33220,16 @@
     },
     {
       "type": "standard",
+      "title": "Thumbs Up",
       "output": {
         "text": {
-          "values": [],
+          "values": [
+            "Wonderful!  Glad I was able to assist!<br/><br/>",
+            "Super!  Happy to hear I was able to help!<br/><br/>",
+            "Great!  I like it when I'm able to help!<br/><br/>",
+            "Awesome!  It makes me feel good knowing I was able to assist!<br/><br/>",
+            "Happy to help!😎 <br/><br/>"
+          ],
           "selection_policy": "sequential"
         }
       },
@@ -33123,7 +33240,7 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "@YesNo:Yes",
+      "conditions": "@Satisfied:(👍)",
       "dialog_node": "node_34_1538143825814"
     },
     {
@@ -33433,20 +33550,20 @@
     },
     {
       "type": "standard",
+      "title": "Thumbs Down",
       "output": {
         "text": {
-          "values": [],
+          "values": [
+            "I'm sorry I was unable to assist you at this time.  What would have made your experience better?",
+            "I apologize I was unable to help...some things I'm still not too familiar with.  Can you please tell me what would have made this interaction helpful?",
+            "Sorry about that...I guess I haven't learned that.  Can you please tell me what would have made this chat session better?"
+          ],
           "selection_policy": "sequential"
         }
       },
       "parent": "node_33_1538143760507",
       "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_61_1535567953221"
-      },
-      "conditions": "@YesNo:No",
+      "conditions": "@Satisfied:(👎)",
       "dialog_node": "node_35_1538143848466",
       "previous_sibling": "node_34_1538143825814"
     },
@@ -33693,33 +33810,16 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "title": "Did I provide the information you were looking for?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "@YesNo:Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "@YesNo:No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
           }
         ]
       },
       "parent": "node_35_1537977848886",
       "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1538143760507"
+      },
       "conditions": "@YesNo:Yes",
       "dialog_node": "node_36_1537978108918"
     },
@@ -33920,24 +34020,6 @@
     },
     {
       "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_36_1537978108918",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "user_input",
-        "dialog_node": "node_61_1535567953221"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_37_1537978181292"
-    },
-    {
-      "type": "standard",
       "title": "Post Apply Step - Other",
       "output": {
         "text": {
@@ -34084,25 +34166,6 @@
       "conditions": "$Program:(Pipefitting Technology)",
       "dialog_node": "node_37_1555613318562",
       "previous_sibling": "node_36_1555613262200"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_36_1537978108918",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_62_1535567995035"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_38_1537978201718",
-      "previous_sibling": "node_37_1537978181292"
     },
     {
       "type": "standard",
@@ -34912,16 +34975,14 @@
     {
       "type": "standard",
       "output": {
-        "text": {
-          "values": [
-            "Happy to help.  I'll be here if there is anything else I can assist with.",
-            "No worries.  I'm glad I could help.",
-            "You're welcome!  Please let me know if you need further assistance."
-          ],
-          "selection_policy": "sequential"
-        }
+        "generic": []
       },
       "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_34_1538143825814"
+      },
       "conditions": "#General_Positive_Feedback",
       "digress_in": "does_not_return",
       "dialog_node": "node_4_1536866165230",
@@ -35035,24 +35096,6 @@
       "conditions": "#SOS_Info",
       "user_label": "What is SOS?",
       "dialog_node": "node_4_1539273375815"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_2_1539953050519",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_62_1535567995035"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_4_1539954882988"
     },
     {
       "type": "standard",
@@ -37143,7 +37186,7 @@
             "selection_policy": "sequential"
           },
           {
-            "title": "Did I answer your question?",
+            "title": "Would you like me to continue?",
             "options": [
               {
                 "label": "Yes",
@@ -37322,7 +37365,7 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "@YesNo:Yes",
+      "conditions": "@YesNo:No",
       "dialog_node": "node_44_1541012762138"
     },
     {
@@ -37526,34 +37569,17 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "title": "Did I provide the answer you were looking for?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
           }
         ]
       },
       "parent": "node_43_1541012688755",
       "metadata": {},
-      "conditions": "@YesNo:No",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1538143760507"
+      },
+      "conditions": "@YesNo:Yes",
       "dialog_node": "node_45_1541012777627",
       "previous_sibling": "node_44_1541012762138"
     },
@@ -37690,25 +37716,6 @@
     },
     {
       "type": "standard",
-      "title": "Yes - Route to What Else",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_45_1541012777627",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_62_1535567995035"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_46_1541013380782"
-    },
-    {
-      "type": "standard",
       "title": "No - Route to What Else",
       "output": {
         "text": {
@@ -37838,26 +37845,6 @@
       "conditions": "$Departments:(Business Office) && $Campus:North",
       "dialog_node": "node_47_1540560071694",
       "previous_sibling": "node_22_1540559618691"
-    },
-    {
-      "type": "standard",
-      "title": "No - Route to CC for Assistance",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_45_1541012777627",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_61_1535567953221"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_47_1541013396207",
-      "previous_sibling": "node_46_1541013380782"
     },
     {
       "type": "standard",
@@ -38034,7 +38021,7 @@
             "selection_policy": "sequential"
           },
           {
-            "title": "Did I answer your question?",
+            "title": "Would you like me to continue?",
             "options": [
               {
                 "label": "Yes",
@@ -38234,7 +38221,7 @@
       },
       "parent": "node_48_1541013516950",
       "metadata": {},
-      "conditions": "@YesNo:No",
+      "conditions": "@YesNo:Yes",
       "dialog_node": "node_49_1541013569958"
     },
     {
@@ -38360,7 +38347,7 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "@YesNo:Yes",
+      "conditions": "@YesNo:No",
       "dialog_node": "node_50_1541013648790",
       "previous_sibling": "node_49_1541013569958"
     },
@@ -38561,15 +38548,14 @@
     {
       "type": "standard",
       "output": {
-        "text": {
-          "values": [
-            "I'm sorry to hear that.  I'm just trying to help.",
-            "My apologies.  Perhaps I can assist with a different question."
-          ],
-          "selection_policy": "sequential"
-        }
+        "generic": []
       },
       "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_35_1538143848466"
+      },
       "conditions": "#General_Negative_Feedback",
       "digress_in": "does_not_return",
       "dialog_node": "node_5_1536866335294",
@@ -38640,25 +38626,6 @@
       "conditions": "#SOS_Claim",
       "dialog_node": "node_5_1539273454649",
       "previous_sibling": "node_4_1539273375815"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_2_1539953050519",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_61_1535567953221"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_5_1539954909595",
-      "previous_sibling": "node_4_1539954882988"
     },
     {
       "type": "response_condition",
@@ -41080,7 +41047,7 @@
             "selection_policy": "sequential"
           },
           {
-            "title": "Did I answer your question?",
+            "title": "Would you like me to continue?",
             "options": [
               {
                 "label": "Yes",
@@ -41193,7 +41160,7 @@
             "selection_policy": "sequential"
           },
           {
-            "title": "Did I answer your question?",
+            "title": "Would you like me to continue?",
             "options": [
               {
                 "label": "Yes",
@@ -41230,39 +41197,22 @@
           {
             "values": [
               {
-                "text": "You will need two items to utilize your Financial Aid at the bookstore: a copy of your class schedule and a photo ID. Your class schedule will help you find the correct books and supplies for your particular class section. Your photo ID is required to confirm your identity."
+                "text": "You will need two items to utilize your Financial Aid at the bookstore: a copy of your class schedule and a photo ID. Your class schedule will help you find the correct books and supplies for your particular class section. Your photo ID is required to confirm your identity.<br/><br/>"
               }
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "title": "Did I provide the answer you were looking for?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
           }
         ]
       },
       "parent": "node_52_1541187762234",
       "metadata": {},
-      "conditions": "@YesNo:No",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1538143760507"
+      },
+      "conditions": "@YesNo:Yes",
       "dialog_node": "node_53_1541187844050"
     },
     {
@@ -41370,27 +41320,8 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "@YesNo:Yes",
+      "conditions": "@YesNo:No",
       "dialog_node": "node_54_1541013872524"
-    },
-    {
-      "type": "standard",
-      "title": "Yes - Route to What Else",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_53_1541187844050",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_62_1535567995035"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_54_1541187905849"
     },
     {
       "type": "response_condition",
@@ -41458,29 +41389,9 @@
       },
       "parent": "node_53_1541013822453",
       "metadata": {},
-      "conditions": "@YesNo:No",
+      "conditions": "@YesNo:Yes",
       "dialog_node": "node_55_1541013885901",
       "previous_sibling": "node_54_1541013872524"
-    },
-    {
-      "type": "standard",
-      "title": "No - Route to CC for Assistance",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_53_1541187844050",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_61_1535567953221"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_55_1541187917561",
-      "previous_sibling": "node_54_1541187905849"
     },
     {
       "type": "response_condition",
@@ -41565,7 +41476,7 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "@YesNo:Yes",
+      "conditions": "@YesNo:No",
       "dialog_node": "node_56_1541187929905",
       "previous_sibling": "node_53_1541187844050"
     },
@@ -41894,7 +41805,7 @@
       "output": {
         "text": {
           "values": [
-            "Okay, we are here to help! The Contact Center will be more than happy to assist you.  You can reach them by phone at 281-998-6150 or email at information\\@sjcd.edu.  <br/>\nTheir hours of operation are:<br/> <br/>\nFall/Spring<br/>\nMonday-Thursday, 7AM-7PM <br/>\nFriday, 8AM-5PM.<br/><br/>\nSummer<br/>\nMonday-Thursday, 7AM-7PM<br/>\nFriday, 8AM-Noon<br/><br/>\nYou can also click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a> to connect with us.<br/><br/> "
+            "Okay, we are here to help! The Contact Center will be more than happy to assist you.  You can reach them by phone at 281-998-6150 or email at information\\@sjcd.edu.  <br/><br/>\nTheir hours of operation are:<br/> \nFall/Spring<br/>\nMonday-Thursday, 7AM-7PM <br/>\nFriday, 8AM-5PM.<br/><br/>\nSummer (June 1st-July 30th) <br/>\nMonday-Thursday, 7AM-7PM<br/>\nFriday, 8AM-Noon<br/><br/>\nYou can also click <a target=\"_blank\" href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sanjac.edu%2Fadmissions-aid%2Fwho-contact&data=04%7C01%7CDarryl.Dement%40sjcd.edu%7C7fb7ec298093484103d008d925fd112f%7C514efd408efe4f15819f34e56acf1562%7C0%7C0%7C637582591111184580%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=ymNS9bxZpNi%2FX%2FnBsaLay0lKKwSFEJ3aw30RILovJYw%3D&reserved=0\">HERE</a> to connect with us.<br/><br/> "
           ],
           "selection_policy": "sequential"
         }
@@ -45628,7 +45539,7 @@
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_62_1535567995035"
+        "dialog_node": "node_33_1538143760507"
       },
       "conditions": "@YesNo:Yes",
       "dialog_node": "node_7_1538058799555"
@@ -46103,7 +46014,7 @@
       "metadata": {},
       "conditions": "$Area:Ballroom && $Campus:Central",
       "dialog_node": "node_7_1557338392138",
-      "previous_sibling": "node_29_1557340571942"
+      "previous_sibling": "node_18_1557338775114"
     },
     {
       "type": "standard",
@@ -47875,7 +47786,7 @@
           {
             "values": [
               {
-                "text": "The foundation of our Generation Park Campus is academic classes that transfer to a 4-year college or university. You can also earn a 2-year academic Associate of Arts (A.A.) or Associate of Science (A.S.) degree at Generation Park.<br/><br/>\n\nTo explore all available courses at Generation Park, please view the <a target=\"_blank\" href=\"https://www.sanjac.edu/coursefinder?term_type_select=credit&semester_term=1143191&field_class_semester_code_tax_tid_1=All&term=All&Campus=G&terms=&field_class_start_time_value=All&field_class_end_time_value=All&crn=&subj=&crse=&section=&Instructor=&sort_by=field_class_course_num_value&items_per_page=100\">Course Finder</a>.<br/><br/>"
+                "text": "The foundation of our Generation Park Campus is academic classes that transfer to a 4-year college or university. You can also earn a 2-year academic Associate of Arts (A.A.) or Associate of Science (A.S.) degree at Generation Park.<br/><br/>\nTo explore all available courses at Generation Park, please view the <a target=\"_blank\" href=\"https://www.sanjac.edu/coursefinder?term_type_select=credit&semester_term=1143191&field_class_semester_code_tax_tid_1=All&term=All&Campus=G&terms=&field_class_start_time_value=All&field_class_end_time_value=All&crn=&subj=&crse=&section=&Instructor=&sort_by=field_class_course_num_value&items_per_page=100\">Course Finder</a>.<br/><br/>\nPlease click on the  <a target=\"_blank\" href=\"https://www.sanjac.edu/generation-park-campus\"> Generation Park Campus </a>link for the most up to date information regarding Generation Park. <br/><br/>"
               }
             ],
             "response_type": "text",
@@ -48114,6 +48025,38 @@
       },
       "conditions": "@YesNo:Yes",
       "dialog_node": "node_7_1619540130579"
+    },
+    {
+      "type": "standard",
+      "title": "More ways to connect with us?",
+      "output": {
+        "generic": [
+          {
+            "title": "Would you like to learn more ways to connect with us?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_3_1622659400464",
+      "dialog_node": "node_7_1622661408179"
     },
     {
       "type": "response_condition",
@@ -51449,7 +51392,7 @@
           {
             "values": [
               {
-                "text": "If you withdrew or received an 'F' in a class in Fall 2020 or Spring 2021, this is for you!<br/><br/>\nStudents who attended San Jac in the Fall 2020 or Spring 2021 and received an F, FX, W, or WL in a class, can retake the class this summer or fall - the college will pay your tuition.<br/><br/>\n•\tIf you are a <b>dual credit student</b>, please contact your high school counselor or your <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/dual-credit-early-admission/meet-dual-credit-staff\">San Jac Dual Credit counselor</a> to enroll this summer.<br/>\n•\t<b>All other students</b>, can simply register in <a target=\"_blank\" href=\"https://www.sos.sanjac.edu/ssomanager/c/SSB\">SOS</a>.  The tuition will be waived.<br/><br/>\nClick <a target=\"_blank\" href=\"https://www.sanjac.edu/retake\">HERE</a> for additional information regarding Retake a Class on Us.<br/>\nYou can also email your inquiries to educational.planning\\@sjcd.edu .<br/><br/>"
+                "text": "<b>Retake a Class on Us</b><br/><br/>\nIf you withdrew or received an 'F' in a class in Fall 2020 or Spring 2021, this is for you!<br/><br/>\nStudents who attended San Jac in the Fall 2020 or Spring 2021 and received an F, FX, W, or WL in a class, can retake the class this summer or fall - the college will pay your tuition.<br/><br/>\n•\tIf you are a <b>dual credit student</b>, please contact your high school counselor or your <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/dual-credit-early-admission/meet-dual-credit-staff\">San Jac Dual Credit counselor</a> to enroll this summer.<br/>\n•\t<b>All other students</b>, can simply register in <a target=\"_blank\" href=\"https://www.sos.sanjac.edu/ssomanager/c/SSB\">SOS</a>.  The tuition will be waived.<br/><br/>\nClick <a target=\"_blank\" href=\"https://www.sanjac.edu/retake\">HERE</a> for additional information regarding Retake a Class on Us.<br/>\nYou can also email your inquiries to educational.planning\\@sjcd.edu .<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -51751,33 +51694,16 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "title": "Did I answer your question?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "@YesNo:Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "@YesNo:No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
           }
         ]
       },
       "parent": "node_75_1538150845932",
       "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1538143760507"
+      },
       "conditions": "@YesNo:Yes",
       "dialog_node": "node_86_1538151646910"
     },
@@ -51825,24 +51751,6 @@
       "previous_sibling": "response_3_1622126070771"
     },
     {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_86_1538151646910",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_62_1535567995035"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_87_1538151843999"
-    },
-    {
       "type": "response_condition",
       "output": {
         "generic": [
@@ -51884,25 +51792,6 @@
       "conditions": "$Departments:(Testing Center) && $Campus:North",
       "dialog_node": "node_87_1540561075430",
       "previous_sibling": "node_86_1540561075430"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_86_1538151646910",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_61_1535567953221"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_88_1538151866251",
-      "previous_sibling": "node_87_1538151843999"
     },
     {
       "type": "response_condition",
@@ -51960,33 +51849,16 @@
             ],
             "response_type": "text",
             "selection_policy": "sequential"
-          },
-          {
-            "title": "Did I answer your question?",
-            "options": [
-              {
-                "label": "Yes",
-                "value": {
-                  "input": {
-                    "text": "@YesNo:Yes"
-                  }
-                }
-              },
-              {
-                "label": "No",
-                "value": {
-                  "input": {
-                    "text": "@YesNo:No"
-                  }
-                }
-              }
-            ],
-            "response_type": "option"
           }
         ]
       },
       "parent": "node_75_1538150845932",
       "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_33_1538143760507"
+      },
       "conditions": "@YesNo:No",
       "dialog_node": "node_89_1538151886178",
       "previous_sibling": "node_86_1538151646910"
@@ -52035,24 +51907,6 @@
       "previous_sibling": "response_7_1622123166509"
     },
     {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_89_1538151886178",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_62_1535567995035"
-      },
-      "conditions": "@YesNo:Yes",
-      "dialog_node": "node_90_1538152190807"
-    },
-    {
       "type": "response_condition",
       "output": {
         "generic": [
@@ -52094,25 +51948,6 @@
       "conditions": "$Departments:Veterans && $Campus:North",
       "dialog_node": "node_90_1540561075430",
       "previous_sibling": "node_89_1540561075430"
-    },
-    {
-      "type": "standard",
-      "output": {
-        "text": {
-          "values": [],
-          "selection_policy": "sequential"
-        }
-      },
-      "parent": "node_89_1538151886178",
-      "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_61_1535567953221"
-      },
-      "conditions": "@YesNo:No",
-      "dialog_node": "node_91_1538152211631",
-      "previous_sibling": "node_90_1538152190807"
     },
     {
       "type": "response_condition",
@@ -53189,13 +53024,13 @@
       "output": {
         "generic": [
           {
-            "source": "https://www.sanjac.edu/sites/default/files/10/Bill-Raffetto.jpg",
+            "source": "https://www.sanjac.edu/sites/default/files/alexander-okwonna-2020_0.jpg",
             "response_type": "image"
           },
           {
             "values": [
               {
-                "text": "Dr. William G. Raffetto is the provost for the San Jacinto College North Campus. <br/>\n<br/>\nClick <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/overview/our-leadership/strategic-leadership-team\"> HERE </a> for more information on Dr. William Raffetto.<br/><br/>"
+                "text": "Dr. Alexander Okwonna is the provost for the San Jacinto College North Campus. <br/>\n<br/>\nClick <a target=\"_blank\" href=\"https://www.sanjac.edu/about-san-jac/overview/our-leadership/strategic-leadership-team\"> HERE </a> for more information on Dr. Alexander Okwonna.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -53987,7 +53822,7 @@
       "next_step": {
         "behavior": "jump_to",
         "selector": "body",
-        "dialog_node": "node_62_1535567995035"
+        "dialog_node": "node_33_1538143760507"
       },
       "conditions": "@YesNo:No",
       "dialog_node": "node_9_1586968135436",
@@ -54387,6 +54222,18 @@
       "conditions": "#FA_Non_Filer_Statement",
       "dialog_node": "node_9_1619539990709",
       "previous_sibling": "node_8_1619538205051"
+    },
+    {
+      "type": "standard",
+      "title": "Route to Contact Center",
+      "parent": "node_7_1622661408179",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_61_1535567953221"
+      },
+      "conditions": "@YesNo:Yes",
+      "dialog_node": "node_9_1622659687244"
     },
     {
       "type": "standard",
@@ -55513,7 +55360,7 @@
           {
             "values": [
               {
-                "text": "Good morning!  I'm Jac, and I will be your personal advisor today.<br/><br/>\nI've had my coffee, so I'm awake and ready to help you! Thanks so much for reaching out.<br/><br/>\nPlease note, beginning May 22, 2021:<br/>\n•\tFace coverings will be optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College will no longer require a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form will be available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that will allow employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n\n"
+                "text": "😃Good morning! I'm Jac, and I will be your personal advisor today.<br/><br/>\nI've had my coffee, so I'm awake and ready to help you! Thanks so much for reaching out.<br/><br/>\nPlease note, as of May 22, 2021:<br/>\n•\tFace coverings are optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College no longer requires a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form is available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that allows employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n\n"
               }
             ],
             "response_type": "text",
@@ -55604,7 +55451,7 @@
           {
             "values": [
               {
-                "text": "Good evening!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope your having a great day. Thanks so much for reaching out. <br/><br/>\nPlease note, beginning May 22, 2021:<br/>\n•\tFace coverings will be optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College will no longer require a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form will be available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that will allow employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n"
+                "text": "😀Good evening!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope you're having a great day. Thanks so much for reaching out. <br/><br/>\nPlease note, as of May 22, 2021:<br/>\n•\tFace coverings are optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College no longer requires a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form is available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that allows employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -55895,7 +55742,7 @@
       "parent": "node_12_1540414660557",
       "conditions": "$Departments:(Print & Mail) && $Campus:Central",
       "dialog_node": "response_4_1568209397159",
-      "previous_sibling": "response_3_1565982780936"
+      "previous_sibling": "node_1_1540992885891"
     },
     {
       "type": "response_condition",
@@ -56244,7 +56091,7 @@
       },
       "conditions": "$Departments:(Rec Sports) && $Campus:Central",
       "dialog_node": "response_6_1565982691192",
-      "previous_sibling": "response_4_1565893145224"
+      "previous_sibling": "response_7_1568209472371"
     },
     {
       "type": "response_condition",
@@ -56323,7 +56170,7 @@
       "parent": "node_12_1540414660557",
       "conditions": "$Campus:Maritime",
       "dialog_node": "response_6_1569860264602",
-      "previous_sibling": "node_1_1540992885891"
+      "previous_sibling": "response_2_1622127899586"
     },
     {
       "type": "response_condition",
@@ -57013,7 +56860,7 @@
       },
       "conditions": "$Departments:SEA && $Campus:Central",
       "dialog_node": "response_9_1565892963975",
-      "previous_sibling": "node_3_1557427547451"
+      "previous_sibling": "response_3_1565982780936"
     },
     {
       "type": "response_condition",
@@ -57106,7 +56953,7 @@
           {
             "values": [
               {
-                "text": "Good afternoon!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope your having a great day. Thanks so much for reaching out. <br/><br/>\nPlease note, beginning May 22, 2021:<br/>\n•\tFace coverings will be optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College will no longer require a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form will be available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that will allow employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n"
+                "text": "😀Good afternoon!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope you're having a great day. Thanks so much for reaching out. <br/><br/>\nPlease note, as of May 22, 2021:<br/>\n•\tFace coverings are optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College no longer requires a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form is available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that allows employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -57508,7 +57355,7 @@
       "metadata": {},
       "variable": "$Area",
       "dialog_node": "slot_8_1557338392161",
-      "previous_sibling": "node_27_1557339970149"
+      "previous_sibling": "node_21_1557339583305"
     },
     {
       "type": "slot",
@@ -57989,7 +57836,7 @@
     "spelling_auto_correct": true
   },
   "learning_opt_out": false,
-  "name": "Ask Jac!  General Skill 8.2",
+  "name": "Ask Jac!  General Skill 8.3",
   "language": "en",
-  "description": "Copy of 8.1 sent to TEST on 05/21/2021 1115AM"
+  "description": "Copy of 8.2 sent to TEST on 05/28/2021 8AM"
 }
