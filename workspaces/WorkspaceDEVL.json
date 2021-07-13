@@ -1,6 +1,48 @@
 {
   "intents": [
     {
+      "intent": "21Forward",
+      "examples": [
+        {
+          "text": "21 Forward"
+        },
+        {
+          "text": "21Forward"
+        },
+        {
+          "text": "21Forward Scholarship"
+        },
+        {
+          "text": "3 year scholarship"
+        },
+        {
+          "text": "Class of 2021 scholarship"
+        },
+        {
+          "text": "Does the 21Forward scholarship cover books and supplies?"
+        },
+        {
+          "text": "Free tuition for 2021 graduates"
+        },
+        {
+          "text": "MacKenzie Scott"
+        },
+        {
+          "text": "scholarship for 2021 graduates"
+        },
+        {
+          "text": "Scholarship for Class of 2021"
+        },
+        {
+          "text": "What does the 21Forward scholarship cover?"
+        },
+        {
+          "text": "What is the 21 Foward scholarhip?"
+        }
+      ],
+      "description": "General info regarding the 21Forward scholarship."
+    },
+    {
       "intent": "About_San_Jac",
       "examples": [
         {
@@ -389,9 +431,6 @@
         },
         {
           "text": "reapply"
-        },
-        {
-          "text": "scholarship"
         },
         {
           "text": "take fall calsses as a transfer student"
@@ -1395,6 +1434,9 @@
           "text": "cancel"
         },
         {
+          "text": "Clear"
+        },
+        {
           "text": "quit"
         },
         {
@@ -1473,102 +1515,6 @@
         }
       ],
       "description": "General info on Career Services"
-    },
-    {
-      "intent": "CARES",
-      "examples": [
-        {
-          "text": "Apply for CARES grant"
-        },
-        {
-          "text": "Can dual credit students get money from the Federal CARES aid?"
-        },
-        {
-          "text": "Can I apply for CARES aid if I am a dual credit student?"
-        },
-        {
-          "text": "Can I get money from the CARES grant if I already get Financial Aid?"
-        },
-        {
-          "text": "CARES Act"
-        },
-        {
-          "text": "Cares Aid"
-        },
-        {
-          "text": "CARES Grant"
-        },
-        {
-          "text": "Federal CARES Act Emergency Aid Grants"
-        },
-        {
-          "text": "Federal Emergency Aid"
-        },
-        {
-          "text": "How do I apply for CARES?"
-        },
-        {
-          "text": "How do i know if i am qualified for the CARES Aid?"
-        },
-        {
-          "text": "How do i know if i'm eligible for the CARES grant?"
-        },
-        {
-          "text": "How long does it take to get my money from the CARES act?"
-        },
-        {
-          "text": "How much is the CARES grant?"
-        },
-        {
-          "text": "How much money will i receive from the CARES aid?"
-        },
-        {
-          "text": "How will I get paid the CARES aid?"
-        },
-        {
-          "text": "How will I receive funds from the CARES Emergency Aid?"
-        },
-        {
-          "text": "How will the CARES aid affect my financial aid?"
-        },
-        {
-          "text": "If I already applied for CARES, how do I check the status?"
-        },
-        {
-          "text": "If I already receive Financial Aid, can I still qualify for CARES?"
-        },
-        {
-          "text": "I need help applying for the CARES Emergency Aid."
-        },
-        {
-          "text": "I need help applying for the Federal CARES Act Emergency Aid Grant."
-        },
-        {
-          "text": "Receive CARES"
-        },
-        {
-          "text": "What do I need to do to get the CARES money?"
-        },
-        {
-          "text": "What is the Federal CARES Act Emergency Aid Grant?"
-        },
-        {
-          "text": "When can I expect to receive funds from CARES?"
-        },
-        {
-          "text": "Where do I go to sign up for CARES?"
-        },
-        {
-          "text": "Who can I talk to about applying for the CARES federal grant?"
-        },
-        {
-          "text": "Who is eligible to apply for the Federal CARES Act Emergency Aid Grants?"
-        },
-        {
-          "text": "Will I receive a check for the Federal CARES grant?"
-        }
-      ],
-      "description": "Provide link to website with list of FAQs regarding Federal CARES Act Emergency Aid Grants"
     },
     {
       "intent": "CC_Assistance",
@@ -2275,6 +2221,18 @@
           "text": "2019 Novel Coronavirus"
         },
         {
+          "text": "Are masks required?"
+        },
+        {
+          "text": "Are wristbands required?"
+        },
+        {
+          "text": "Armband"
+        },
+        {
+          "text": "Arm band for campus"
+        },
+        {
           "text": "corona virus"
         },
         {
@@ -2288,6 +2246,30 @@
         },
         {
           "text": "covid19"
+        },
+        {
+          "text": "Do i have to wear a face covering?"
+        },
+        {
+          "text": "Do i have to wear a wrist band?"
+        },
+        {
+          "text": "Do I still have to wear a mask on campus?"
+        },
+        {
+          "text": "Do I still have to wear an armband"
+        },
+        {
+          "text": "do we still have to get a wristband?"
+        },
+        {
+          "text": "Do we still need to complete a daily pre-screening questionnaire before coming to the campus?"
+        },
+        {
+          "text": "face covering"
+        },
+        {
+          "text": "face mask"
         },
         {
           "text": "what covid level are we currently in? Level 3?"
@@ -4861,6 +4843,120 @@
         }
       ],
       "description": "Information regarding graduation - last day to apply and when/where it is"
+    },
+    {
+      "intent": "HEERF",
+      "examples": [
+        {
+          "text": "Apply for HEERF grant"
+        },
+        {
+          "text": "Can dual credit students get money from the HEERF aid?"
+        },
+        {
+          "text": "Can I apply for HEERF aid if I am a dual credit student?"
+        },
+        {
+          "text": "Can I get money from the HEERF grant if I already get Financial Aid?"
+        },
+        {
+          "text": "Coronavirus Response and Relief Supplemental Appropriations Act"
+        },
+        {
+          "text": "CRRSA"
+        },
+        {
+          "text": "Emergency Grant Fund Application"
+        },
+        {
+          "text": "Federal Emergency Aid"
+        },
+        {
+          "text": "HEERF"
+        },
+        {
+          "text": "HEERF Aid"
+        },
+        {
+          "text": "HEERF Emergency Aid Grants"
+        },
+        {
+          "text": "HEERF Grant"
+        },
+        {
+          "text": "HEERF II Emergency Aid Grant"
+        },
+        {
+          "text": "Higher Education Emergency Relief Fund"
+        },
+        {
+          "text": "How do I apply for HEERF?"
+        },
+        {
+          "text": "How do i know if i am qualified for the HEERF Aid?"
+        },
+        {
+          "text": "How do i know if i'm eligible for the HEERF grant?"
+        },
+        {
+          "text": "How long does it take to get my money from the HEERF grant?"
+        },
+        {
+          "text": "How much is the HEERF grant?"
+        },
+        {
+          "text": "How much money will i receive from the HEERF aid?"
+        },
+        {
+          "text": "How will I get paid the HEERF aid?"
+        },
+        {
+          "text": "How will I receive funds from the HEERF Emergency Aid?"
+        },
+        {
+          "text": "How will the HEERF aid affect my financial aid?"
+        },
+        {
+          "text": "If I already applied for HEERF, how do I check the status?"
+        },
+        {
+          "text": "If I already receive Financial Aid, can I still qualify for HEERF ?"
+        },
+        {
+          "text": "I need help applying for the HEERF Emergency Aid."
+        },
+        {
+          "text": "I need help applying for the Higher Education Emergency Relief Fund."
+        },
+        {
+          "text": "Receive HEERF"
+        },
+        {
+          "text": "SJC Emergency Aid Grant Fund"
+        },
+        {
+          "text": "What do I need to do to get the HEERFmoney?"
+        },
+        {
+          "text": "What is the Higher Education Emergency Relief Fund?"
+        },
+        {
+          "text": "When can I expect to receive funds from HEERF?"
+        },
+        {
+          "text": "Where do I go to sign up for HEERF?"
+        },
+        {
+          "text": "Who can I talk to about applying for the HEERF federal grant?"
+        },
+        {
+          "text": "Who is eligible to apply for the Higher Education Emergency Relief Fund?"
+        },
+        {
+          "text": "Will I receive a check for the Federal HEERF grant?"
+        }
+      ],
+      "description": "Provide link to website with list of FAQs regarding HEERF Aid Grants"
     },
     {
       "intent": "Holds",
@@ -7670,7 +7766,16 @@
           "text": "About The San Jacinto College Foundation"
         },
         {
+          "text": "Am I eligible for any scholarships to cover my classes at San Jac?"
+        },
+        {
           "text": "Does san jac offer scholarships"
+        },
+        {
+          "text": "Do I qualify for any scholarships?"
+        },
+        {
+          "text": "How do I know what type of scholarship I can apply for?"
         },
         {
           "text": "How to Prepare for the General Scholarship Application"
@@ -7683,6 +7788,9 @@
         },
         {
           "text": "What scholarships are available?"
+        },
+        {
+          "text": "What types of scholarships can I apply for that will cover my tuition?"
         },
         {
           "text": "Where do I mail my scholarship check?"
@@ -14439,7 +14547,7 @@
           {
             "values": [
               {
-                "text": "Oh no :(... We would hate to see you go!\n<a target=\"_blank\" href=\"https://www.sanjac.edu/refunds\"> Drop Deadline Dates</a> can be found here. <br/><br/>\nTo drop a course online: <br/>\n1. Go to the <a target=\"_blank\" href=\"https://www.sanjac.edu/soslogin\"> SOS login</a> <br/>\n2. To login: enter your Student ID number (capital G with the assigned eight digit number).<br/>\n3. Enter your SOS password.<br/>\n4. Select <b>My Registration</b> and follow the system prompts.<br/>\n5. Select your desired registration term.<br/>\n6. Select <b>Step 5, Register for Classes</b>, and select “drop”  for desired classes under drop down box. <br/>\n7. Select <b>Submit Changes</b> to save the request or to determine if there are registration restrictions. <br/>\n8. When the schedule is correct, select the <b>View My Schedule</b> link at the bottom of the page to confirm your action.  <br/><br/>\n\n"
+                "text": "Oh no🙁... We would hate to see you go!\n<a target=\"_blank\" href=\"https://www.sanjac.edu/refunds\"> Drop Deadline Dates</a> can be found here. <br/><br/>\nTo drop a course online: <br/>\n1. Go to the <a target=\"_blank\" href=\"https://www.sanjac.edu/soslogin\"> SOS login</a> <br/>\n2. To login: enter your Student ID number (capital G with the assigned eight digit number).<br/>\n3. Enter your SOS password.<br/>\n4. Select <b>My Registration</b> and follow the system prompts.<br/>\n5. Select your desired registration term.<br/>\n6. Select <b>Step 5, Register for Classes</b>, and select “drop”  for desired classes under drop down box. <br/>\n7. Select <b>Submit Changes</b> to save the request or to determine if there are registration restrictions. <br/>\n8. When the schedule is correct, select the <b>View My Schedule</b> link at the bottom of the page to confirm your action.  <br/><br/>\n\n"
               }
             ],
             "response_type": "text",
@@ -17533,7 +17641,7 @@
           {
             "values": [
               {
-                "text": "Interested in San Jac?  Wonderful!  Please click on the following link to learn why you should choose San Jacinto College!  <br/><br/>\n<a target=\"_blank\" href=\"https://www.youtube.com/watch?v=CT40ewSFWtg\"> About San Jacinto College </a>"
+                "text": "Interested in San Jac?  Wonderful!👍 <br/><br/> \nPlease click on the following link to learn why you should choose San Jacinto College! \n<a target=\"_blank\" href=\"https://www.youtube.com/watch?v=CT40ewSFWtg\"> About San Jacinto College </a>"
               }
             ],
             "response_type": "text",
@@ -23513,6 +23621,7 @@
     },
     {
       "type": "standard",
+      "title": "/",
       "output": {
         "generic": [
           {
@@ -29730,20 +29839,43 @@
     },
     {
       "type": "standard",
+      "title": "   ",
       "output": {
-        "text": {
-          "values": [
-            "No worries, help is here! The Contact Center will be more than happy to assist you.  You can reach them by phone at 281-998-6150 or email at information\\@sjcd.edu.  <br/>\nTheir hours of operation are:<br/> <br/>\nFall/Spring<br/>\nMonday-Thursday, 7AM-7PM <br/>\nFriday, 8AM-5PM.<br/><br/>\nSummer<br/>\nMonday-Thursday, 7AM-7PM<br/>\nFriday, 8AM-Noon<br/><br/>\nYou can also click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a> to connect with us.<br/><br/> \n"
-          ],
-          "selection_policy": "sequential"
-        }
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Department Live Chats</b><br/>\nClick on one of the links below to ask general questions with a live advisor or student ambassador. (Only available during regular business hours.)<br/>\n<a target=\"_blank\" href=\"https://libraryh3lp.com/chat/admissionssjc@chat.libraryh3lp.com?skin=30563&popout=1&sounds=1\">Admissions</a><br/>\n<a target=\"_blank\" href=\"https://libraryh3lp.com/chat/epcc@chat.libraryh3lp.com?skin=26129&popout=1&sounds=1\">Educational Planning</a><br/>\n<a target=\"_blank\" href=\"https://libraryh3lp.com/chat/financialaidsjc@chat.libraryh3lp.com?skin=30834&popout=1&sounds=1\">Financial Aid</a><br/>\n<a target=\"_blank\" href=\"https://libraryh3lp.com/chat/oct@chat.libraryh3lp.com?skin=31057&popout=1&sounds=1\">Student Ambassador</a><br/><br/>\n\n<b>Educational Planning in SOS</b>\nLog into <a target=\"_blank\" href=\"https://www.sanjac.edu/soslogin\">SOS</a>, choose 'My Registration' and select 'Live Chat' to make quick changes with an educational planner.\n (Only available during regular business hours.)<br/><br/>\n\nYou can also click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a> to learn other ways you can connect with us!<br/><br/> "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Would you like the Contact Center's contact information and hours of operation?",
+            "options": [
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "Yes"
+                  }
+                }
+              },
+              {
+                "label": "No",
+                "value": {
+                  "input": {
+                    "text": "No"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
       },
       "metadata": {},
-      "next_step": {
-        "behavior": "jump_to",
-        "selector": "body",
-        "dialog_node": "node_62_1535567995035"
-      },
       "conditions": "#General_Connect_to_Agent",
       "dialog_node": "node_3_1536865702482",
       "previous_sibling": "node_1_1536863665989"
@@ -36966,7 +37098,6 @@
       "output": {
         "text": {
           "values": [
-            "What else can I help you with?",
             "Great.  How can I be of assistance?",
             "Wonderful.  What is your question?",
             "Ask Jac! is ready to serve.  How can I help you?"
@@ -40087,6 +40218,14 @@
                 }
               },
               {
+                "label": "21Forward Scholarships",
+                "value": {
+                  "input": {
+                    "text": "21Forward Scholarship"
+                  }
+                }
+              },
+              {
                 "label": "Private Scholarships",
                 "value": {
                   "input": {
@@ -41805,7 +41944,7 @@
       "output": {
         "text": {
           "values": [
-            "Okay, we are here to help! The Contact Center will be more than happy to assist you.  You can reach them by phone at 281-998-6150 or email at information\\@sjcd.edu.  <br/><br/>\nTheir hours of operation are:<br/> \nFall/Spring<br/>\nMonday-Thursday, 7AM-7PM <br/>\nFriday, 8AM-5PM.<br/><br/>\nSummer (June 1st-July 30th) <br/>\nMonday-Thursday, 7AM-7PM<br/>\nFriday, 8AM-Noon<br/><br/>\nYou can also click <a target=\"_blank\" href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sanjac.edu%2Fadmissions-aid%2Fwho-contact&data=04%7C01%7CDarryl.Dement%40sjcd.edu%7C7fb7ec298093484103d008d925fd112f%7C514efd408efe4f15819f34e56acf1562%7C0%7C0%7C637582591111184580%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=ymNS9bxZpNi%2FX%2FnBsaLay0lKKwSFEJ3aw30RILovJYw%3D&reserved=0\">HERE</a> to connect with us.<br/><br/> "
+            "Okay, we are here to help!🤠 The Contact Center will be more than happy to assist you.  You can reach them by phone at 281-998-6150 or email at information\\@sjcd.edu.  <br/><br/>\nTheir hours of operation are:<br/> \nFall/Spring<br/>\nMonday-Thursday, 7AM-7PM <br/>\nFriday, 8AM-5PM.<br/><br/>\nSummer (June 1st-July 30th) <br/>\nMonday-Thursday, 7AM-7PM<br/>\nFriday, 8AM-Noon<br/><br/>\nYou can also click <a target=\"_blank\" href=\"https://nam10.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sanjac.edu%2Fadmissions-aid%2Fwho-contact&data=04%7C01%7CDarryl.Dement%40sjcd.edu%7C7fb7ec298093484103d008d925fd112f%7C514efd408efe4f15819f34e56acf1562%7C0%7C0%7C637582591111184580%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&sdata=ymNS9bxZpNi%2FX%2FnBsaLay0lKKwSFEJ3aw30RILovJYw%3D&reserved=0\">HERE</a> to connect with us.<br/><br/> "
           ],
           "selection_policy": "sequential"
         }
@@ -44203,13 +44342,13 @@
     },
     {
       "type": "standard",
-      "title": "Federal CARES Act Emergency Aid Grants",
+      "title": "Higher Education Emergency Relief Fund",
       "output": {
         "generic": [
           {
             "values": [
               {
-                "text": "I can help you with that information. We understand this is a time of uncertainty. All CARES Act funds have been awarded. Please look out for future announcements about additional funding or revisit this page at a later date to verify funding availability. For the most current information from San Jacinto College regarding CARES Act Emergency Aid Grant, please click on the link below:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/cares-act\">www.sanjac.edu/cares-act</a><br/><br/>\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/scholarships-grants\">here</a> for information on San Jac scholarships and grants that may be available to students during this time.<br/><br/>\n\n\n"
+                "text": "I can help you with that information. We understand this is a time of uncertainty. San Jacinto College received an additional allocation from the US Department of Education (as appropriated by the Coronavirus Response and Relief Supplemental Appropriations Act) to create an emergency grant fund for San Jacinto College students. <br/><br/>\n\nTerms of SJC Emergency Aid Grant Fund:\n• Must submit Emergency Grant Fund Application.\n• You must have been a San Jac student taking college credit, continuing education, dual credit, or adult education courses anytime since March 13, 2020 (the date of the COVID-19 national emergency declaration).\n• Must be a US citizen, permanent resident, or an eligible non-citizen.\n• Must use funds to cover expenses created the COVID-19 pandemic.\n• Must select a BankMobile disbursement preference<br/><br/>\n\nAward amounts are $700 for Pell recipients and $600 for non-Pell recipients. Emergency funding requests will be reviewed as there are received. Payments will be processed during the first week of June. Deadline is July 15, 2021, or until funds are exhausted. For the most current information from San Jacinto College regarding HEERF Emergency Aid Grant, please click on the link below:<br/><a target=\"_blank\" href=\"https://www.sanjac.edu/HEERF\">www.sanjac.edu/HEERF</a><br/><br/>\n\nPlease click <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/scholarships-grants\">here</a> for information on San Jac scholarships and grants that may be available to students during this time.<br/><br/>\n\n\n"
               }
             ],
             "response_type": "text",
@@ -44222,8 +44361,8 @@
         "selector": "body",
         "dialog_node": "node_62_1535567995035"
       },
-      "conditions": "#CARES",
-      "user_label": "I would like information regarding the CARES Act.",
+      "conditions": "#HEERF",
+      "user_label": "I would like information regarding the Higher Education Emergency Relief Fund.",
       "dialog_node": "node_6_1589458379751",
       "previous_sibling": "node_8_1621948907845"
     },
@@ -44474,6 +44613,19 @@
       },
       "conditions": "@YesNo:Yes",
       "dialog_node": "node_6_1619536302107"
+    },
+    {
+      "type": "standard",
+      "title": "Route to #What_Else",
+      "parent": "node_3_1536865702482",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "@YesNo:No",
+      "dialog_node": "node_6_1624893377525",
+      "previous_sibling": "node_7_1624893375418"
     },
     {
       "type": "standard",
@@ -47863,7 +48015,7 @@
           {
             "values": [
               {
-                "text": "We're back! We can’t wait to welcome you back to campus for classes and activities! Registration is now open, with plenty of in-person courses, plus online options. For the latest information from San Jacinto College on Coronavirus 2019 (COVID-19), please click the following link: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/coronavirus\"> www.sanjac.edu/coronavirus </a> <br/> <br/> For a list of frequently asked questions related to Coronavirus, please click on: <br/> <a target = \"_blank\" href = \"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/faqs-san-jac-covid-19\"> Coronavirus FAQ's </a> <br/> <br/> If you need access to technology or need technical assistance, click: <br/> <a target=\"_blank\" href=\"https://www.sanjacits.org/\"> Technical support </a> <br/> <br/> You can also email your questions to Covid-19\\@sjcd.edu. <br/> <br/>"
+                "text": "We're back! We can’t wait to welcome you back to campus for classes and activities!<br/><br/>\nPlease note, as of May 22, 2021:<br/>\n•\tFace coverings are optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College no longer requires a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form is available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that allows employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\nRegistration is now open, with plenty of in-person courses, plus online options. For the latest information from San Jacinto College on Coronavirus 2019 (COVID-19), please click the following link: <br/> <a target = \"_ blank\" href = \"https://www.sanjac.edu/coronavirus\"> www.sanjac.edu/coronavirus </a> <br/> <br/> \nFor a list of frequently asked questions related to Coronavirus, please click on: <br/> \n<a target = \"_blank\" href = \"https://www.sanjac.edu/about-san-jac/safety/communicable-diseases/coronavirus-covid-19/faqs-san-jac-covid-19\"> Coronavirus FAQ's </a> <br/> <br/> \nIf you need access to technology or need technical assistance, click: <br/> <a target=\"_blank\" href=\"https://www.sanjacits.org/\"> Technical support </a> <br/> <br/> You can also email your questions to Covid-19\\@sjcd.edu. <br/> <br/>"
               }
             ],
             "response_type": "text",
@@ -47976,7 +48128,7 @@
     },
     {
       "type": "folder",
-      "title": "International Students",
+      "title": "International Students ",
       "conditions": "#International_Students",
       "dialog_node": "node_7_1610047477526",
       "previous_sibling": "node_3_1571165167018"
@@ -48057,6 +48209,44 @@
       },
       "parent": "node_3_1622659400464",
       "dialog_node": "node_7_1622661408179"
+    },
+    {
+      "type": "standard",
+      "title": "21Forward Scholarship Info",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The 21Forward scholarship is a three-year scholarship, paying tuition in full toward an associate degree or workforce certificate.  This scholarship comes from a generous donation from MacKenzie Scott and her husband Dan Jewett.<br/><br/>\nTo be eligible:<br/>\n• You must have graduated from high school during the 2020/2021 academic year.  This includes graduates from fall 2020 through summer 2021.<br/>\n• You must begin classes at San Jac in fall 2021.<br/>\n• You must apply for financial aid annually and, if required, must complete the verification process.<br/>\n• You must live in the San Jac taxing district when you graduate.  <br/><br/>\nClick <a target=\"_blank\" href=\"https://www.sanjac.edu/admissions-aid/scholarships-grants/21forward-scholarship\">HERE</a> for more information regarding the 21Forward scholarship as well as detailed instructions on how to apply.<br/><br/>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_62_1535567995035"
+      },
+      "conditions": "#21Forward",
+      "user_label": "What is the 21Forward scholarship?",
+      "dialog_node": "node_7_1624025059683",
+      "previous_sibling": "node_9_1584724773369"
+    },
+    {
+      "type": "standard",
+      "title": "Route to #CC_Assistance",
+      "parent": "node_3_1536865702482",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_61_1535567953221"
+      },
+      "conditions": "@YesNo:Yes",
+      "dialog_node": "node_7_1624893375418"
     },
     {
       "type": "response_condition",
@@ -51408,7 +51598,7 @@
       "conditions": "#Retake_Class_on_Us",
       "user_label": "How do I retake a class for free?",
       "dialog_node": "node_8_1621948907845",
-      "previous_sibling": "node_9_1584724773369"
+      "previous_sibling": "node_7_1624025059683"
     },
     {
       "type": "standard",
@@ -55360,7 +55550,7 @@
           {
             "values": [
               {
-                "text": "😃Good morning! I'm Jac, and I will be your personal advisor today.<br/><br/>\nI've had my coffee, so I'm awake and ready to help you! Thanks so much for reaching out.<br/><br/>\nPlease note, as of May 22, 2021:<br/>\n•\tFace coverings are optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College no longer requires a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form is available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that allows employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n\n"
+                "text": "😃Good morning! I'm Jac, and I will be your personal advisor today.<br/><br/>\nI've had my coffee, so I'm awake and ready to help you! Thanks so much for reaching out.<br/><br/>"
               }
             ],
             "response_type": "text",
@@ -55432,7 +55622,7 @@
           {
             "values": [
               {
-                "text": "<br/>I'm learning new things daily - so I may not have all the answers yet, but I always do my best!\nPlease keep your questions brief and ask them one at a time, so that I may better assist you.\nIf you need to start over, simply type 'Back'.<br/><br/>For more information for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
+                "text": "<br/>I'm learning new things daily - so I may not have all the answers yet, but I always do my best!  Please keep your questions brief and ask them one at a time, so that I may better assist you.<br/><br/>\nAt any point in our conversation you find the information that I provide helpful, please send me a 👍.  If you find the information is not helpful, send me a 👎.  You can also type 'Feedback' to let me know how I'm doing.<br/><br/>\nIf you need to start over, simply type 'Clear'.<br/><br/>For more information for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -55451,7 +55641,7 @@
           {
             "values": [
               {
-                "text": "😀Good evening!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope you're having a great day. Thanks so much for reaching out. <br/><br/>\nPlease note, as of May 22, 2021:<br/>\n•\tFace coverings are optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College no longer requires a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form is available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that allows employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n"
+                "text": "😀Good evening!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope you're having a great day. Thanks so much for reaching out. <br/><br/>"
               }
             ],
             "response_type": "text",
@@ -55522,7 +55712,7 @@
           {
             "values": [
               {
-                "text": "I'm learning new things daily - so I may not have all the answers yet, but I always do my best!\nPlease keep your questions brief and ask them one at a time, so that I may better assist you.\nIf you need to start over, simply type 'Back'.<br/><br/>For more information for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
+                "text": "<br/>I'm learning new things daily - so I may not have all the answers yet, but I always do my best!  Please keep your questions brief and ask them one at a time, so that I may better assist you.<br/><br/>\nAt any point in our conversation you find the information that I provide helpful, please send me a 👍.  If you find the information is not helpful, send me a 👎.  You can also type 'Feedback' to let me know how I'm doing.<br/><br/>\nIf you need to start over, simply type 'Clear'.<br/><br/>For more information for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -56953,7 +57143,7 @@
           {
             "values": [
               {
-                "text": "😀Good afternoon!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope you're having a great day. Thanks so much for reaching out. <br/><br/>\nPlease note, as of May 22, 2021:<br/>\n•\tFace coverings are optional for all employees, students, visitors, and contractors.  If you have not been vaccinated, we ask that you continue to wear a face covering.<br/>\n•\tThe College no longer requires a daily pre-screening form, a wristband or check-in once you arrive on campus or at any College facility.<br/>\n•\tA new form is available on the <a target=\"_blank\" href=\"http://www.sanjac.edu/coronavirus\">COVID-19 website</a> that allows employees and students to voluntarily disclose any instances of coronavirus infection or exposure.<br/><br/>\n"
+                "text": "😀Good afternoon!  I'm Jac, and I will be assisting you today.<br/><br/>\nI hope you're having a great day. Thanks so much for reaching out. <br/><br/>"
               }
             ],
             "response_type": "text",
@@ -57024,7 +57214,7 @@
           {
             "values": [
               {
-                "text": "I'm learning new things daily, so I may not have all the answers yet. But, I always do my best!\nPlease keep your questions brief and ask them one at a time, so that I may better assist you.\nIf you need to start over, simply type 'Back'.<br/><br/>For more information for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
+                "text": "<br/>I'm learning new things daily - so I may not have all the answers yet, but I always do my best!  Please keep your questions brief and ask them one at a time, so that I may better assist you.<br/><br/>\nAt any point in our conversation you find the information that I provide helpful, please send me a 👍.  If you find the information is not helpful, send me a 👎.  You can also type 'Feedback' to let me know how I'm doing.<br/><br/>\nIf you need to start over, simply type 'Clear'.<br/><br/>For more information for ways to connect with us, please click <a target=\"_blank\" href=\"https://www.sanjac.edu/connect-virtually\">HERE</a>.<br/><br/>\n"
               }
             ],
             "response_type": "text",
@@ -57836,7 +58026,7 @@
     "spelling_auto_correct": true
   },
   "learning_opt_out": false,
-  "name": "Ask Jac!  General Skill 8.3",
+  "name": "Ask Jac!  General Skill 8.4",
   "language": "en",
-  "description": "Copy of 8.2 sent to TEST on 05/28/2021 8AM"
+  "description": "Copy of 8.3 sent to TEST on 06/04/2021 8:30AM"
 }
